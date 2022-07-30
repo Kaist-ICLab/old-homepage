@@ -1,5 +1,4 @@
 import Image from './Image'
-import Link from './Link'
 import SocialIcon from './social-icons'
 
 const Member = ({ name, position, image, email, github, homepage }) => (

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Member from '@/components/Member'
 import { PageSEO } from '@/components/SEO'
 import membersData from '@/data/membersData'
@@ -44,7 +44,7 @@ export default function Members() {
           </div>
           {tabList.map((tab, idx) =>
             idx === activeIdx ? (
-              <div className="-m-4 flex flex-wrap">
+              <div key={`panel_${idx}`} className="-m-4 flex flex-wrap">
                 {membersData.map((member) =>
                   member.position === tab ? (
                     <Member
