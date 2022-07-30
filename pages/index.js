@@ -1,101 +1,64 @@
-import Link from '@/components/Link'
+import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
-import { getAllFilesFrontMatter } from '@/lib/mdx'
-import formatDate from '@/lib/utils/formatDate'
 
-import NewsletterForm from '@/components/NewsletterForm'
-
-const MAX_DISPLAY = 5
-
-export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('blog')
-
-  return { props: { posts } }
-}
-
-export default function Home({ posts }) {
+export default function Home() {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
+      <div
+        className="divide-y divide-gray-200 
+          dark:divide-gray-700"
+      >
+        <div
+          className="
+          flex justify-center space-y-2 pt-6 pb-8 
+          md:space-y-5"
+        >
+          <h1
+            className="
+              border-b-2 border-primary-200 pb-2 text-2xl 
+              font-extrabold tracking-tight text-gray-900
+              dark:text-gray-100  
+              sm:text-3xl md:text-4xl xl:text-5xl"
+          >
+            Welcome to Interactive Computing Lab!
           </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
+        </div>
+        <Image
+          src="/static/images/index_main.svg"
+          alt="Main Page Picture"
+          width="1200px"
+          height="600px"
+          className="full h-24 w-48 bg-white"
+        />
+        <div className="flex flex-col items-center space-y-2 pt-6 pb-8 md:space-y-5">
+          <h1
+            className="
+              border-b-2 border-primary-200 pb-2 text-2xl 
+              font-extrabold tracking-tight text-gray-900
+              dark:text-gray-100  
+              sm:text-3xl md:text-4xl xl:text-5xl"
+          >
+            Research Interest
+          </h1>
+          <p>
+            KAIST Interactive Computing Lab’s major research area is positive computing, which aims
+            to use computing technologies to support wellbeing and human potential. In particular,
+            we focused on leveraging ubiquitous computing technologies that have sensing,
+            networking, and computing capability (e.g., smartphones, wearables, and Internet of
+            Things) to better understand and deal with threats to the well-being of users, ranging
+            from technology dependence (e.g., addiction, productivity loss, technostress) to
+            mental/physical/social problems (e.g., lack of physical activity, social isolation, and
+            depression). We as researchers in the HCI field, are well aware of such threats to
+            users’ well-being and have always wanted to make not only scholarly contributions but
+            also societal impact by making our research outcomes accessible to the people who are in
+            need. For this reason, the major research efforts undertaken by us have been on
+            designing, building, and evaluating novel positive computing systems that help improve
+            productivity and physical activity using interactive technologies.
           </p>
         </div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-          {!posts.length && 'No posts found.'}
-          {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
-            return (
-              <li key={slug} className="py-12">
-                <article>
-                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                    <dl>
-                      <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                        <time dateTime={date}>{formatDate(date)}</time>
-                      </dd>
-                    </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
-                        <div>
-                          <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                            <Link
-                              href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
-                            >
-                              {title}
-                            </Link>
-                          </h2>
-                          <div className="flex flex-wrap">
-                            {tags.map((tag) => (
-                              <Tag key={tag} text={tag} />
-                            ))}
-                          </div>
-                        </div>
-                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                          {summary}
-                        </div>
-                      </div>
-                      <div className="text-base font-medium leading-6">
-                        <Link
-                          href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read "${title}"`}
-                        >
-                          Read more &rarr;
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </li>
-            )
-          })}
-        </ul>
       </div>
-      {posts.length > MAX_DISPLAY && (
-        <div className="flex justify-end text-base font-medium leading-6">
-          <Link
-            href="/blog"
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label="all posts"
-          >
-            All Posts &rarr;
-          </Link>
-        </div>
-      )}
-      {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
-      )}
     </>
   )
 }
