@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+}
+
+.img_container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+
+  margin: 10px;
+  margin-bottom: 15px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.position {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}

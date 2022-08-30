@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  overflow: hidden;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ece9e6;
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+}
+
+.card_header {
+  width: 370px;
+  height: 250px;
+  background-color: #e4e4e4;
+  position: relative;
+}
+
+.card_body {
+  padding: 1rem;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card_body_h3 {
+  font-size: 24px;
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.card_body_h4 {
+  font-size: 14px;
+  font-weight: 500;
+  word-break: break-all;
+}
+.card_body p {
+  word-break: break-all;
+}
+
+.card_footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  margin-top: auto;
+
+  font-family: Roboto;
+  font-weight: 500;
+  color: var(--primary-color);
+}

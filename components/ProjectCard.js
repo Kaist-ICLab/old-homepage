@@ -1,29 +1,29 @@
 import Image from './Image'
 import Link from './Link'
+import styles from '@/css/components/ProjectCard.module.css'
 
-const ProjectCard = ({ title, description, imgSrc, duration }) => (
-  <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
-    <div
-      className={`${
-        imgSrc && 'h-full'
-      }  overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700`}
-    >
-      {imgSrc && (
-        <Image
-          alt={title}
-          src={imgSrc}
-          className="object-contain object-center md:h-36 lg:h-48"
-          width={544}
-          height={306}
-        />
-      )}
-      <div className="p-6">
-        <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">{title}</h2>
-        <div className="mb-3 text-sm ">{duration}</div>
-        <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
-      </div>
+const ProjectCard = ({ id, imgSrc, short_title, title, description }) => (
+  <Link className={styles.card} href={`/projects/${id}`}>
+    <div className={styles.card_header}>
+      <Image
+        className={styles.card_image}
+        src={imgSrc}
+        alt="card__image"
+        layout="fill"
+        objectFit="contain"
+      />
     </div>
-  </div>
+    <div className={styles.card_body}>
+      {/* <h3 className={styles.card_body_h3}>{short_title}</h3> */}
+      <h3 className={styles.card_body_h3}>{title}</h3>
+      <p className={styles.card_p}>
+        {description.length > 155 ? description.slice(0, 155) + '...' : description}
+      </p>
+    </div>
+    <div className={styles.card_footer}>
+      <div>READ MORE</div>
+    </div>
+  </Link>
 )
 
 export default ProjectCard

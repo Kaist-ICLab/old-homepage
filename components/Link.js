@@ -1,5 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
 import Link from 'next/link'
+
+import styles from '@/css/components/Link.module.css'
 
 const CustomLink = ({ href, ...rest }) => {
   const isInternalLink = href && href.startsWith('/')
@@ -17,7 +18,15 @@ const CustomLink = ({ href, ...rest }) => {
     return <a href={href} {...rest} />
   }
 
-  return <a target="_blank" rel="noopener noreferrer" href={href} {...rest} />
+  return (
+    <a
+      className={styles.external_link}
+      target="_blank"
+      rel="noopener noreferrer"
+      href={href}
+      {...rest}
+    />
+  )
 }
 
 export default CustomLink

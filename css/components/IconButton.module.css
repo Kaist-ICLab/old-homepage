@@ -1,0 +1,23 @@
+.icon_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+  padding: 4px;
+  background-color: #6d6d6d;
+}
+
+.icon_holder {
+  width: 24px;
+  height: 24px;
+}
+
+.button_name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  font-style: normal;
+}

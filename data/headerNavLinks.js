@@ -1,8 +1,10 @@
 const headerNavLinks = [
   { href: '/projects', title: 'Projects' },
-  { href: '/publication', title: 'Publication' },
+  { href: '/publications', title: 'Publications' },
   { href: '/members', title: 'Members' },
-  { href: '/lectures', title: 'Lectures' },
+  { href: '/courses', title: 'Courses' },
+  { href: 'https://medium.com/@iclab.kaist', title: 'Blog' },
+  { href: '/contact', title: 'Contact' },
 ]
 
 export default headerNavLinks
