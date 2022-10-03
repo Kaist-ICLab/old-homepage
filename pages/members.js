@@ -1,76 +1,45 @@
 import { PageSEO } from '@/components/SEO'
 
-import { membersData, alumnis } from '@/data/membersData'
-import Tabs from '@/components/Tab'
-import { H1, H2 } from '@/components/Title'
-
+import memberData from '@/data/memberData'
 import styles from '@/css/pages/members.module.css'
-import DetailedProfile from '@/components/ProfileDetail'
-import Alumni from '@/components/ProfileAlumni'
+import Member from '@/components/Member'
+import { H2, H3 } from '@/components/MDXComponents'
+import Alumni from '@/components/Alumni'
 
-const tabList = ['Current', 'Alumni']
-const CurrentPosition = ['Director', 'Post Doc', 'PhD', 'Master']
+const programs = ['Director', 'Post Doc', 'PhD Program', 'Master Program']
+
+const currentMembers = Object.values(memberData).filter((elem) => elem.position !== 'Alumni')
+const alumnis = Object.values(memberData).filter((elem) => elem.position === 'Alumni')
 
 export default function Members() {
-  const CurrentMember = (
-    <div className={styles.members_container}>
-      {CurrentPosition.map((position) => (
-        <div key={position} className={styles.position_container}>
-          <H2>{position}</H2>
-          <ul className={styles.member_list}>
-            {membersData.map((member) => (
-              <div key={member.name}>
-                {member.position === position ? (
-                  <DetailedProfile
-                    key={member.name}
-                    imgsrc={member.image}
-                    name={member.name}
-                    position={member.status}
-                    research_interests={member.research_interest.slice(0, 3)}
-                    email={member.email}
-                    homepage={member.homepage}
-                    google_scholar={member.scholar}
-                    github={member.github}
-                  />
-                ) : null}
-              </div>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </div>
-  )
-
-  const AlumniMember = (
-    <div className={styles.members_container}>
-      {
-        <ul className={styles.alumni_list}>
-          {alumnis.map((member) => (
-            <Alumni
-              key={member.name}
-              name={member.name}
-              program={member.program}
-              year={member.graduated}
-              position={member.occupation}
-              email={member.email}
-              homepage={member.homepage}
-            />
-          ))}
-        </ul>
-      }
-    </div>
-  )
-
+  console.log(currentMembers)
   return (
-    <>
-      <PageSEO title={`Members`} description={'Members of Interactive Computing Lab'} />
-      <div className={styles.container}>
-        <H1>Members</H1>
-        <Tabs
-          tabList={tabList}
-          childrenList={tabList.map((tab, idx) => (idx == 0 ? CurrentMember : AlumniMember))}
-        />
+    <div className={styles.container}>
+      <H2>Members</H2>
+      <div className={styles.member_list}>
+        {programs.map((program) => {
+          return (
+            <div key={program} className={styles.program}>
+              <H3>{program}</H3>
+              <div className={styles.program_member}>
+                {currentMembers
+                  .filter((member) => member.program === program)
+                  .map((member) => (
+                    <Member key={member.name} member={member} />
+                  ))}
+              </div>
+            </div>
+          )
+        })}
       </div>
-    </>
+      <div className={styles.alumnis}>
+        <H3>Alumni</H3>
+        <div className={styles.alumni_list}>
+          {alumnis.map((alumni) => (
+            <Alumni key={alumni.name} alumni={alumni} />
+          ))}
+        </div>
+      </div>
+    </div>
   )
 }

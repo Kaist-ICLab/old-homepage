@@ -1,9 +1,9 @@
-# Lab Announcement
+## Lab Announcement
 
 - Prosepctive Students and Interns - Please refer to [our blog page](https://medium.com/@iclab.kaist/announcements-b4e0730a7511) for details
 - New Publications - Check out [the summary of our new papers.]()
 
-# Welcome to Interactive Computing Lab!
+## Welcome to Interactive Computing Lab!
 
 KAIST Interactive Computing Lab’s major research area is positive computing, which aims to use computing technologies to support wellbeing and human potential. In particular, we focused on leveraging ubiquitous computing technologies that have sensing, networking, and computing capability (e.g., smartphones, wearables, and Internet of Things) to better understand and deal with threats to the well-being of users, ranging from technology dependence (e.g., addiction, productivity loss, technostress) to mental/physical/social problems (e.g., lack of physical activity, social isolation, and depression).
 

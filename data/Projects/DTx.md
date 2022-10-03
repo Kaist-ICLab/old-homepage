@@ -1,8 +1,10 @@
 ---
 title: Data-Driven Digital Therapeutics (DTx) Analytics Platform Research
-publications: [lee2022toward, choi2019multi]
-participated: [Gyuwon Jung, SangJun Park, Panyu Zhang]
+publications: [lee2022toward]
+participated: [GyuwonJung, SangjunPark, PanyuZhang]
 image: '/static/images/projects/DTx.svg'
+status: 'Ongoing'
+old: [lee2022toward, choi2019multi]
 ---
 
 Digital therapeutics (DTx), unlike traditional treatments such as pills, uses software installed in smartphones or wearable devices as software as a medical device (SaMD) to cure diseases and improve health conditions, which is a major departure from existing wellness products (e.g., Fitbits). As with traditional therapeutics, DTx also requires clinical validation of efficacy through systematic clinical trials. The US FDA has already authorized a number of DTx products, for example, WellDoc's BlueStar for diabetes management, and Pear Therapeutics' reSET for drug addiction recovery, opening up new DTx possibilities, such as doctors' prescriptions and insurance reimbursement. Unlike traditional drug development, the cost of DTx development is relatively low, and new DTx markets are growing rapidly. The DTx market is estimated to increase to $8.7 billion in 2025, with an average annual growth rate of 20% (GrandView 2017).

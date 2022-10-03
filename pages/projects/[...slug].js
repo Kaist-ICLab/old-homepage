@@ -1,23 +1,23 @@
-// import fs from 'fs'
 import { useMemo, useState } from 'react'
 import { getMDXComponent } from 'mdx-bundler/client'
 
 import { formatSlug, getFileBySlug, getFiles } from '@/lib/mdx'
 
-import { H1, H2 } from '@/components/Title'
 import Image from '@/components/Image'
+import Link from '@/components/Link'
+import Publication from '@/components/Publication'
+import ParticipatedStudent from '@/components/ParticipatedStudent'
+import { H2, H3, MDXComponents } from '@/components/MDXComponents'
+
+import publicationData from '@/data/publicationData'
+import memberData from '@/data/memberData'
+
+import Prev from '@/data/Icons/chevron-left.svg'
 
 import styles from '@/css/pages/projectdetail.module.css'
 
-import ArrowBackIcon from '@mui/icons-material/ArrowBack'
-import { MDXComponents } from '@/components/MDXComponents'
-import Publication from '@/components/Publication'
-import ShortProfile from '@/components/ProfileShort'
-import Link from '@/components/Link'
-
 export async function getStaticPaths() {
   const posts = getFiles('Projects')
-  console.log(posts)
   return {
     paths: posts.map((p) => ({
       params: {
@@ -36,41 +36,37 @@ export async function getStaticProps({ params }) {
 export default function Projects({ post }) {
   const { mdxSource, toc, frontMatter } = post
   const MDXLayout = useMemo(() => getMDXComponent(mdxSource), [mdxSource])
-  const [size, setSize] = useState([1170, 600])
+  // const [size, setSize] = useState([1170, 600])
 
   return (
     <div className={styles.container}>
-      <div className={styles.lnb}>
-        <Link className={styles.icon_holder} href={'/projects'}>
-          <ArrowBackIcon style={{ color: 'var(--primary-color)', width: '100%', height: '100%' }} />
+      <div className={styles.title}>
+        <Link href={'/projects'} className={styles.prev}>
+          <Prev className={styles.prev} />
         </Link>
-        <H1>{frontMatter.title}</H1>
+        <H2>{frontMatter.title}</H2>
+        <div className={styles.placeholder}></div>
       </div>
-      <div className={styles.content_container}>
-        <div className={styles.image_holder} style={{ width: size[0], height: size[1] }}>
-          <Image
-            alt={'Project Overview'}
-            src={frontMatter.image}
-            width={size[0]}
-            height={size[1]}
-            layout="fill"
-            objectFit="contain"
-            onLoadingComplete={({ naturalWidth, naturalHeight }) => {
-              const ratio = naturalWidth / naturalHeight
-              1170 / ratio > 600 ? setSize([600 * ratio, 600]) : setSize([1170, 1170 / ratio])
-            }}
-          />
-        </div>
-        <MDXLayout components={MDXComponents} />
+      <div className={styles.image_wrapper}>
+        <Image src={frontMatter.image} alt="overview image" layout="fill" objectFit="contain" />
       </div>
+      <MDXLayout components={MDXComponents} />
       <div className={styles.publication_container}>
-        <H2>Publications</H2>
-        {/* {frontMatter.publications.map((pub_id)=><Publication />)} */}
+        <H3>Publications</H3>
+        <div className={styles.publication_list}>
+          {frontMatter.publications.map((pub_id) => (
+            <Publication key={pub_id} publication={publicationData[pub_id]} />
+          ))}
+        </div>
       </div>
-      <div>
-        <H2>Participated Students</H2>
-        <div className={styles.profile_container}>
-          {/* {frontMatter.participated.map((name)=><ShortProfile/>)} */}
+      <div className={styles.participates_container}>
+        <H3>Participated Students</H3>
+        <div className={styles.participates_list}>
+          {frontMatter.participated.map((name) => (
+            <div key={name} className={styles.participate_wrapper}>
+              <ParticipatedStudent member={memberData[name]} />
+            </div>
+          ))}
         </div>
       </div>
     </div>

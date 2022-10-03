@@ -2,26 +2,17 @@ import Image from './Image'
 import Link from './Link'
 import styles from '@/css/components/ProjectCard.module.css'
 
-const ProjectCard = ({ id, imgSrc, short_title, title, description }) => (
-  <Link className={styles.card} href={`/projects/${id}`}>
-    <div className={styles.card_header}>
-      <Image
-        className={styles.card_image}
-        src={imgSrc}
-        alt="card__image"
-        layout="fill"
-        objectFit="contain"
-      />
+const ProjectCard = ({ project: project }) => (
+  <Link className={styles.project_card} href={`/projects/${project.slug}`}>
+    <div className={styles.image_wrapper}>
+      <Image src={project.image} alt={'overview'} layout="fill" objectFit="contain" />
     </div>
-    <div className={styles.card_body}>
-      {/* <h3 className={styles.card_body_h3}>{short_title}</h3> */}
-      <h3 className={styles.card_body_h3}>{title}</h3>
-      <p className={styles.card_p}>
-        {description.length > 155 ? description.slice(0, 155) + '...' : description}
-      </p>
-    </div>
-    <div className={styles.card_footer}>
-      <div>READ MORE</div>
+    <div className={styles.project_description}>
+      <div className={styles.project_title}>{project.title}</div>
+      <div className={styles.project_short}>
+        {project.content.slice(0, 400) + (project.content.length < 400 ? '' : '...')}
+      </div>
+      <div className={styles.read_more}>Read more →</div>
     </div>
   </Link>
 )

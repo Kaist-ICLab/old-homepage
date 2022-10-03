@@ -1,8 +1,10 @@
 ---
 title: 'Human Digital Twin for Mental Health: Predicting and Managing Stress Risks for Emotion Workers'
-publications: [kang2022understanding, zitouni2022privacy]
-participated: [Joonyoung Park, Soowon Kang, Eunji Park, Duri Lee, Youngji Koh, Yunjo Han]
+publications: []
+participated: [JoonyoungPark, SoowonKang, EunjiPark, DuriLee, YoungjiKoh, YunjoHan]
 image: '/static/images/projects/DigitalTwin.svg'
+status: 'Ongoing'
+old: kang2022understanding, zitouni2022privacy]
 ---
 
 Emotional labor is customer-facing work such as sales of goods or customer services, where workplaces require them to show friendly emotions and expressions (Ministry of Employment and Labor, 2021). The number of workers engaged in emotional labor (call center counselors, civil service facility workers, care services, department store/mart workers, etc.) is about 7 million, which accounts for 35.1% of the total workers (Statistics Office 2019).

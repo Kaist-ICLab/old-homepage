@@ -1,21 +1,13 @@
+import Supplement from './Supplement'
+
 import styles from '../css/components/Course.module.css'
-import IconButton from './IconButton'
 
-import FeedIcon from '@mui/icons-material/Feed'
-
-const Course = ({ code, title, syllabus }) => (
+const Course = ({ course }) => (
   <div className={styles.course}>
-    <div className={styles.course_body}>
-      <div className={styles.course_code}>{code}</div>
-      <div className={styles.course_colon}>:</div>
-      <div className={styles.course_title}>{title}</div>
-    </div>
-    {(syllabus !== '') & (syllabus !== null) ? (
-      <div className={styles.course_footer}>
-        <IconButton link={syllabus} text="Syllabus">
-          <FeedIcon style={{ color: '#FFFFFF' }} />
-        </IconButton>
-      </div>
+    <div className={styles.code}>{course.code}</div>
+    <div className={styles.title}>{course.title}</div>
+    {course.syllabus && course.syllabus !== '' ? (
+      <Supplement kind="syllabus" href={course.syllabus} />
     ) : null}
   </div>
 )

@@ -1,8 +1,10 @@
 ---
 title: 'Data-driven Digital Wellbeing: Mobile Data Analytics and Context-Aware Intervention Design'
-publications: [lee2022adverse, kim2021beneficial, park2021goldentime, kim2020understanding]
-participated: [Inyeop Kim, Woohyeok Choi, Joonyoung Park]
+publications: []
+participated: [InyeopKim, WoohyeokChoi, JoonyoungPark]
 image: '/static/images/projects/DigitalWellbeing.jpg'
+status: 'Ongoing'
+old: [lee2022adverse, kim2021beneficial, park2021goldentime, kim2020understanding]
 ---
 
 Digital wellbeing means that individuals, families, and organizations are capable of using digital technologies to help them to work productively, facilitate social relationships, and sustain healthy lives in a balanced way without experiencing negative side effects of digital technologies such as distraction, dependence, and health/safety/privacy threats. Despite the importance of digital wellbeing, user interface research so far neglected how to design user interfaces that can effectively address negative side effects, ranging from problematic technology use to negative health consequences. Instead, its focus has been minimizing the gulfs of execution and the gulfs of evaluation, by supporting easy and accurate formulation of the actions and intuitive interpretation of the presentation regarding the goals.

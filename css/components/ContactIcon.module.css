@@ -1,0 +1,16 @@
+.contact_icon {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: #333; */
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #333;
+}
+.icon:hover {
+  color: var(--primary-color);
+}

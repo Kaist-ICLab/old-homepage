@@ -1,50 +1,44 @@
 import Course from '@/components/Course'
 import { PageSEO } from '@/components/SEO'
-import { H1, H2 } from '@/components/Title'
+import { H2, H3, H4 } from '@/components/MDXComponents'
 
 import styles from '@/css/pages/courses.module.css'
-import coursesData from '@/data/coursesData'
+import courseData from '@/data/courseData'
 
-const coursesDataSorted = coursesData.sort((a, b) => b.YEAR - a.YEAR)
-const START = coursesDataSorted[0].YEAR
-const LAST = coursesDataSorted[coursesDataSorted.length - 1].YEAR
+const courseDataSorted = courseData.sort((a, b) => b.year - a.year)
+const START = courseDataSorted[0].year
+const LAST = courseDataSorted[courseDataSorted.length - 1].year
+const n_year = START - LAST + 1
 
 export default function Courses() {
   return (
-    <>
+    <div className={styles.container}>
       <PageSEO title={`Courses`} description={'Courses provided by Interactive Computing Lab'} />
-      <div className={styles.container}>
-        <H1>Courses</H1>
-        {[...Array(START - LAST + 1).keys()]
-          .map((i) => START - i)
-          .map((year) => (
-            <div key={year} className={styles.year_container}>
-              <H2>{year}</H2>
-              {['Fall', 'Spring'].map((semester) =>
-                coursesData.filter(
-                  (course) => (course.SEMESTER === semester) & (course.YEAR === year)
-                ).length > 0 ? (
-                  <div className={styles.semester_container}>
-                    <h3 className={styles.h3}>{semester}</h3>
-                    <ul className={styles.course_container}>
-                      {coursesData.map((course) =>
-                        (course.SEMESTER === semester) & (course.YEAR === year) ? (
-                          <li key={`${course.YEAR}_${course.SEMESTER}_${course.CODE}`}>
-                            <Course
-                              code={course.CODE}
-                              syllabus={course.Link}
-                              title={course.TITLE}
-                            />
-                          </li>
-                        ) : null
-                      )}
-                    </ul>
-                  </div>
-                ) : null
-              )}
-            </div>
-          ))}
-      </div>
-    </>
+      <H2>Courses</H2>
+      {[...Array(n_year).keys()].map((idx) => {
+        const year = START - idx
+        return (
+          <div key={year} className={styles.years}>
+            <H3>{year}</H3>
+            {['Fall', 'Spring'].map((semester) => {
+              const matchedcourses = courseDataSorted.filter(
+                (course) => course.year === year && course.semester === semester
+              )
+              return matchedcourses.length != 0 ? (
+                <div key={year.toString() + semester}>
+                  <H4>{semester}</H4>
+                  {matchedcourses.map((course) => (
+                    <Course
+                      key={course.code + course.year.toString() + course.semester}
+                      course={course}
+                    />
+                  ))}
+                </div>
+              ) : null
+            })}
+          </div>
+        )
+      })}
+    </div>
   )
 }

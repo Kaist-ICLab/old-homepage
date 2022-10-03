@@ -19,8 +19,13 @@ export default function Home({ landing, imgList }) {
   return (
     <div className={styles.container}>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <ImageCarousel imgList={imgList} />
-      <MDX mdxSource={mdxSource} />
+      <div className={styles.image_carousel_wrapper}>
+        <ImageCarousel imgList={imgList} />
+      </div>
+
+      <div className={styles.mdx_wrapper}>
+        <MDX mdxSource={mdxSource} />
+      </div>
     </div>
   )
 }
