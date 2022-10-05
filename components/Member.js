@@ -11,11 +11,17 @@ export default function Member({ member }) {
           <Image src={member.image} alt={member.name} layout="fill" object="fit" />
         </div>
         <div className={styles.contacts}>
-          {member.homepage && member.homepage !== null ? <ContactIcon kind="homepage" /> : null}
-          {member.github && member.github !== null ? <ContactIcon kind="github" /> : null}
-          {member.scholar && member.scholar !== null ? <ContactIcon kind="scholar" /> : null}
-          {member.email && !/^mailto:\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/.test(member.mail) ? (
-            <ContactIcon kind="mail" />
+          {member.homepage && member.homepage !== null ? (
+            <ContactIcon kind="homepage" href={member.homepage} />
+          ) : null}
+          {member.github && member.github !== null ? (
+            <ContactIcon kind="github" href={member.github} />
+          ) : null}
+          {member.scholar && member.scholar !== null ? (
+            <ContactIcon kind="scholar" href={member.scholar} />
+          ) : null}
+          {member.email && !/^mailto:\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/.test(member.email) ? (
+            <ContactIcon kind="mail" href={member.email} />
           ) : null}
         </div>
       </div>
