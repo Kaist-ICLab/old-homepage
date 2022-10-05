@@ -10,6 +10,7 @@
 }
 
 .mdx_wrapper {
+  width: calc(100% - 30px);
   margin: auto;
 }
 
