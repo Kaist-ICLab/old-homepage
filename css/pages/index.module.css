@@ -10,7 +10,7 @@
 }
 
 .mdx_wrapper {
-  width: calc(100%- 30px);
+  margin: auto;
 }
 
 @media screen and (min-width: 1200px) {
