@@ -85,3 +85,15 @@ module.exports = withBundleAnalyzer({
     return config
   },
 })
+
+let assetPrefix = ''
+let basePath = '/'
+
+module.exports = {
+  assetPrefix: assetPrefix,
+  basePath: basePath,
+  images: {
+    loader: 'imgix',
+    path: 'https://ickaist.imgix.net',
+  },
+}
