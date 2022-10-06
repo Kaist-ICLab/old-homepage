@@ -10,7 +10,7 @@
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky install",
-    "publish": "next build && node ./scripts/generate-sitemap && next export && touch out/.nojekyll && git add out/ && git commit -m 'deploy' && git subtree push --prefix out origin gh-pages"
+    "publish": "next build && node ./scripts/generate-sitemap && next export && touch out/.nojekyll && git add -f out/ && git commit -m 'deploy' && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -65,10 +65,10 @@
     "socket.io-client": "^4.4.0"
   },
   "lint-staged": {
-    "*.+(js|jsx|ts|tsx)": [
+    "!(out/**/*.js)*.+(js|jsx|ts|tsx)": [
       "eslint --fix"
     ],
-    "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
+    "!(out/**/*.js)*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
       "prettier --write"
     ]
   }

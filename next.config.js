@@ -55,10 +55,6 @@ const securityHeaders = [
 module.exports = withBundleAnalyzer({
   // assetPrefix: "https://highjun10170.imgix.net/",
   // basePath: basePath,
-  images: {
-    loader: 'imgix',
-    path: 'https://highjun10170.imgix.net/',
-  },
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
@@ -89,5 +85,9 @@ module.exports = withBundleAnalyzer({
     }
 
     return config
+  },
+  images: {
+    loader: 'imgix',
+    path: 'https://highjun10170.imgix.net/',
   },
 })
