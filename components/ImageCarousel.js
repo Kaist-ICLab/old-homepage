@@ -1,15 +1,22 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import Image from './Image'
 
 import Left from '@/data/Icons/chevron-left.svg'
 import Right from '@/data/Icons/chevron-right.svg'
 
+import Wrapper from '@/data/landing/wrapper.svg'
+
 import styles from '@/css/components/ImageCarousel.module.css'
 
-const ImageCarousel = ({ imgList }) => {
+const ImageCarousel = ({ imgList, children }) => {
   const num_image = imgList.length
   const [activeIdx, setActive] = useState(0)
+
+  useEffect(() => {
+    setTimeout(() => setActive((activeIdx + 1) % num_image), 4000)
+  })
+
   return (
     <div className={styles.image_carousel}>
       <div className={styles.image_wrapper}>
@@ -20,39 +27,12 @@ const ImageCarousel = ({ imgList }) => {
             src={img}
             alt="Carousel Image"
             layout="fill"
-            objectFit="contain"
+            objectFit="cover"
           />
         ))}
       </div>
-      <div className={styles.controller}>
-        <button
-          className={styles.icon_wrapper}
-          onClick={(event) => {
-            setActive((activeIdx + num_image - 1) % num_image)
-          }}
-        >
-          <Left />
-        </button>
-        <div className={styles.radios}>
-          {imgList.map((img, idx) => (
-            <div
-              key={`radio_${idx}`}
-              className={`${styles.input_radios} ${activeIdx == idx ? styles.checked : ''}`}
-              onClick={(event) => {
-                setActive(idx)
-              }}
-            />
-          ))}
-        </div>
-        <button
-          className={styles.icon_wrapper}
-          onClick={(event) => {
-            setActive((activeIdx + 1) % num_image)
-          }}
-        >
-          <Right />
-        </button>
-      </div>
+      <Wrapper className={styles.right_mask} />
+      <div className={styles.title}>{children}</div>
     </div>
   )
 }

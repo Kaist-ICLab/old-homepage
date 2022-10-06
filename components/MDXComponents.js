@@ -38,6 +38,7 @@ export const MDXComponents = {
   wrapper: ({ components, ...rest }) => {
     return <div className={styles.wrapper} {...rest} />
   },
+  hr: ({ children }) => <hr className={styles.hr} />,
 }
 
 export const MDX = ({ mdxSource }) => {

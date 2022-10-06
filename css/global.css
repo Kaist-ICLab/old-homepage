@@ -150,10 +150,12 @@ body {
 
 /* GLOBAL CSS */
 :root {
-  --primary-color: #0090c6;
+  /* --primary-color: #0090c6; */
+  --primary-color: #57aaee;
 }
 
 body {
+  font-family: 'Inter';
   font-size: 18px;
   line-height: 24px;
   min-height: 100vh;

@@ -1,10 +1,9 @@
 ---
 title: Mental Health Inference and Intervention with Mobile and Wearable Computing
-publications: []
+publications: [lee2019intelligent, choi2019multi, lee2021systematic, lee2022understanding]
 participated: [HansooLee, PanyuZhang, YugyeongJung, HyunsooLee, HeiYiuLaw]
 image: '/static/images/projects/MentalHealth.svg'
 status: 'Ongoing'
-old: [lee2019intelligent, choi2019multi, lee2021systematic, lee2022understanding]
 ---
 
 According to a recent survey by the Ministry of Health and Welfare (2021), it was found that major mental health indicators (depression risk and suicidal ideation rate) deteriorated significantly, especially among young people in their 20s and 30s. The rate of depression risk group was 22.8%, which was about 6 times higher than 3.8% in 2018, before COVID-19, and the rate of suicidal thoughts was 16.3%, which is about 3.5 times higher than 4.7% in 2018. In particular, the proportion of those in their 20s and 30s at risk for depression was 30.0% and 30.5%, respectively, more than twice that of those in their 60s, indicating that young people are more negatively affected by COVID-19. The Korea Insurance Research Institute (2021) predicted that the socioeconomic cost of mental illness will reach 8.6 trillion won by 2030, and the actual cost is expected to increase further due to the prolonged COVID-19.
