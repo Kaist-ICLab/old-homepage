@@ -1,0 +1,23 @@
+{
+  "pageProps": {
+    "landing": {
+      "mdxSource": "var Component=(()=>{var c=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var t=a=>s(a,\"__esModule\",{value:!0});var m=(a,r)=>()=>(r||a((r={exports:{}}).exports,r),r.exports),b=(a,r)=>{t(a);for(var i in r)s(a,i,{get:r[i],enumerable:!0})},g=(a,r,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let n of d(r))!u.call(a,n)&&n!==\"default\"&&s(a,n,{get:()=>r[n],enumerable:!(i=h(r,n))||i.enumerable});return a},w=a=>g(t(s(a!=null?c(p(a)):{},\"default\",a&&a.__esModule&&\"default\"in a?{get:()=>a.default,enumerable:!0}:{value:a,enumerable:!0})),a);var l=m((k,o)=>{o.exports=_jsx_runtime});var x={};b(x,{default:()=>y});var e=w(l());function f(a={}){let{wrapper:r}=a.components||{};return r?(0,e.jsx)(r,Object.assign({},a,{children:(0,e.jsx)(i,{})})):i();function i(){let n=Object.assign({h3:\"h3\",a:\"a\",span:\"span\",hr:\"hr\",ul:\"ul\",li:\"li\",p:\"p\",strong:\"strong\"},a.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(n.h3,{id:\"lab-news\",children:[(0,e.jsx)(n.a,{href:\"#lab-news\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(n.span,{className:\"icon icon-link\"})}),\"Lab News\"]}),(0,e.jsx)(n.hr,{}),(0,e.jsxs)(n.ul,{children:[(0,e.jsxs)(n.li,{children:[\"We are looking for prospective students and interns \",(0,e.jsx)(n.a,{href:\"https://medium.com/@iclab.kaist/announcements-b4e0730a7511\",children:\"read more\"})]}),(0,e.jsxs)(n.li,{children:[\"New publications are published! \",(0,e.jsx)(n.a,{href:\"\",children:\"read more\"})]})]}),(0,e.jsx)(n.hr,{}),(0,e.jsxs)(n.h3,{id:\"research-area\",children:[(0,e.jsx)(n.a,{href:\"#research-area\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(n.span,{className:\"icon icon-link\"})}),\"Research Area\"]}),(0,e.jsxs)(n.p,{children:[\"Our research area is Human-Computer Interaction(HCI), especially \",(0,e.jsx)(n.strong,{children:\"positive computing\"}),\", which aims to support well-being and human potential.\"]}),(0,e.jsx)(n.p,{children:\"Using computing capabilities(e.g. smartphones, wearables, IoT devices), we try to better understand and address threats to human well-being ranging from technology dependence(e.g. addiction, productivity loss, technostress) to mental/physical/social health problem(e.g. stress, lack of physical activity, social isolation).\"}),(0,e.jsx)(n.p,{children:\"As HCI researchers, we are well aware of such threats to users\\u2019 well-being and have always wished to make not only scholarly contributions but also societal impact by making our research findings available to those in need.\"})]})}}var y=f;return x;})();\n;return Component;",
+      "toc": [
+        { "value": "Lab News", "url": "#lab-news", "depth": 3 },
+        { "value": "Research Area", "url": "#research-area", "depth": 3 }
+      ],
+      "frontMatter": {
+        "readingTime": { "text": "1 min read", "minutes": 0.68, "time": 40800, "words": 136 },
+        "slug": "Landing",
+        "fileName": "Landing.md",
+        "date": null
+      }
+    },
+    "imgList": [
+      "/static/images/carousels/1_2022_kcc_jeju.jpg",
+      "/static/images/carousels/2_2022_straw_berry_party.jpg",
+      "/static/images/carousels/3_lab_overview.svg"
+    ]
+  },
+  "__N_SSG": true
+}

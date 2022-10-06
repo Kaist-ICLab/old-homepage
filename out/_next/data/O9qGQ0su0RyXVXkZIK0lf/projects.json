@@ -1,0 +1,69 @@
+{
+  "pageProps": {
+    "projects": [
+      {
+        "title": "Data-Driven Digital Therapeutics (DTx) Analytics Platform Research",
+        "publications": ["lee2022toward", "choi2019multi"],
+        "participated": ["GyuwonJung", "SangjunPark", "PanyuZhang"],
+        "image": "/static/images/projects/DTx.svg",
+        "status": "Ongoing",
+        "content": "\nDigital therapeutics (DTx), unlike traditional treatments such as pills, uses software installed in smartphones or wearable devices as software as a medical device (SaMD) to cure diseases and improve health conditions, which is a major departure from existing wellness products (e.g., Fitbits). As with traditional therapeutics, DTx also requires clinical validation of efficacy through systematic clinical trials. The US FDA has already authorized a number of DTx products, for example, WellDoc's BlueStar for diabetes management, and Pear Therapeutics' reSET for drug addiction recovery, opening up new DTx possibilities, such as doctors' prescriptions and insurance reimbursement. Unlike traditional drug development, the cost of DTx development is relatively low, and new DTx markets are growing rapidly. The DTx market is estimated to increase to $8.7 billion in 2025, with an average annual growth rate of 20% (GrandView 2017).\n\nDTx therapies mostly consider behavioral changes in chronic diseases (e.g., diabetes and cardiovascular diseases) and neuropsychiatric diseases (e.g., depression, sleep disorders, and ADHD). These are the areas in which the treatment effects of cognitive behavior therapies are significant. DTx therapies can deliver patient-centered care by supplementing the areas in which treatment is difficult or poorly managed through existing treatment methods (e.g., lifestyle coaching and cognitive behavior therapies), to improve the quality of care at lower costs.\n\nOne of the important components of traditional drug development is the selection and optimization of a drug delivery system that aims to effectively deliver a specific drug to the desired target (e.g., sustained release with microneedle patches). Digital therapeutics can deliver various interventions through digital technologies (e.g., interactive mobile content, videos, chatbots, and push notifications). Thus, it is very important to analyze and optimize the engagement and receptivity of “DTx delivery systems”' using mobile and wearable devices.\n\nThe receptivity to DTx relates to the overall process of intervention delivery using digital devices (e.g., notification delivery, notification perception/checking, and behavioral adherence). DTx aims to induce behavioral changes in users, and it is very important to analyze patient DTx engagement and receptivity to shorten the DTx development time and to maximize the effectiveness of DTx. This project aims to investigate the user engagement and intervention receptivity to DTx by analyzing digital footprint data (known as digital phenotype data) collected from mobile and wearable devices. Data-driven DTx analytics for user engagement and intervention receptivity in DTx delivery systems will provide key insights for the improvements of DTx, possibly innovating the existing paradigm of DTx development processes.\n",
+        "slug": "DTx"
+      },
+      {
+        "title": "Human Digital Twin for Mental Health: Predicting and Managing Stress Risks for Emotion Workers",
+        "publications": ["kang2022understanding", "zitouni2022privacy"],
+        "participated": [
+          "JoonyoungPark",
+          "SoowonKang",
+          "EunjiPark",
+          "DuriLee",
+          "YoungjiKoh",
+          "YunjoHan"
+        ],
+        "image": "/static/images/projects/DigitalTwin.svg",
+        "status": "Ongoing",
+        "content": "\nEmotional labor is customer-facing work such as sales of goods or customer services, where workplaces require them to show friendly emotions and expressions (Ministry of Employment and Labor, 2021). The number of workers engaged in emotional labor (call center counselors, civil service facility workers, care services, department store/mart workers, etc.) is about 7 million, which accounts for 35.1% of the total workers (Statistics Office 2019).\n\nEmotional workers often experience emotional exhaustion due to the effortful regulation of emotional expression for job performance. Repeated exposure to stressful situations is known to cause mental health problems such as post-traumatic stress disorder and depression (Korea Occupational Safety and Health Institute 2018). A recent analysis of health insurance data showed that the emotional labor group had a relatively high prevalence of mental illness due to job stress, and emotional workers who frequently deal with angry customers had a higher risk of depression and sleep disturbance than those who did not for 2.9 times and 3.8 times (Occupational Safety and Health Research Institute 2017).\n\nThis project aims to design and develop “Human Digital Twins” for promoting mental health of emotional workers. Digital twin technology aims to replicate real-world objects for real-time monitoring and comprehensive simulations. In the field of digital health, we can incorporate wearable and IoT sensor data for twinning (e.g., biometric signals, activity data) that allows diagnosing/treating/predicting health conditions for personalized health management. Human digital twins offer a holistic understanding of a worker’s emotion regulation process (including stress cause identification) and provide the foundations for enabling just-in-time mental health management services. Our lab’s focus in this project includes 1) sensor data collection and analysis in emotion labor situations, 2) real-time machine learning system development for stress detection and intervention, and 3) user experience research on just-in-time stress intervention systems.\n",
+        "slug": "DigitalTwin"
+      },
+      {
+        "title": "Data-driven Digital Wellbeing: Mobile Data Analytics and Context-Aware Intervention Design",
+        "publications": [
+          "lee2022adverse",
+          "kim2021beneficial",
+          "park2021goldentime",
+          "kim2020understanding"
+        ],
+        "participated": ["InyeopKim", "WoohyeokChoi", "JoonyoungPark"],
+        "image": "/static/images/projects/DigitalWellbeing.jpg",
+        "status": "Ongoing",
+        "content": "\nDigital wellbeing means that individuals, families, and organizations are capable of using digital technologies to help them to work productively, facilitate social relationships, and sustain healthy lives in a balanced way without experiencing negative side effects of digital technologies such as distraction, dependence, and health/safety/privacy threats. Despite the importance of digital wellbeing, user interface research so far neglected how to design user interfaces that can effectively address negative side effects, ranging from problematic technology use to negative health consequences. Instead, its focus has been minimizing the gulfs of execution and the gulfs of evaluation, by supporting easy and accurate formulation of the actions and intuitive interpretation of the presentation regarding the goals.\n\nRecent advances in mobile user interfaces provide easy and convenient ways of accessing a large amount of online content and services (e.g., YouTube and Tiktok) and maintaining social relationships (e.g., Facebook and Instagram). Such access gives instant gratifications to users (e.g., interpersonal utility, pastimes, information seeking, and entertainment). This reinforces continuous usage of mobile services and may lower a user’s digital wellbeing, thereby leading to productivity loss, safety risks, and physical/mental health threats.\n\nThis project investigates “data-driven digital wellbeing” via mobile data analytics and context-aware intervention design. Modern smart devices allow us to continuously log users’ interactions along with passive sensor data (e.g., GPS locations and physical activities). Analyzing fine-grained interaction data allows us to identify harmful effects of problematic usage behaviors; e.g., how frequent notifications influence college students’ academic performance? It is possible to contextualize usage behaviors and identify their relationships with mental, physical, and social factors.\n\nDeeper understanding of user behaviors and related factors offers novel insights for designing data-driven digital wellbeing intervention systems. We envision context-aware intelligent systems that can understand user needs and help to promote digital wellbeing by supporting various nudging techniques.\n",
+        "slug": "DigitalWellbeing"
+      },
+      {
+        "title": "Mental Health Inference and Intervention with Mobile and Wearable Computing",
+        "publications": [
+          "lee2019intelligent",
+          "choi2019multi",
+          "lee2021systematic",
+          "lee2022understanding"
+        ],
+        "participated": ["HansooLee", "PanyuZhang", "YugyeongJung", "HyunsooLee", "HeiYiuLaw"],
+        "image": "/static/images/projects/MentalHealth.svg",
+        "status": "Ongoing",
+        "content": "\nAccording to a recent survey by the Ministry of Health and Welfare (2021), it was found that major mental health indicators (depression risk and suicidal ideation rate) deteriorated significantly, especially among young people in their 20s and 30s. The rate of depression risk group was 22.8%, which was about 6 times higher than 3.8% in 2018, before COVID-19, and the rate of suicidal thoughts was 16.3%, which is about 3.5 times higher than 4.7% in 2018. In particular, the proportion of those in their 20s and 30s at risk for depression was 30.0% and 30.5%, respectively, more than twice that of those in their 60s, indicating that young people are more negatively affected by COVID-19. The Korea Insurance Research Institute (2021) predicted that the socioeconomic cost of mental illness will reach 8.6 trillion won by 2030, and the actual cost is expected to increase further due to the prolonged COVID-19.\n\nThere is a strong need to develop digital health technology for early intervention in mental health. Early intervention and proactive management of mental illness can improve the quality of life of patients as well as significantly reduce socioeconomic costs. However, it is difficult to provide appropriate treatment in a timely manner due to the low accessibility of the existing mental health visit services or potential stigma (OECD, 2014). Access to mental health services can be greatly enhanced with digital health technology as it can provide personalized health care and medical services.\n\nThis project aims to develop a data-driven mental health care framework that can proactively track and manage an individual's mental health state based on mobile device usage and daily activity data collected via mobile and wearable devices. This project builds upon existing machine learning studies that infer the user's mental health status by extracting meaningful features from digital interaction and location/activity data collected from mobile and wearable devices (Lee et al. ., 2019). We argue that it’s difficult to use such “black box models” in real clinical scenarios. Currently, the Gold Standard for Mental Health Diagnosis is “DSM-5” (Diagnostic & Statistical Manual of Mental Disorders, 5th Ed) (APA, 2013). Since DSM-5 mainly uses behavioral routines, our goal is to leverage the data collected from mobile and wearable devices to extract behavioral routines for clinical diagnosis (e.g., making a phone call or responding to a received message). We expect that data-driven routine modeling and visualization helps to overcome the limitations of traditional self-report based DSM-5 diagnoses and provide new foundations for enabling proactive intervention services in everyday contexts.\n",
+        "slug": "MentalHealth"
+      },
+      {
+        "title": "Data-intensive Future Smart Home and Proactive Health Service Design Research ",
+        "publications": [],
+        "participated": ["WoohyeokChoi", "HyunsooLee", "YouwonShin", "YoungjiKoh", "JieunLim"],
+        "image": "/static/images/projects/SmarthomeSmartspeaker.svg",
+        "status": "Ongoing",
+        "content": "\nAs time at home increases due to the recent COVID-19 pandemic and non-face-to-face services are spreading, the roles of smart home are rapidly expanding. Beyond simple environment monitoring and home appliance control, smart home technologies must consider new user needs such as health care, remote work, and education. In this project, we aim to explore data-intensive smart homes by developing a novel interactive service for proactive health management (e.g., smart speaker apps). Data-intensive future smart home will be prototyped to investigate practical challenges that may arise in the process of collecting and analyzing extensive data (e.g., security/privacy, data quality, and mental models). Furthermore, we design and implement a middleware layer that supports seamless data collection from heterogeneous smart devices and enables data analytics pipeline and interactive data visualization.\n",
+        "slug": "SmarthomeSmartspeaker"
+      }
+    ]
+  },
+  "__N_SSG": true
+}
