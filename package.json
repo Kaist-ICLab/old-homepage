@@ -5,12 +5,11 @@
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",
-    "build": "next build && node ./scripts/generate-sitemap",
+    "build": "next build && node ./scripts/generate-sitemap && next export && touch out/.nojekyll",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
-    "prepare": "husky install",
-    "publish": "next build && node ./scripts/generate-sitemap && next export && touch out/.nojekyll && git add -f out/ && git commit -m 'deploy' && git subtree push --prefix out origin gh-pages"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",
