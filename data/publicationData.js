@@ -1,4 +1,14 @@
 const publicationData = {
+  lee2022towarddynamic: {
+    year: 2022,
+    title:
+      'Toward Dynamic Consent for Privacy-Aware Pervasive Health and Well-being: A scoping review and research directions',
+    authors: ['Hyunsoo Lee', 'Uichin Lee'],
+    venue: 'IEEE PerCom',
+    full_venue: 'IEEE International Conference on Pervasive Computing and Communications, 2022',
+    visible: false,
+    pdf: 'https://drive.google.com/file/d/1Bjw2bbtvukHLmL5YGSLkNDnlEWBeu_h1/view?usp=sharing',
+  },
   lee2022toward: {
     year: 2022,
     title:
