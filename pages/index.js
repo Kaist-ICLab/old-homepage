@@ -2,6 +2,7 @@ import { getFileBySlug, getImageList } from '@/lib/mdx'
 
 import { H3, MDX } from '@/components/MDXComponents'
 import { PageSEO } from '@/components/SEO'
+import Image from '@/components/Image'
 import ImageCarousel from '@/components/ImageCarousel'
 
 import siteMetadata from '@/data/siteMetadata'
@@ -49,6 +50,13 @@ export default function Home({ landing, imgList }) {
                 <li>Sensor data as ESM, biological, behavioral, and environmental data</li>
               </ul>
             </div>
+            <div className={styles.detail_image}>
+              <Image
+                src="/static/images/landing/SensorData.png"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
           <div className={styles.concept}>
             <Analyze className={styles.concept_icon} />
@@ -62,6 +70,9 @@ export default function Home({ landing, imgList }) {
                 </li>
               </ul>
             </div>
+            <div className={styles.detail_image}>
+              <Image src="/static/images/landing/Analyze.png" layout="fill" objectFit="contain" />
+            </div>
           </div>
           <div className={styles.concept}>
             <ServiceAct className={styles.concept_icon} />
@@ -74,6 +85,13 @@ export default function Home({ landing, imgList }) {
                   <strong> behavior change</strong>{' '}
                 </li>
               </ul>
+            </div>
+            <div className={styles.detail_image}>
+              <Image
+                src="/static/images/landing/ServiceAct.png"
+                layout="fill"
+                objectFit="contain"
+              />
             </div>
           </div>
         </div>

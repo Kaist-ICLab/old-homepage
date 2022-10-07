@@ -88,6 +88,6 @@ module.exports = withBundleAnalyzer({
   },
   images: {
     loader: 'imgix',
-    path: 'https://highjun10170.imgix.net/',
+    path: 'https://ickaist.imgix.net/',
   },
 })
