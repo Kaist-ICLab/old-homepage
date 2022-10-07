@@ -2,7 +2,7 @@
 title: Mental Health Inference and Intervention with Mobile and Wearable Computing
 publications: [lee2019intelligent, choi2019multi, lee2021systematic, lee2022understanding]
 participated: [HansooLee, PanyuZhang, YugyeongJung, HyunsooLee, HeiYiuLaw]
-image: '/static/images/projects/MentalHealth.svg'
+image: '/static/images/projects/DigitalHealth.jpg'
 status: 'Ongoing'
 ---
 

@@ -2,7 +2,7 @@
 title: 'Data-intensive Future Smart Home and Proactive Health Service Design Research '
 publications: []
 participated: [WoohyeokChoi, HyunsooLee, YouwonShin, YoungjiKoh, JieunLim]
-image: '/static/images/projects/SmarthomeSmartspeaker.svg'
+image: '/static/images/projects/Smarthome.jpg'
 status: 'Ongoing'
 ---
 
