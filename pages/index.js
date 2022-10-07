@@ -34,8 +34,8 @@ export default function Home({ landing, imgList }) {
       </div>
       <div className={styles.overview}>
         <div className={styles.hci}>
-          <H3>Human Computer Interaction</H3>
           <HCI className={styles.hci_icon} />
+          <H3>Human Computer Interaction</H3>
         </div>
         <div className={styles.concepts}>
           <div className={styles.concept}>

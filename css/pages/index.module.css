@@ -34,6 +34,7 @@
   flex-direction: column;
 
   align-items: center;
+  gap: 20px;
 }
 
 .hci_icon {
@@ -44,7 +45,11 @@
 .concepts {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  gap: 15px;
 }
 
 .concept {
@@ -52,8 +57,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 350px;
-  gap: 10px;
+  width: 100%;
+  gap: 15px;
 }
 
 .concept_icon {
@@ -63,22 +68,26 @@
 }
 
 .list_wrapper {
-  text-align: left;
   width: 100%;
   height: 150px;
 }
 
 .list {
   display: inline-block;
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  text-align: left;
+  text-align: center;
   list-style-type: disc;
   list-style-position: inside;
   /* margin: 0 auto; */
 }
-/* .list *{
-  display: inline-block;
-} */
+
+@media screen and (min-width: 1200px) {
+  .concepts {
+    width: 1170px;
+  }
+  .concept {
+    width: 30%;
+  }
+}

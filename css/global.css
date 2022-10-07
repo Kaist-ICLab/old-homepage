@@ -141,7 +141,7 @@ table {
   border: 0;
   color: inherit;
   background-color: inherit;
-  font-family: Roboto;
+  font-family: 'Roboto';
 }
 body {
   color: black;
@@ -155,7 +155,7 @@ body {
 }
 
 body {
-  font-family: 'Inter';
+  font-family: 'Roboto';
   font-size: 18px;
   line-height: 24px;
   min-height: 100vh;

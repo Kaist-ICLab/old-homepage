@@ -19,6 +19,7 @@ const ImageCarousel = ({ imgList, children }) => {
 
   return (
     <div className={styles.image_carousel}>
+      <div className={styles.ratio_keeper} />
       <div className={styles.image_wrapper}>
         {imgList.map((img, idx) => (
           <Image
@@ -32,7 +33,9 @@ const ImageCarousel = ({ imgList, children }) => {
         ))}
       </div>
       <Wrapper className={styles.right_mask} />
-      <div className={styles.title}>{children}</div>
+      {/* <div className={styles.title_wrapper}>
+        <div className={styles.title}>{children}</div>
+      </div> */}
     </div>
   )
 }

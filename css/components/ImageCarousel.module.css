@@ -1,16 +1,20 @@
 .image_carousel {
-  width: 100vw;
-  height: 25vw;
-
+  width: 100%;
+  max-width: 2000px;
   margin: auto;
   position: relative;
+}
+
+.ratio_keeper {
+  width: 100%;
+  padding-top: 50%;
 }
 
 .image_wrapper {
   position: absolute;
   top: 0;
   left: 0;
-  width: 53.48%;
+  width: 100%;
   height: 100%;
 }
 
@@ -26,48 +30,26 @@
   transition: visibility 0s 0.3s, opacity 0.3s linear;
 }
 
-/* @media screen and (min-width: 1200px) {
-  .image_carousel {
-    width: 1170px;
-    height: 585px;
-  }
-} */
-
 .right_mask {
+  visibility: collapse;
+
   position: absolute;
   top: 0;
   right: 0;
   width: 50%;
   height: 100%;
-  overflow: hidden;
 
   color: var(--primary-color);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .right_mask {
     visibility: visible;
   }
-}
-
-.title {
-  position: absolute;
-  left: 58.2%;
-  right: 4.84%;
-  top: 37.81%;
-  bottom: 37.74%;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-
-  /* white */
-
-  color: #ffffff;
-
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  .ratio_keeper {
+    padding-top: 25%;
+  }
+  .image_wrapper {
+    width: 55%;
+  }
 }
