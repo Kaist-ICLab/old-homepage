@@ -14,5 +14,5 @@ git push -f origin gh-pages:gh-pages
 git branch -D gh-pages
 
 # temp-for-deploy-gh-pages 브랜치를 삭제한다.
-git checkout main
+git checkout master
 git branch -D temp-for-deploy-gh-pages
