@@ -1,0 +1,62 @@
+.__404_container__unG5J {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.__404_h1__xQAcs {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  grid-gap: 10px;
+  gap: 10px;
+}
+.__404_desc___jQOZ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  grid-gap: 20px;
+  gap: 20px;
+}
+.__404_message__UnJj1 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+}
+.__404_goback__4IbP1,
+.__404_message__UnJj1 {
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.__404_goback__4IbP1 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 10px;
+  background: #0090c6;
+  border-radius: 8px;
+}
+@media (min-width: 640px) {
+  .__404_container__unG5J {
+    flex-direction: row;
+  }
+  .__404_h1__xQAcs {
+    border-right: 2px solid #eee;
+  }
+  .__404_desc___jQOZ {
+    align-items: flex-start;
+  }
+}

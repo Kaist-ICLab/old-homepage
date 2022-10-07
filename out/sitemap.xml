@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>undefined/courses</loc>
+  </url>
+
+  <url>
+    <loc>undefined</loc>
+  </url>
+
+  <url>
+    <loc>undefined/members</loc>
+  </url>
+
+  <url>
+    <loc>undefined/projects</loc>
+  </url>
+
+  <url>
+    <loc>undefined/publications</loc>
+  </url>
+
+  <url>
+    <loc>undefined/test</loc>
+  </url>
+</urlset>
