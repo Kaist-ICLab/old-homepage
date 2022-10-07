@@ -52,7 +52,7 @@ export default function Home({ landing, imgList }) {
             </div>
             <div className={styles.detail_image}>
               <Image
-                src="/static/images/landing/SensorData.png"
+                src="/static/images/landing/sensorData.png"
                 layout="fill"
                 objectFit="contain"
               />
@@ -71,7 +71,7 @@ export default function Home({ landing, imgList }) {
               </ul>
             </div>
             <div className={styles.detail_image}>
-              <Image src="/static/images/landing/Analyze.png" layout="fill" objectFit="contain" />
+              <Image src="/static/images/landing/analyze.png" layout="fill" objectFit="contain" />
             </div>
           </div>
           <div className={styles.concept}>
@@ -88,7 +88,7 @@ export default function Home({ landing, imgList }) {
             </div>
             <div className={styles.detail_image}>
               <Image
-                src="/static/images/landing/ServiceAct.png"
+                src="/static/images/landing/serviceAct.png"
                 layout="fill"
                 objectFit="contain"
               />
