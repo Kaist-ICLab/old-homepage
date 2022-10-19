@@ -110,7 +110,6 @@ const memberData = {
     email: 'youngji@kaist.ac.kr',
     image: '/static/images/members/YoungjiKoh.jpg',
     scholar: 'https://scholar.google.com/citations?user=9YItZ30AAAAJ&hl=en',
-    homepage: 'https://woohyeok-choi.github.io',
     github: 'https://github.com/youngji-koh',
     research_interests: ['Mobile Sensing', 'Mental Health', 'Voice User Interaction'],
   },
