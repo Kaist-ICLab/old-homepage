@@ -9,8 +9,10 @@ export default function ParticipatedStudent({ member }) {
         <Image
           src={member.image ? member.image : '/static/images/members/anony.jpg'}
           alt={member.name}
-          layout="fill"
-          object="fit"
+          width={180}
+          height={200}
+          // layout="fill"
+          // object="fit"
         />
       </div>
       <div className={styles.contacts}>

@@ -3,6 +3,9 @@ git checkout -b temp-for-deploy-gh-pages
 
 npm run build
 
+touch out/CNAME
+echo 'ic.kaist.ac.kr' > out/CNAME
+
 git add -f out/
 # 생성한 브랜치에 `out/` 디렉토리가 포함된 내용을 커밋한다.
 git commit -m "Deploy Next.js to gh-pages"

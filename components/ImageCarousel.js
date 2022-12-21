@@ -29,6 +29,8 @@ const ImageCarousel = ({ imgList, children }) => {
             alt="Carousel Image"
             layout="fill"
             objectFit="cover"
+            sizes="750px"
+            // quality="80"
           />
         ))}
       </div>

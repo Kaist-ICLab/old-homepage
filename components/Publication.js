@@ -21,7 +21,7 @@ const Publication = ({ publication }) => {
       <div className={styles.authors}>{author_string}</div>
       <div className={styles.full_venue}>
         {publication.full_venue}
-        {publication.visible !== undefined && !publication.visible ? '(To appear)' : ''}
+        {publication.published !== undefined && !publication.published ? '(To appear)' : ''}
       </div>
       <div className={styles.supplements}>
         {publication.pdf && publication.pdf !== '' ? (

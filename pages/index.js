@@ -56,6 +56,10 @@ export default function Home({ landing, imgList }) {
                 layout="fill"
                 objectFit="contain"
               />
+              {/* <Image
+                src="/static/images/landing/sensorData.png"
+                width={350} height={175}
+              /> */}
             </div>
           </div>
           <div className={styles.concept}>
@@ -72,6 +76,7 @@ export default function Home({ landing, imgList }) {
             </div>
             <div className={styles.detail_image}>
               <Image src="/static/images/landing/analyze.png" layout="fill" objectFit="contain" />
+              {/* <Image src="/static/images/landing/analyze.png" width={350} height={175}/> */}
             </div>
           </div>
           <div className={styles.concept}>
@@ -89,8 +94,7 @@ export default function Home({ landing, imgList }) {
             <div className={styles.detail_image}>
               <Image
                 src="/static/images/landing/serviceAct.png"
-                layout="fill"
-                objectFit="contain"
+                layout="fill" objectFit="contain"
               />
             </div>
           </div>

@@ -49,6 +49,7 @@ export default function Projects({ post }) {
       </div>
       <div className={styles.image_wrapper}>
         <Image src={frontMatter.image} alt="overview image" layout="fill" objectFit="contain" />
+        {/* <Image src={frontMatter.image} alt="overview image" width={1170} height={585}/> */}
       </div>
       <MDXLayout components={MDXComponents} />
       <div className={styles.publication_container}>

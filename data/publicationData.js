@@ -1,4 +1,15 @@
 const publicationData = {
+  shin2022smarthome: {
+    year: 2022,
+    title: 
+    "스마트홈 IoT 기술 및 프라이버시 최신 연구 동향",
+    authors: ["신유원", "이현수","최우혁","김희평","정용","이의진"],
+    venue: "KCC",
+    full_venue: "2022년 한국컴퓨터종합학술대회(KCC) 논문집",
+    published: true,
+    pdf: "https://drive.google.com/file/d/1ukmHubtxPlXMxPiux0HqWq1Xpj2UY6Pd/view?usp=share_link",
+    slide: "https://drive.google.com/file/d/15yI_Gn8Xj7m02bCk0AzfGFwPnbILIK5G/view?usp=share_link"
+  },
   lee2022towarddynamic: {
     year: 2022,
     title:
@@ -6,7 +17,7 @@ const publicationData = {
     authors: ['Hyunsoo Lee', 'Uichin Lee'],
     venue: 'IEEE PerCom',
     full_venue: 'IEEE International Conference on Pervasive Computing and Communications, 2022',
-    visible: false,
+    published: false,
     pdf: 'https://drive.google.com/file/d/1Bjw2bbtvukHLmL5YGSLkNDnlEWBeu_h1/view?usp=sharing',
   },
   lee2022toward: {
@@ -25,7 +36,7 @@ const publicationData = {
     ],
     venue: 'IEEE',
     full_venue: 'IEEE/CAA Journal of Automatica Sinica',
-    visible: false,
+    published: false,
     pdf: 'https://arxiv.org/pdf/2205.01851.pdf',
   },
   choi2022you: {
@@ -41,7 +52,7 @@ const publicationData = {
       'Sung-Ju Lee',
     ],
     venue: 'CSCW',
-    visible: false,
+    published: false,
     full_venue:
       "Proceedings of the ACM on Human-Computer Interaction (PACM-HCI) / CSCW, Volume 6, CSCW2, November'22",
   },
@@ -60,7 +71,7 @@ const publicationData = {
     venue: 'CSCW',
     full_venue:
       "Proceedings of the ACM on Human-Computer Interaction (PACM-HCI) / CSCW, Volume 6, CSCW2, November'22",
-    visible: false,
+    published: false,
   },
   lee2022adverse: {
     year: 2022,
@@ -1234,7 +1245,7 @@ const publicationData = {
     full_venue: 'Wireless Personal Communications, Volume 80, Issue 4, pp 1449-1473, February 2015',
     key: 'lee2015secure',
     venue: 'Wireless Personal Communications',
-    visible: true,
+    published: true,
     pdf: 'https://link.springer.com/article/10.1007/s11277-014-2093-4',
   },
   bao2014methods: {
@@ -1243,13 +1254,13 @@ const publicationData = {
     authors: ['Xuan Bao', 'Uichin Lee', 'Ivica Rimac'],
     full_venue: 'US Patent US8914041 B2, Dec 16, 2014',
     venue: 'Google Patents',
-    visible: true,
+    published: true,
     pdf: 'https://patentimages.storage.googleapis.com/f0/24/68/ccd409d775948f/US8914041.pdf',
   },
   choi2014mobydick: {
     full_venue: 'Proceedings of the 12th ACM Conference on Embedded Network Sensor Systems',
     venue: 'SenSys',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2668332.2668352',
     year: 2014,
     title: 'MobyDick: An Interactive Multi-swimmer Exergame',
@@ -1270,7 +1281,7 @@ const publicationData = {
     key: 'park2014understanding',
     // full_venue: 'Proceedings of the 16th international conference on Human-computer interaction with mobile devices \& services',
     venue: 'MobileHCI',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2628363.2628407',
     year: 2014,
     title: 'Understanding Localness of Knowledge Sharing: A Study of Naver KiN Here',
@@ -1285,7 +1296,7 @@ const publicationData = {
     authors: ['Dae-Ki Cho', 'Uichin Lee', 'Youngtae Noh', 'Taiwoo Park', 'Junehwa Song'],
     full_venue: 'Pervasive and Mobile Computing',
     venue: 'PMC',
-    visible: true,
+    published: true,
     pdf: 'https://reader.elsevier.com/reader/sd/pii/S1574119214000583?token=4B4CDCCF7CB32295C4F84B856EDBE0A7324CCBD336BCBD315FFBD104428FD1A325F36A869DD76C3A746362A16D1D6F2D&originRegion=us-east-1&originCreation=20221005110153',
   },
   park2014human: {
@@ -1301,7 +1312,7 @@ const publicationData = {
     ],
     full_venue: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems',
     venue: 'CHI',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2556288.2557091',
   },
   lee2014hooked: {
@@ -1321,7 +1332,7 @@ const publicationData = {
     ],
     full_venue: 'Proceedings of the SIGCHI conference on human factors in computing systems',
     venue: 'CHI',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2556288.2557366',
   },
   baumer2014refusing: {
@@ -1331,7 +1342,7 @@ const publicationData = {
     authors: ['Uichin Lee', 'Subin Yang', 'Minsam Ko', 'Joonwon Lee'],
     full_venue: 'CHI14 Extended Abstracts on Human Factors in Computing Systems',
     venue: 'CHI',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2559206.2559224',
   },
   ko2014motives: {
@@ -1348,7 +1359,7 @@ const publicationData = {
     ],
     full_venue: 'Proceedings of the 23rd International Conference on World Wide Web',
     venue: 'WWW',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2567948.2577340',
   },
   gerla2014internet: {
@@ -1357,7 +1368,7 @@ const publicationData = {
     authors: ['Mario Gerla', 'Eun-Kyu Lee', 'Giovanni Pau', 'Uichin Lee'],
     full_venue: '2014 IEEE world forum on internet of things (WF-IoT)',
     venue: 'WF-IoT',
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6803166',
   },
   noh2014dots: {
@@ -1375,7 +1386,7 @@ const publicationData = {
     ],
     full_venue: 'IEEE Transactions on Mobile Computing',
     venue: 'IEEE CASS',
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6708483',
   },
   고민삼2014스마트폰: {
@@ -1385,7 +1396,7 @@ const publicationData = {
     full_venue: 'HCI Korea, Feb. 2014',
     // full_venue: '한국 HCI 학회 학술대회',
     venue: '',
-    visible: true,
+    published: true,
     pdf: 'https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE02374721&googleIPSandBox=false&mark=0&useDate=&ipRange=false&accessgl=Y&language=ko_KR&hasTopBanner=true',
   },
   강성준2014다중: {
@@ -1395,7 +1406,7 @@ const publicationData = {
     full_venue: 'HCI Korea, Feb. 2014',
     // full_venue: '한국 HCI 학회 학술대회',
     venue: '',
-    visible: true,
+    published: true,
     pdf: 'https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE02374702&googleIPSandBox=false&mark=0&useDate=&ipRange=false&accessgl=Y&language=ko_KR&hasTopBanner=true',
   },
   lee2013understanding: {
@@ -1405,7 +1416,7 @@ const publicationData = {
     authors: ['Uichin Lee', 'Seung-Hoon Lee', 'Kang-Won Lee', 'Mario Gerla'],
     full_venue: 'IEEE Transactions on Parallel and Distributed Systems',
     venue: 'IEEE TPDS',
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6336749',
   },
   sung2013booming: {
@@ -1415,7 +1426,7 @@ const publicationData = {
     authors: ['Juyup Sung', 'Jae-Gil Lee', 'Uichin Lee'],
     full_venue: 'Proceedings of the International AAAI Conference on Web and Social Media',
     venue: 'ICWSM',
-    visible: true,
+    published: true,
     pdf: 'https://ojs.aaai.org/index.php/ICWSM/article/view/14387/14236',
   },
   lee2013sociophone: {
@@ -1437,7 +1448,7 @@ const publicationData = {
     full_venue:
       'Proceeding of the 11th annual international conference on Mobile systems, applications, and services',
     venue: 'MobiSys',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2462456.2465426',
   },
   lee2013analyzing: {
@@ -1446,7 +1457,7 @@ const publicationData = {
     authors: ['Uichin Lee', 'Jihyoung Kim', 'Eunhee Yi', 'Juyup Sung', 'Mario Gerla'],
     full_venue: 'Proceedings of the SIGCHI conference on human factors in computing systems',
     venue: 'CHI',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2470654.2470730',
   },
   oh2013facilitating: {
@@ -1455,7 +1466,7 @@ const publicationData = {
     authors: ['Jeungmin Oh', 'Daehoon Kim', 'Uichin Lee', 'Jae-Gil Lee', 'Junehwa Song'],
     full_venue: 'CHI13 Extended Abstracts on Human Factors in Computing Systems',
     venue: 'CHI',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2468356.2468681',
   },
   bao2013dataspotting: {
@@ -1465,7 +1476,7 @@ const publicationData = {
     authors: ['Xuan Bao', 'Yin Lin', 'Uichin Lee', 'Ivica Rimac', 'Romit Roy Choudhury'],
     full_venue: '2013 Proceedings IEEE INFOCOM',
     venue: 'IEEE INFOCOM',
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6566807',
   },
   han2013m: {
@@ -1475,13 +1486,13 @@ const publicationData = {
     key: 'han2013m',
     full_venue: '2013 Proceedings IEEE INFOCOM',
     venue: 'IEEE INFOCOM',
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6566852',
   },
   noh2013infrastructure: {
     full_venue: 'IEEE Transactions on Systems, Man, and Cybernetics: Systems',
     venue: 'IEEE SMC',
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7747408',
     year: 2013,
     title:
@@ -1499,7 +1510,7 @@ const publicationData = {
   park2013exersync: {
     full_venue: 'Proceedings of the 2013 conference on Computer supported cooperative work',
     venue: 'CSCW',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2441776.2441823',
     year: 2013,
     title: 'ExerSync: Facilitating Interpersonal Synchrony in Social Exergames',
@@ -1516,7 +1527,7 @@ const publicationData = {
   lee2013mobile: {
     full_venue: 'Proceedings of CHI',
     venue: 'CHI',
-    visible: false,
+    published: false,
     pdf: '',
     year: 2013,
     title: 'Mobile Q&A: Beyond Text-only Q&A and Privacy Concerns',
@@ -1536,14 +1547,14 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2013 ACM conference on Pervasive and Ubiquitous Computing adjunct publication',
     venue: 'Ubicomp',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2494091.2494180',
   },
   park2012exerlink: {
     full_venue:
       'Proceedings of the 10th international conference on Mobile systems, applications, and services',
     venue: 'MobiSys',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2307636.2307639',
     year: 2012,
     title: 'ExerLink: enabling pervasive social exergames with heterogeneous exercise devices',
@@ -1555,7 +1566,7 @@ const publicationData = {
     authors: ['Uichin Lee', 'Hyanghong Kang', 'Eunhee Yi', 'Mun Y. Yi', 'Jussi Kantola'],
     full_venue: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems',
     venue: 'CHI',
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2207676.2208741',
   },
   noh2013vapr: {
@@ -1564,7 +1575,7 @@ const publicationData = {
     full_venue: 'IEEE Transactions on Mobile Computing',
     venue: 'IEEE TMC',
     year: 2013,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6158644',
   },
   bellavista2012editorial: {
@@ -1574,7 +1585,7 @@ const publicationData = {
     full_venue: 'Pervasive and Mobile Computing',
     venue: '',
     year: 2012,
-    visible: true,
+    published: true,
     pdf: 'https://www.sciencedirect.com/science/article/pii/S1574119212000193',
   },
   lee2012emerging: {
@@ -1584,7 +1595,7 @@ const publicationData = {
     full_venue: 'Knowledge service engineering handbook',
     venue: '',
     year: 2011,
-    visible: true,
+    published: true,
     pdf: 'http://mslab.kaist.ac.kr/wikipages/files/ubiquitous_knowledge_services_crc_2011.pdf',
   },
   ahnn2011geoserv: {
@@ -1593,7 +1604,7 @@ const publicationData = {
     full_venue: '2011 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing',
     venue: 'IEEE CCGRID',
     year: 2011,
-    visible: true,
+    published: true,
     pdf: 'https://www.researchgate.net/profile/Hyun-Moon-3/publication/224246697_GeoServ_A_Distributed_Urban_Sensing_Platform/links/0c960517040c3ca5cd000000/GeoServ-A-Distributed-Urban-Sensing-Platform.pdf',
   },
   lim2013sewersnort: {
@@ -1611,7 +1622,7 @@ const publicationData = {
     full_venue: 'Ad hoc networks',
     venue: '',
     year: 2011,
-    visible: true,
+    published: true,
     pdf: 'https://reader.elsevier.com/reader/sd/pii/S1570870511000382?token=43B58A6B40DC84210DBAA193289AE8B3A5D907603AD8DBB79234533020B3F7CCBF301245D96100439717A2C7EE824D3C&originRegion=us-east-1&originCreation=20221005102124',
   },
   lee2011toward: {
@@ -1620,7 +1631,7 @@ const publicationData = {
     full_venue: 'IEEE Network',
     venue: 'IEEE',
     year: 2011,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5730523',
   },
   varvello2011design: {
@@ -1630,7 +1641,7 @@ const publicationData = {
       '2011 Eighth International Conference on Wireless On-Demand Network Systems and Services',
     venue: 'WONS',
     year: 2011,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5720195',
   },
   noh2010dots: {
@@ -1640,7 +1651,7 @@ const publicationData = {
     full_venue: 'The 18th IEEE International Conference on Network Protocols',
     venue: 'IEEE ICNP',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5762767',
   },
   noh2012vapr: {
@@ -1649,7 +1660,7 @@ const publicationData = {
     full_venue: 'IEEE Transactions on Mobile Computing',
     venue: 'IEEE',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6158644',
   },
   lee2010geo: {
@@ -1658,7 +1669,7 @@ const publicationData = {
     full_venue: 'IEEE Communications Magazine',
     venue: 'IEEE',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5458378',
   },
   lee2010trace: {
@@ -1667,7 +1678,7 @@ const publicationData = {
     full_venue: '2010 IEEE 71st Vehicular Technology Conference',
     venue: 'IEEE VTC',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5494171',
   },
   lee2010greening: {
@@ -1677,7 +1688,7 @@ const publicationData = {
       'Proceedings of the 1st International Conference on Energy-efficient Computing and Networking',
     venue: 'E-Energy',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/1791314.1791342',
   },
   cho2010autogait: {
@@ -1687,7 +1698,7 @@ const publicationData = {
       '2010 IEEE international conference on pervasive computing and communications (PerCom)',
     venue: 'PerCom',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5466984',
   },
   park2010vehicular: {
@@ -1696,7 +1707,7 @@ const publicationData = {
     full_venue: 'Journal of Internet Services and Applications',
     venue: 'JISA',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Vehicular+Communications%3A+Emergency+Video+Streams+and+Network+Coding&btnG=',
   },
   lee2010pressure: {
@@ -1712,7 +1723,7 @@ const publicationData = {
     full_venue: '2010 Proceedings IEEE INFOCOM',
     venue: 'IEEE INFOCOM',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5461986',
   },
   lee2010surveyurban: {
@@ -1721,7 +1732,7 @@ const publicationData = {
     full_venue: 'Computer Networks',
     venue: '',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://www.sciencedirect.com/science/article/pii/S1389128609002382',
   },
   lee2009fleanet: {
@@ -1730,7 +1741,7 @@ const publicationData = {
     full_venue: 'IEEE Transactions on Vehicular Technology',
     venue: 'IEEE',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5223624',
   },
   lee2009p2p: {
@@ -1739,7 +1750,7 @@ const publicationData = {
     full_venue: 'IEEE Transactions on vehicular Technology',
     venue: 'IEEE',
     year: 2010,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5223693',
   },
   lee2009scaling: {
@@ -1748,7 +1759,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 4th ACM Workshop on Challenged Networks',
     venue: 'CHANTS',
     year: 2009,
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/1614222.1614226',
   },
   lee2009relaycast: {
@@ -1757,7 +1768,7 @@ const publicationData = {
     full_venue: 'Proc. Third Annual Conference of ITA',
     venue: 'ITA',
     year: 2009,
-    visible: true,
+    published: true,
     pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.519.8156&rep=rep1&type=pdf',
   },
   kim2009sewersnort: {
@@ -1776,7 +1787,7 @@ const publicationData = {
       '2009 6th Annual IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc Communications and Networks',
     venue: 'SECON',
     year: 2009,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5168971',
   },
   lee2009go: {
@@ -1786,7 +1797,7 @@ const publicationData = {
       '2009 Sixth International Conference on Wireless On-Demand Network Systems and Services',
     venue: 'WONS',
     year: 2009,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4801842',
   },
   lee2010surveyrouting: {
@@ -1795,7 +1806,7 @@ const publicationData = {
     full_venue: 'Advances in vehicular ad-hoc networks: Developments and challenges',
     venue: 'VANET',
     year: 2009,
-    visible: true,
+    published: true,
     pdf: 'https://www.igi-global.com/chapter/advances-vehicular-hoc-networks/43169',
   },
   lee2009bio: {
@@ -1811,7 +1822,7 @@ const publicationData = {
     full_venue: 'Ad Hoc Networks',
     venue: '',
     year: 2009,
-    visible: true,
+    published: true,
     pdf: 'https://reader.elsevier.com/reader/sd/pii/S1570870508000504?token=895015387937D0731F5333B2FC5B51CA5A8651EE73C19EC37575DEF3D236BC6CB9FBEB7586C9425FB5BEA700AAFA39CC&originRegion=us-east-1&originCreation=20221005081741',
   },
   lee2008dissemination: {
@@ -1826,7 +1837,7 @@ const publicationData = {
     full_venue: 'IEEE transactions on vehicular technology',
     venue: 'IEEE',
     year: 2009,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4573261',
   },
   lee2009emerging: {
@@ -1835,7 +1846,7 @@ const publicationData = {
     full_venue: 'Vehicular networks: From theory to practice',
     venue: '',
     year: 2009,
-    visible: true,
+    published: true,
     pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.459.2888&rep=rep1&type=pdf',
   },
   lee2008relaycast: {
@@ -1844,7 +1855,7 @@ const publicationData = {
     full_venue: '2008 IEEE International Conference on Network Protocols',
     venue: 'IEEE ICNP',
     year: 2008,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4697040',
   },
   vieira2008phero: {
@@ -1853,7 +1864,7 @@ const publicationData = {
     full_venue: 'Proceedings of the third ACM international workshop on Underwater Networks',
     venue: 'WuWNet',
     year: 2008,
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/1410107.1410116',
   },
   lee2007bio: {
@@ -1869,7 +1880,7 @@ const publicationData = {
     full_venue: 'Workshop on Bio-Inspired Design of Networks',
     venue: 'BIOWIRE',
     year: 2008,
-    visible: true,
+    published: true,
     pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.648.1655&rep=rep1&type=pdf',
   },
   lee2008content: {
@@ -1880,7 +1891,7 @@ const publicationData = {
       '2008 5th Annual IEEE Communications Society Conference on Sensor, Mesh and Ad Hoc Communications and Networks',
     venue: 'IEEE SECON',
     year: 2008,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4557747',
   },
   lee2008efficient: {
@@ -1896,7 +1907,7 @@ const publicationData = {
     full_venue: 'Journal of Communications and Networks',
     venue: 'JCN',
     year: 2008,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6389858',
   },
   park2008delay: {
@@ -1914,7 +1925,7 @@ const publicationData = {
     full_venue: 'IEICE transactions on information and systems',
     venue: 'IEICE',
     year: 2008,
-    visible: true,
+    published: true,
     pdf: 'https://www.jstage.jst.go.jp/article/transinf/E91.D/10/E91.D_10_2524/_pdf',
   },
   gerla2008tapping: {
@@ -1924,7 +1935,7 @@ const publicationData = {
     full_venue: '',
     venue: '',
     year: 2008,
-    visible: true,
+    published: true,
     pdf: 'https://www.amazon.com/Homeland-Security-Technology-Challenges-Encrypting/dp/1596932899',
   },
   lee2007enhanced: {
@@ -1934,7 +1945,7 @@ const publicationData = {
     full_venue: '2007 ieee globecom workshops',
     venue: 'IEEE',
     year: 2007,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4437832',
   },
   bellavista2007standard: {
@@ -1944,7 +1955,7 @@ const publicationData = {
     full_venue: '2007 IEEE International Symposium on Industrial Electronics',
     venue: 'IEEE ISIE',
     year: 2007,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4375015',
   },
   magistretti2007mobile: {
@@ -1961,7 +1972,7 @@ const publicationData = {
     full_venue: '2007 IEEE wireless communications and networking conference',
     venue: 'IEEE WCNC',
     year: 2007,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/abstract/document/4224776',
   },
   jung2007bluetorrent: {
@@ -1970,7 +1981,7 @@ const publicationData = {
     full_venue: 'Pervasive and Mobile Computing',
     venue: 'PMC',
     year: 2007,
-    visible: true,
+    published: true,
     pdf: 'https://www.sciencedirect.com/science/article/pii/S1574119207000466',
   },
   lee2007time: {
@@ -1980,7 +1991,7 @@ const publicationData = {
     full_venue: 'Ad Hoc Networks',
     venue: '',
     year: 2007,
-    visible: true,
+    published: true,
     pdf: 'https://reader.elsevier.com/reader/sd/pii/S157087050700025X?token=81368F7073A985C7ABADEC5D6DEAD1644782D644A1C4DCAE25D8B06847BB4873369C4202EE7249EC088537D0C4C7802D&originRegion=us-east-1&originCreation=20221005072909',
   },
   lee2006mobeyes: {
@@ -1996,7 +2007,7 @@ const publicationData = {
     full_venue: 'IEEE Wireless Communications',
     venue: 'IEEE',
     year: 2006,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4015709',
   },
   lee2006code: {
@@ -2006,7 +2017,7 @@ const publicationData = {
       'Proceedings of the 1st international workshop on Decentralized resource sharing in mobile computing and networking',
     venue: 'MobiCom',
     year: 2006,
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/1161252.1161254',
   },
   gerla2006vehicular: {
@@ -2022,7 +2033,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 2nd annual international workshop on Wireless internet',
     venue: 'WICON',
     year: 2006,
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/1234161.1234180',
   },
   lee2006efficient: {
@@ -2039,7 +2050,7 @@ const publicationData = {
       'Fourth Annual IEEE International Conference on Pervasive Computing and Communications Workshops',
     venue: 'PERCOMW',
     year: 2006,
-    visible: true,
+    published: true,
     pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.9467&rep=rep1&type=pdf',
   },
   lee2006understanding: {
@@ -2048,7 +2059,7 @@ const publicationData = {
     full_venue: 'IPTPS',
     venue: 'IPTPS',
     year: 2006,
-    visible: true,
+    published: true,
     pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.76.3025&rep=rep1&type=pdf',
   },
   lee2005flowbased: {
@@ -2057,7 +2068,7 @@ const publicationData = {
     full_venue: 'Communications and Computer Networks',
     venue: '',
     year: 2005,
-    visible: false,
+    published: false,
     pdf: '',
   },
   lee2005automatic: {
@@ -2066,7 +2077,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 14th international conference on World Wide Web',
     venue: 'WWW',
     year: 2005,
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/1060745.1060804',
   },
   chen2009codecast: {
@@ -2076,7 +2087,7 @@ const publicationData = {
       'Demos of the 10th international workshop on mobile computing systems and applications',
     venue: 'HotMobile',
     year: 2009,
-    visible: true,
+    published: true,
     pdf: 'http://wiiau4.free.fr/pdf/CodeCast%20-%20Network%20Coding%20Based%20Multicast%20in%20MANETs.pdf',
   },
   cao2008proof: {
@@ -2086,7 +2097,7 @@ const publicationData = {
     full_venue: 'IEEE INFOCOM Workshops 2008',
     venue: 'INFOCOM WKSHPS',
     year: 2008,
-    visible: true,
+    published: true,
     pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.902.6844&rep=rep1&type=pdf',
   },
   lee2008understanding: {
@@ -2096,7 +2107,7 @@ const publicationData = {
     full_venue: 'UCLA Technical Report: TR-070020',
     venue: '',
     year: 2007,
-    visible: true,
+    published: true,
     pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.5354&rep=rep1&type=pdf',
   },
   lee2007first: {
@@ -2105,7 +2116,7 @@ const publicationData = {
     full_venue: '2007 Mobile Networking for Vehicular Environments',
     venue: '',
     year: 2007,
-    visible: true,
+    published: true,
     pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4300814',
   },
   vieira2006analysis: {
@@ -2114,7 +2125,7 @@ const publicationData = {
     full_venue: 'Extended abstract from WUWNet',
     venue: '',
     year: 2006,
-    visible: true,
+    published: true,
     pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.458.1899&rep=rep1&type=pdf',
   },
   park2006emergency: {
@@ -2123,7 +2134,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 3rd international workshop on Vehicular ad hoc networks',
     venue: 'VANET',
     year: 2006,
-    visible: true,
+    published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/1161064.1161087',
   },
 }
