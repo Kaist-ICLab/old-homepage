@@ -94,7 +94,8 @@ export default function Home({ landing, imgList }) {
             <div className={styles.detail_image}>
               <Image
                 src="/static/images/landing/serviceAct.png"
-                layout="fill" objectFit="contain"
+                layout="fill"
+                objectFit="contain"
               />
             </div>
           </div>
