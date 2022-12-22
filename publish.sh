@@ -3,8 +3,12 @@ git checkout -b temp-for-deploy-gh-pages
 
 npm run build
 
+# out/CNAME의 경로에 파일을 생성하고, 해당 파일에 사이트 URL을 추가한다.
 touch out/CNAME
 echo 'https://ic.kaist.ac.kr' > out/CNAME
+# Window에서는 아래의 코드 사용
+# fsutil file createnew out/CNAME 0
+# echo https://ic.kaist.ac.kr > out/CNAME
 
 git add -f out/
 # 생성한 브랜치에 `out/` 디렉토리가 포함된 내용을 커밋한다.
