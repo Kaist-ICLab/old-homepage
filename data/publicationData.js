@@ -174,6 +174,15 @@ const publicationData = {
     full_venue: 'JAMA Network Open 2022;5(2):e220214',
     pdf: 'https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2789277',
   },
+  kim2021cheersbot: {
+    year: 2021,
+    title: "Cheersbot: 외로움 개선을 위한 물리적 / 청각적 상호작용을 제공하는 술친구 소셜 로봇",
+    authors: ["김채원","정유경","정규원","우운택","이의진"],
+    venue: "HCI Korea",
+    full_venue: "한국HCI학회 학술대회, 2021",
+    published: true,
+    pdf: "https://drive.google.com/file/d/1alv7Lxv2HRv-7nW234cMDJs6otA54Z-R/view?usp=share_link"
+  },
   nasrat2021emotion: {
     year: 2021,
     title:
