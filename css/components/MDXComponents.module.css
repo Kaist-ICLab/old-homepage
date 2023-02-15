@@ -75,3 +75,8 @@
     align-items: flex-start;
   }
 }
+
+.external_link {
+  color: var(--primary-color);
+}
+

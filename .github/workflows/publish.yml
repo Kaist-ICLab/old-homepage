@@ -46,7 +46,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: "highjun.com"
+      url: "ic.kaist.ac.kr"
     runs-on: ubuntu-latest
     needs: build
     steps:

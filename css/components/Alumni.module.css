@@ -4,6 +4,8 @@
   align-items: flex-start;
   padding: 0px;
   gap: 12px;
+  width: 370px;
+  height: 160px;
 }
 .desc {
   display: flex;
@@ -15,7 +17,7 @@
 }
 .name {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   display: flex;
@@ -28,10 +30,6 @@
   font-weight: 300;
   font-size: 17px;
   line-height: 21px;
-  /* identical to box height */
-
-  /* display: flex;
-  align-items: center; */
 
   color: #333333;
 }
@@ -40,8 +38,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  /* display: flex;
-  align-items: center; */
+  width: 240px;
 
   color: #000000;
 }

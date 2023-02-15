@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import Image from './Image'
+import {Image} from './MDXComponents'
 
 import Left from '@/data/Icons/chevron-left.svg'
 import Right from '@/data/Icons/chevron-right.svg'

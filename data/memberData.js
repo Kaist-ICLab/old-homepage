@@ -1,8 +1,10 @@
 const memberData = {
   UichinLee: {
     name: 'Uichin Lee',
-    program: 'Director',
-    position: 'Professor',
+    program: [
+      ['Director','']
+    ],
+    current_position: 'Director',
     email: 'uclee@kaist.ac.kr',
     image: '/static/images/members/UichinLee.png',
     scholar: 'https://scholar.google.co.kr/citations?user=Sc2pBzYAAAAJ',
@@ -10,8 +12,13 @@ const memberData = {
   },
   WoohyeokChoi: {
     name: 'Woohyeok Choi',
-    position: 'Post Doc',
-    program: 'Post Doc',
+    current_position: 'Postdoc',
+    isAlumni: false,
+    program: [
+      ['Postdoc', '2021.09 ~ '],
+      ['PhD',  '2015.03 ~ 2021.08'],
+      ['MS',  '2013.03 ~ 2015.02'],
+    ],
     email: 'woohyeok.choi@kaist.ac.kr',
     image: '/static/images/members/WoohyeokChoi.png',
     scholar: 'https://scholar.google.com/citations?user=PaIwvKYAAAAJ&hl=en',
@@ -24,8 +31,13 @@ const memberData = {
   },
   InyeopKim: {
     name: 'Inyeop Kim',
-    position: 'Post Doc',
-    program: 'Post Doc',
+    isAlumni: true,
+    current_position: 'Samsung SDS',
+    program: [
+      ['Postdoc', ' ~ 2023.01'],
+      ['PhD',  '~ 2021'],
+      ['MS',  '~ 2015'],
+    ],
     email: 'inyeop@kse.kaist.ac.kr',
     image: '/static/images/members/InyeopKim.png',
     scholar: 'https://scholar.google.com/citations?user=VQ8rjvkAAAAJ&hl=ko&oi=ao',
@@ -33,8 +45,12 @@ const memberData = {
   },
   JoonyoungPark: {
     name: 'Joonyoung Park',
-    position: 'PhD Program',
-    program: 'PhD Program',
+    isAlumni: false,
+    current_position: 'Postdoc',
+    program: [
+      ['Postdoc', '2023.03 ~'],
+      ['PhD',  '~ 2023.02'],
+    ],
     email: 'jypark@kse.kaist.ac.kr',
     image: '/static/images/members/JoonyoungPark.jpg',
     scholar: 'https://scholar.google.co.kr/citations?user=uzqaSMMAAAAJ&hl=ko',
@@ -43,23 +59,27 @@ const memberData = {
   },
   SoowonKang: {
     name: 'Soowon Kang',
-    position: 'PhD Program',
-    program: 'PhD Program',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  ''],
+    ],    
     email: 'sw.kang@kaist.ac.kr',
     image: '/static/images/members/SoowonKang.jpg',
     scholar: 'https://scholar.google.com/citations?user=B9HMz0EAAAAJ&hl=ko',
     github: 'https://github.com/soowon-kang',
     research_interests: [
-      'Social Computing',
-      'Affective Computing',
       'Sensor Data Science',
       'Mobile Systems',
     ],
   },
   HyunsooLee: {
     name: 'Hyunsoo Lee',
-    position: 'PhD Program',
-    program: 'PhD Program',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  ''],
+    ],
     email: 'hslee90@kaist.ac.kr',
     image: '/static/images/members/HyunsooLee.jpg',
     scholar: 'https://scholar.google.com/citations?user=ctglUjoAAAAJ&hl=ko',
@@ -72,8 +92,11 @@ const memberData = {
   },
   HansooLee: {
     name: 'Hansoo Lee',
-    position: 'PhD Program',
-    program: 'PhD Program',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  ''],
+    ],
     email: 'hansoo@kaist.ac.kr',
     image: '/static/images/members/HansooLee.png',
     scholar: 'https://scholar.google.co.kr/citations?user=Ezt-IT0AAAAJ',
@@ -82,8 +105,12 @@ const memberData = {
   },
   GyuwonJung: {
     name: 'Gyuwon Jung',
-    position: 'PhD Program',
-    program: 'PhD Program',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  ''],
+      ['MS', '']
+    ],
     email: 'gwjung@kaist.ac.kr',
     image: '/static/images/members/GyuwonJung.jpg',
     scholar: 'https://scholar.google.com/citations?user=byhoe3YAAAAJ',
@@ -91,8 +118,11 @@ const memberData = {
   },
   EunjiPark: {
     name: 'Eunji Park',
-    position: 'PhD Program',
-    program: 'PhD Program',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  '2019.03 ~ '],
+    ],
     email: 'eunji.park@kaist.ac.kr',
     image: '/static/images/members/EunjiPark.png',
     scholar: 'https://scholar.google.com/citations?user=Kx8C1FQAAAAJ&hl=ko',
@@ -105,8 +135,11 @@ const memberData = {
   },
   YoungjiKoh: {
     name: 'Youngji Koh',
-    position: 'PhD Program',
-    program: 'PhD Program',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  '2021.09 ~ '],
+    ],
     email: 'youngji@kaist.ac.kr',
     image: '/static/images/members/YoungjiKoh.jpg',
     scholar: 'https://scholar.google.com/citations?user=9YItZ30AAAAJ&hl=en',
@@ -115,8 +148,12 @@ const memberData = {
   },
   YugyeongJung: {
     name: 'Yugyeong Jung',
-    position: 'PhD Program',
-    program: 'PhD Program',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  '2022.03 ~ '],
+      ['MS', '2020.03 ~ 2022.02']
+    ],
     email: 'yugyeong.jung@kaist.ac.kr',
     image: '/static/images/members/YugyeongJung.jpg',
     github: 'https://github.com/yugyeongjung',
@@ -124,24 +161,34 @@ const memberData = {
   },
   DuriLee: {
     name: 'Duri Lee',
-    position: 'PhD Program',
-    program: 'PhD Program',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  '2022.03 ~ '],
+    ],
     email: 'duri.lee@kaist.ac.kr',
     image: '/static/images/members/DuriLee.jpg',
     research_interests: ['Human Digital Twin', 'e-Mental Health Modeling', 'IoT sensor data'],
   },
   PanyuZhang: {
     name: 'Panyu Zhang',
-    position: 'Master Program',
-    program: 'Master Program',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  '2023.03 ~ '],
+      ['MS',  ' ~ 2023.02'],
+    ],
     email: 'panyu@kaist.ac.kr',
     image: '/static/images/members/PanyuZhang.jpg',
     research_interests: ['Routine Computing', 'Affective Computing'],
   },
   YouwonShin: {
     name: 'Youwon Shin',
-    position: 'Master Program',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: 'Samsung Electronics',
+    program: [
+      ['MS',  '2021.03 ~ 2023.02'],
+    ],
     email: 'youwon.shin@kaist.ac.kr',
     github: 'https://github.com/yuwon-shin',
     homepage: 'https://yuwon-shin.github.io/',
@@ -151,8 +198,11 @@ const memberData = {
   },
   JieunLim: {
     name: 'Jieun Lim',
-    position: 'Master Program',
-    program: 'Master Program',
+    isAlumni: false,
+    current_position: 'Master Program',
+    program: [
+      ['MS',  '2021.09 ~ 2023.08'],
+    ],
     email: 'jieun.lim@kaist.ac.kr',
     scholar: 'https://scholar.google.com/citations?user=XyHQwXkAAAAJ&hl=en',
     image: '/static/images/members/JieunLim.jpg',
@@ -160,8 +210,11 @@ const memberData = {
   },
   HeiYiuLaw: {
     name: 'Hei Yiu Law',
-    position: 'Master Program',
-    program: 'Master Program',
+    isAlumni: false,
+    current_position: 'Master Program',
+    program: [
+      ['MS',  '2021.09 ~ 2023.08'],
+    ],
     email: 'emilyelhy@kaist.ac.kr',
     github: 'https://github.com/emilyelhy',
     homepage: 'https://www.linkedin.com/in/hei-yiu-law/',
@@ -170,8 +223,11 @@ const memberData = {
   },
   SangjunPark: {
     name: 'Sangjun Park',
-    position: 'Master Program',
-    program: 'Master Program',
+    isAlumni: false,
+    current_position: 'Master Program',
+    program: [
+      ['MS',  '2022.03 ~'],
+    ],
     email: 'grey10170@kaist.ac.kr',
     github: 'https://github.com/highjun10170',
     homepage: 'https://highjun10170.github.io/',
@@ -180,8 +236,11 @@ const memberData = {
   },
   YunjoHan: {
     name: 'Yunjo Han',
-    position: 'Master Program',
-    program: 'Master Program',
+    isAlumni: false,
+    current_position: 'Master Program',
+    program: [
+      ['MS',  '2022.03 ~'],
+    ],
     email: 'yjhan99@kaist.ac.kr',
     github: 'https://github.com/yjhan99',
     image: '/static/images/members/YunjoHan.jpg',
@@ -191,310 +250,307 @@ const memberData = {
   // From Here Alumni
   YongShinKim: {
     name: 'Yongshin Kim',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS',  '2020.09 ~ 2022.08'],
+    ],
     position: 'Alumni',
-    korean_name: '김용신',
-    graduated: '2022',
-    program: 'Master Program',
     email: 'ys.k@kaist.ac.kr',
     homepage: 'https://yong-shin.github.io/',
-    current_position: '',
   },
   JeungminOh: {
     name: 'Jeungmin Oh',
-    position: 'Alumni',
-    graduated: 'LOA',
-    korean_name: '오정민',
-    program: 'PhD Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['PhD', ' ~ LOA']
+    ],
     email: 'jminoh@kaist.ac.kr',
   },
   EugeneLee: {
-    graduated: 'LOA',
     name: 'Eugene Lee',
-    position: 'Alumni',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', ' ~ LOA']
+    ],
     email: 'eugene.lee@kaist.ac.kr',
   },
-  WoohyeokChoi2021: {
-    name: 'Woohyeok Choi',
-    position: 'Alumni',
-    korean_name: '최우혁',
-    graduated: '2021',
-    program: 'PhD Program',
-    email: 'woohyeok.choi@kaist.ac.kr',
-    current_position: 'Post Doc(IC Lab)',
-  },
-  InyeopKim2021: {
-    name: 'Inyeop Kim',
-    position: 'Alumni',
-    korean_name: '김인엽',
-    graduated: '2021',
-    program: 'PhD Program',
-    email: 'kiyeob4416@kaist.ac.kr',
-    current_position: 'Post Doc(IC Lab)',
-  },
-  CheulYoungPark: {
-    name: 'Cheul Young Park',
-    position: 'Alumni',
-    graduated: '2021',
-    korean_name: '박철영',
-    program: 'Master Program',
+  CheulyoungPark: {
+    name: 'Cheulyoung Park',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', ' ~ 2021']
+    ],
     email: 'cheulyop@kaist.ac.kr',
   },
   MinhyoungKim: {
     name: 'Minhyoung Kim',
-    position: 'Alumni',
-    korean_name: '김민형',
-    graduated: '2021',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', ' ~ 2021']
+    ],
     email: 'mindrome95@kaist.ac.kr',
   },
   JuhoSun: {
     name: 'Juho Sun',
-    position: 'Alumni',
-    korean_name: '선주호',
-    graduated: '2021',
-    program: 'Master Program',
-    email: 'juho.sun@kaist.ac.kr',
+    isAlumni: true,
     current_position: 'Yanolja',
+    program: [
+      ['MS', ' ~ 2021']
+    ],
+    email: 'juho.sun@kaist.ac.kr',
   },
   DaeheePark: {
     name: 'Daehee Park',
-    position: 'Alumni',
-    korean_name: '박대희',
-    graduated: '2020',
-    program: 'PhD Program',
+    isAlumni: true,
+    program: [
+      ['PhD', ' ~ 2020']
+    ],
     email: 'daehee.park@kaist.ac.kr',
     current_position: 'Samsung Research',
   },
   AukKim: {
     name: 'Auk Kim',
-    position: 'Alumni',
-    korean_name: '김아욱',
-    graduated: '2020',
-    program: 'PhD Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['PhD', ' ~ 2020']
+    ],
     email: 'kimauk@kaist.ac.kr',
-    current_position: 'Professor(Kangwon National University)',
+    current_position: 'Assistant Professor at Kangwon National Univ.',
   },
   NaraeCha: {
     name: 'Narae Cha',
-    position: 'Alumni',
-    korean_name: '차나래',
-    graduated: '2020',
-    program: 'Master Program',
-    email: 'nr.cha@kaist.ac.kr',
+    isAlumni: true,
     current_position: 'LG CNS',
+    program: [
+      ['MS', ' ~ 2020']
+    ],
+    email: 'nr.cha@kaist.ac.kr',
   },
   JongwonKim: {
     name: 'Jongwon Kim',
-    position: 'Alumni',
-    korean_name: '김종원',
-    graduated: '2019',
-    program: 'Master Program',
-    email: 'jong1k@kaist.ac.kr',
+    isAlumni: true,
     current_position: 'TmaxSoft',
+    program: [
+      ['MS', ' ~ 2019']
+    ],
+    position: 'Alumni',
+    email: 'jong1k@kaist.ac.kr',
   },
   DuyeonKim: {
     name: 'Duyeon Kim',
-    position: 'Alumni',
-    korean_name: '김두연',
-    graduated: '2019',
-    program: 'Master Program',
+    isAlumni: true,
+    program: [
+      ['MS', ' ~ 2019']
+    ],
     email: 'duyeon@kaist.ac.kr',
     current_position: 'PhD Program (KAIST ISysE)',
   },
   SangkeunPark: {
     name: 'Sangkeun Park',
-    position: 'Alumni',
-    korean_name: '박상근',
-    graduated: '2019',
-    program: 'PhD Program',
+    isAlumni: true,
+    program: [
+      ['Postdoc','2019.09 ~ 2020.02'],
+      ['PhD', '2014.03 ~ 2019.08'],
+      ['MS', '2012.03 ~ 2014.02']
+    ],
     email: 'sk.park@kaist.ac.kr',
-    current_position: 'Samsung SDS',
+    current_position: 'Assistant Professor at Kyung Hee Univ.',
     homepage: 'http://sangkeunpark.com/',
   },
   JaejeungKim: {
     name: 'Jaejeung Kim',
-    position: 'Alumni',
-    korean_name: '김재정',
-    graduated: '2019',
-    program: 'PhD Program',
+    isAlumni: true,
+    current_position: 'Assistant Professor at Chungnam National Univ.',
+    program: [
+      ['PhD', ' ~ 2019']
+    ],
     email: 'jjk@kaist.ac.kr',
   },
   JeminLee: {
     name: 'Jemin Lee',
-    position: 'Alumni',
-    korean_name: '이제민',
-    program: 'Post Doc',
-    email: 'leejaymin@kaist.ac.kr',
+    isAlumni: true,
     current_position: 'ETRI',
+    program: [
+      ['Postdoc', '2017.09 ~ 2018.08']
+    ],
+    email: 'leejaymin@kaist.ac.kr',
     homepage: 'https://leejaymin.github.io/index.html',
   },
   RihunKim: {
     name: 'Rihun Kim',
-    position: 'Alumni',
-    korean_name: '김리헌',
-    graduated: '2018',
-    program: 'Master Program',
-    email: 'rihun.kim@kaist.ac.kr',
+    isAlumni: true,
     current_position: 'Kakao',
+    program: [
+      ['MS', '~ 2018']
+    ],
+    email: 'rihun.kim@kaist.ac.kr',
   },
   HayoungJung: {
     name: 'Hayoung Jung',
-    position: 'Alumni',
-    korean_name: '정하영',
-    graduated: '2018',
-    program: 'Master Program',
-    email: 'hayoung0202@kaist.ac.kr',
+    isAlumni: true,
     current_position: 'CJ Olivenetworks',
-  },
-  GyuwonJung2018: {
-    name: 'Gyuwon Jung',
-    position: 'Alumni',
-    korean_name: '정규원',
-    graduated: '2018',
-    program: 'Master Program',
-    email: 'qonejung@kaist.ac.kr',
-    current_position: 'PhD Program(ICLab)',
+    program: [
+      ['MS', '~ 2018']
+    ],
+    email: 'hayoung0202@kaist.ac.kr',
   },
   ChristineBalili: {
     name: 'Christine Balili',
-    position: 'Alumni',
-    korean_name: '크리스틴',
-    graduated: '2018',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', '~ 2018']
+    ],
     email: 'ccbalili@kaist.ac.kr',
   },
   SujinKwon: {
     name: 'Sujin Kwon',
-    position: 'Alumni',
-    korean_name: '권수진',
-    graduated: '2017',
-    program: 'Master Program',
-    email: 'sujingjing@kaist.ac.kr',
+    isAlumni: true,
     current_position: 'ADD',
+    program: [
+      ['MS', '~ 2017']
+    ],
+    email: 'sujingjing@kaist.ac.kr',
   },
   SungwookMoon: {
     name: 'Sungwook Moon',
-    position: 'Alumni',
-    korean_name: '문성욱',
-    graduated: '2017',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', '~ 2017']
+    ],
     email: 'm.sw@kaist.ac.kr',
   },
   HayeonJeong: {
     name: 'Hayeon Jeong',
-    position: 'Alumni',
-    korean_name: '정하연',
-    graduated: '2017',
-    program: 'Master Program',
+    isAlumni: true,
+    program: [
+      ['MS', '~ 2017']
+    ],
     email: 'hayeon412@kaist.ac.kr',
     current_position: 'Amorepacific Research',
   },
   MinsamKo: {
     name: 'Minsam Ko',
-    position: 'Alumni',
-    korean_name: '고민삼',
-    graduated: '2016',
-    program: 'PhD Program',
+    isAlumni: true,
+    current_position: 'Assistant Professor at Hanyang Univ. ERICA',
+    program: [
+      ['PhD', '~ 2016']
+    ],
     email: 'msko@kaist.ac.kr',
-    current_position: 'Hanyang Univ. ERICA',
   },
   JoohyunKim: {
     name: 'Joohyun Kim',
-    position: 'Alumni',
-    korean_name: '김주현',
-    graduated: '2016',
-    program: 'Master Program',
+    isAlumni: true,
+    program: [
+      ['MS', '~ 2016']
+    ],
     email: 'joohyun.kim@kaist.ac.kr',
     current_position: 'IQVIA',
   },
   SergeyLeksikov: {
     name: 'Sergey Leksikov',
-    position: 'Alumni',
-    korean_name: '세르게이',
-    graduated: '2016',
-    program: 'Master Program',
+    isAlumni: true,
+    program: [
+      ['MS', '~ 2016']
+    ],
     email: 'sergey@kaist.ac.kr',
     current_position: 'Lablup Inc.',
   },
   EmiliaIlincai: {
     name: 'Emilia Ilincai',
-    position: 'Alumni',
-    korean_name: '에밀리아',
-    program: 'Master Exchange(DTU)',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['Master Exchange(DTU)', '']
+    ],
     email: 'ilincai.emilia@gmail.com',
   },
   SouravDandapat: {
     name: 'Sourav Dandapat',
-    position: 'Alumni',
-    korean_name: '소라브',
-    program: 'Post Doc',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['Postdoc', '']
+    ],
     email: 'sourav@kaist.ac.kr',
   },
   AejinSong: {
     name: 'Aejin Song',
-    position: 'Alumni',
-    korean_name: '송애진',
-    graduated: '2016',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', '~ 2016']
+    ],
     email: 'aejin.song@kaist.ac.kr',
   },
   SungjunKang: {
     name: 'Sungjun Kang',
-    position: 'Alumni',
-    korean_name: '강성준',
-    graduated: '2015',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', '~ 2015']
+    ],
     email: 'sjkang89@kaist.ac.kr',
   },
   DaeheeShin: {
     name: 'Daehee Shin',
-    position: 'Alumni',
-    korean_name: '신대희',
-    graduated: '2015',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', '~ 2015']
+    ],
     email: 'daehee.shin@kaist.ac.kr',
   },
   SoobinYang: {
     name: 'Soobin Yang',
-    position: 'Alumni',
-    korean_name: '양수빈',
-    graduated: '2015',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', '~ 2015']
+    ],
     email: 'subin.yang@kaist.ac.kr',
   },
   TaehwaOh: {
     name: 'Taehwa Oh',
-    position: 'Alumni',
-    korean_name: '오태화',
-    graduated: '2015',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', '~ 2015']
+    ],
     email: 'barlog90@kaist.ac.kr',
   },
   JoonwonLee: {
     name: 'Joonwon Lee',
-    position: 'Alumni',
-    korean_name: '이준원',
-    graduated: '2014',
-    program: 'Master Program',
+    isAlumni: true,
+    program: [
+      ['MS', '~ 2014']
+    ],
     email: 'cafielo@kaist.ac.kr',
     current_position: 'Naver',
   },
   YoungchangKo: {
     name: 'Youngchang Ko',
-    position: 'Alumni',
-    korean_name: '고영창',
-    graduated: '2013',
-    program: 'Master Program',
+    isAlumni: true,
+    program: [
+      ['MS', '~ 2013']
+    ],
     email: 'youngchang@kaist.ac.kr',
     current_position: 'ADD',
   },
   EunheeYi: {
     name: 'Eunhee Yi',
-    position: 'Alumni',
-    korean_name: '이은희',
-    graduated: '2012',
-    program: 'Master Program',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['MS', '~ 2012']
+    ],    
     email: 'eunhee.yi@kaist.ac.kr',
     current_position: 'LGE',
   },

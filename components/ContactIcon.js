@@ -3,7 +3,7 @@ import Scholar from '@/data/Icons/scholar.svg'
 import Mail from '@/data/Icons/email.svg'
 import Homepage from '@/data/Icons/home.svg'
 
-import Link from './Link'
+import {Link} from './MDXComponents'
 
 import styles from '@/css/components/ContactIcon.module.css'
 

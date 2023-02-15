@@ -1,7 +1,6 @@
-import Image from './Image'
 
 import siteMetadata from '@/data/siteMetadata'
-import Link from './Link'
+import {Image, Link} from './MDXComponents'
 
 import styles from '@/css/components/Footer.module.css'
 

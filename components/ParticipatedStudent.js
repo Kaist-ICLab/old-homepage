@@ -1,5 +1,5 @@
 import styles from '@/css/components/ParticipatedStudent.module.css'
-import Image from './Image'
+import {Image} from './MDXComponents'
 import ContactIcon from './ContactIcon'
 
 export default function ParticipatedStudent({ member }) {
@@ -11,8 +11,6 @@ export default function ParticipatedStudent({ member }) {
           alt={member.name}
           width={180}
           height={200}
-          // layout="fill"
-          // object="fit"
         />
       </div>
       <div className={styles.contacts}>

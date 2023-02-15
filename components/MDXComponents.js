@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { getMDXComponent } from 'mdx-bundler/client'
-import Image from './Image'
-import CustomLink from './Link'
+import NextImage from 'next/image'
+import NextLink from 'next/link'
 
 import styles from '@/css/components/MDXComponents.module.css'
 
@@ -26,19 +26,53 @@ export const H4 = ({ children }) => (
     <h4 className={styles.h4}>{children}</h4>
   </div>
 )
+export const Li = ({ children }) => <li className={styles.li}>{children}</li>
+
+export const P =  ({ children }) => <p className={styles.p}>{children}</p>
+export const Wrapper  =({ components, ...rest }) => {
+  return <div className={styles.wrapper} {...rest} />
+}
+export const Hr = ({ children }) => <hr className={styles.hr} />
+export const Image = ({ ...rest }) => <NextImage {...rest} />
+
+export const Link = ({ href, ...rest }) => {
+  const isInternalLink = href && href.startsWith('/')
+  const isAnchorLink = href && href.startsWith('#')
+
+  if (isInternalLink) {
+    return (
+      <NextLink href={href}>
+        <a {...rest} />
+      </NextLink>
+    )
+  }
+
+  if (isAnchorLink) {
+    return <a href={href} {...rest} />
+  }
+
+  return (
+    <a
+      className={styles.external_link}
+      target="_blank"
+      rel="noopener noreferrer"
+      href={href}
+      {...rest}
+    />
+  )
+}
+
 
 export const MDXComponents = {
-  Image,
-  a: CustomLink,
+  img: Image,
+  a: Link,
   h1: H1,
   h2: H2,
   h3: H3,
-  li: ({ children }) => <li className={styles.li}>{children}</li>,
-  p: ({ children }) => <p className={styles.p}>{children}</p>,
-  wrapper: ({ components, ...rest }) => {
-    return <div className={styles.wrapper} {...rest} />
-  },
-  hr: ({ children }) => <hr className={styles.hr} />,
+  li: Li,
+  p: P,
+  wrapper: Wrapper,
+  hr: Hr,
 }
 
 export const MDX = ({ mdxSource }) => {

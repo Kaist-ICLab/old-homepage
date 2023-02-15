@@ -26,8 +26,9 @@
 .alumni_list {
   padding-top: 40px;
   display: flex;
-  flex-direction: column;
-  gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .alumnis {
   display: flex;

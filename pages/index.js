@@ -1,8 +1,7 @@
 import { getFileBySlug, getImageList } from '@/lib/mdx'
 
-import { H3, MDX } from '@/components/MDXComponents'
+import { H3, MDX, Image } from '@/components/MDXComponents'
 import { PageSEO } from '@/components/SEO'
-import Image from '@/components/Image'
 import ImageCarousel from '@/components/ImageCarousel'
 
 import siteMetadata from '@/data/siteMetadata'
@@ -56,10 +55,6 @@ export default function Home({ landing, imgList }) {
                 layout="fill"
                 objectFit="contain"
               />
-              {/* <Image
-                src="/static/images/landing/sensorData.png"
-                width={350} height={175}
-              /> */}
             </div>
           </div>
           <div className={styles.concept}>

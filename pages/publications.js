@@ -1,13 +1,12 @@
 import { PageSEO } from '@/components/SEO'
 import Publication from '@/components/Publication'
-
-import publicationData from '@/data/publicationData'
-
-import styles from '@/css/pages/publications.module.css'
 import { H2, H3 } from '@/components/MDXComponents'
 
-// const publicationDataSorted = Object.values(publicationData).sort((a, b) => b.year - a.year)
-const publicationDataSorted = Object.values(publicationData)
+import publicationData from '@/data/publicationData'
+import styles from '@/css/pages/publications.module.css'
+
+
+const publicationDataSorted = Object.values(publicationData).sort((a, b) => b.year - a.year)
 
 const LAST = publicationDataSorted[0].year
 const FIRST = publicationDataSorted[publicationDataSorted.length - 1].year
