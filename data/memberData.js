@@ -232,7 +232,7 @@ const memberData = {
     github: 'https://github.com/highjun10170',
     homepage: 'https://highjun10170.github.io/',
     image: '/static/images/members/SangjunPark.jpg',
-    research_interests: ['Causal Inference'],
+    research_interests: ['Causal Inference for Mobile Data', 'Data Quality Control'],
   },
   YunjoHan: {
     name: 'Yunjo Han',
