@@ -28,8 +28,8 @@ export const H4 = ({ children }) => (
 )
 export const Li = ({ children }) => <li className={styles.li}>{children}</li>
 
-export const P =  ({ children }) => <p className={styles.p}>{children}</p>
-export const Wrapper  =({ components, ...rest }) => {
+export const P = ({ children }) => <p className={styles.p}>{children}</p>
+export const Wrapper = ({ components, ...rest }) => {
   return <div className={styles.wrapper} {...rest} />
 }
 export const Hr = ({ children }) => <hr className={styles.hr} />
@@ -61,7 +61,6 @@ export const Link = ({ href, ...rest }) => {
     />
   )
 }
-
 
 export const MDXComponents = {
   img: Image,

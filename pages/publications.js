@@ -5,7 +5,6 @@ import { H2, H3 } from '@/components/MDXComponents'
 import publicationData from '@/data/publicationData'
 import styles from '@/css/pages/publications.module.css'
 
-
 const publicationDataSorted = Object.values(publicationData).sort((a, b) => b.year - a.year)
 
 const LAST = publicationDataSorted[0].year

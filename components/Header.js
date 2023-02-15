@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import {Link} from './MDXComponents'
+import { Link } from './MDXComponents'
 
 import headerNavLinks from '@/data/headerNavLinks'
 import Menu from '@/data/Icons/menu.svg'

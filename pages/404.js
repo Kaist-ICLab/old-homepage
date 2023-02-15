@@ -1,5 +1,5 @@
 import { PageSEO } from '@/components/SEO'
-import {Link} from '@/components/MDXComponents'
+import { Link } from '@/components/MDXComponents'
 
 import siteMetadata from '@/data/siteMetadata'
 import styles from '@/css/pages/404.module.css'

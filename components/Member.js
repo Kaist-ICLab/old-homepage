@@ -1,4 +1,4 @@
-import {Image} from './MDXComponents'
+import { Image } from './MDXComponents'
 import ContactIcon from './ContactIcon'
 
 import styles from '@/css/components/Member.module.css'
@@ -9,7 +9,7 @@ export default function Member({ member }) {
       <div className={styles.image_n_contact}>
         <div className={styles.image_wrapper}>
           {/* <Image src={member.image} alt={member.name} layout="fill" object="fit" /> Changed for Image Optimization*/}
-          <Image src={member.image} alt={member.name} width={180} height={200}/>
+          <Image src={member.image} alt={member.name} width={180} height={200} />
         </div>
         <div className={styles.contacts}>
           {member.homepage && member.homepage !== null ? (

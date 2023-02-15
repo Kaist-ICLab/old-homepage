@@ -1,4 +1,4 @@
-import {Image, Link} from './MDXComponents'
+import { Image, Link } from './MDXComponents'
 import styles from '@/css/components/ProjectCard.module.css'
 
 const ProjectCard = ({ project: project }) => (

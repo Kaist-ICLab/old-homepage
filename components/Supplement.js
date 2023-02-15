@@ -1,4 +1,4 @@
-import {Link} from './MDXComponents'
+import { Link } from './MDXComponents'
 
 import Code from '@/data/Icons/github.svg'
 import Video from '@/data/Icons/youtube.svg'

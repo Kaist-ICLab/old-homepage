@@ -1,5 +1,5 @@
 import styles from '@/css/components/ParticipatedStudent.module.css'
-import {Image} from './MDXComponents'
+import { Image } from './MDXComponents'
 import ContactIcon from './ContactIcon'
 
 export default function ParticipatedStudent({ member }) {

@@ -10,8 +10,9 @@ import Alumni from '@/components/Alumni'
 const programs = ['Director', 'Postdoc', 'PhD Program', 'Master Program']
 
 const currentMembers = Object.values(memberData).filter((elem) => !elem.isAlumni)
-const alumnis = Object.values(memberData).filter((elem) => 
-  elem.isAlumni | elem.program.length > 1 )
+const alumnis = Object.values(memberData).filter(
+  (elem) => elem.isAlumni | (elem.program.length > 1)
+)
 
 export default function Members() {
   return (

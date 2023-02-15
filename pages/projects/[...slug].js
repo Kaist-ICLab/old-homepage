@@ -3,11 +3,9 @@ import { getMDXComponent } from 'mdx-bundler/client'
 
 import { formatSlug, getFileBySlug, getFiles } from '@/lib/mdx'
 
-import Image from '@/components/Image'
-import Link from '@/components/Link'
 import Publication from '@/components/Publication'
 import ParticipatedStudent from '@/components/ParticipatedStudent'
-import { H2, H3, MDXComponents } from '@/components/MDXComponents'
+import { Image, Link, H2, H3, MDXComponents } from '@/components/MDXComponents'
 
 import publicationData from '@/data/publicationData'
 import memberData from '@/data/memberData'
@@ -17,7 +15,7 @@ import Prev from '@/data/Icons/chevron-left.svg'
 import styles from '@/css/pages/projectdetail.module.css'
 
 export async function getStaticPaths() {
-  const posts = getFiles('Projects')
+  const posts = getFiles('projects')
   return {
     paths: posts.map((p) => ({
       params: {
@@ -29,7 +27,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const post = await getFileBySlug('Projects', params.slug.join('/'))
+  const post = await getFileBySlug('projects', params.slug.join('/'))
   return { props: { post } }
 }
 
