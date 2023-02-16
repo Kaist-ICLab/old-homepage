@@ -51,6 +51,7 @@ export default function Home({ landing, imgList }) {
             </div>
             <div className={styles.detail_image}>
               <Image
+                alt="Description of Sensor Data"
                 src="/static/images/landing/sensorData.png"
                 layout="fill"
                 objectFit="contain"
@@ -70,7 +71,12 @@ export default function Home({ landing, imgList }) {
               </ul>
             </div>
             <div className={styles.detail_image}>
-              <Image src="/static/images/landing/analyze.png" layout="fill" objectFit="contain" />
+              <Image
+                alt="Description of Analyze"
+                src="/static/images/landing/analyze.png"
+                layout="fill"
+                objectFit="contain"
+              />
               {/* <Image src="/static/images/landing/analyze.png" width={350} height={175}/> */}
             </div>
           </div>
@@ -88,6 +94,7 @@ export default function Home({ landing, imgList }) {
             </div>
             <div className={styles.detail_image}>
               <Image
+                alt="Details of Service Act"
                 src="/static/images/landing/serviceAct.png"
                 layout="fill"
                 objectFit="contain"

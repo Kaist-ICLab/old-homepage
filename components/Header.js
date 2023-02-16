@@ -1,12 +1,9 @@
 import { useState } from 'react'
 
-import { Link } from './MDXComponents'
+import { Image, Link } from './MDXComponents'
 
 import headerNavLinks from '@/data/headerNavLinks'
 import Menu from '@/data/Icons/menu.svg'
-
-import Logo from '@/data/logo.svg'
-import Text from '@/data/text.svg'
 
 import styles from '@/css/components/Header.module.css'
 
@@ -32,8 +29,22 @@ export default function Header() {
       <div className={styles.header_wrapper}>
         <header className={styles.header}>
           <Link href="/" className={styles.logo}>
-            <Logo />
-            <Text />
+            <Image
+              alt="logo image"
+              key={'logo'}
+              src={'/static/images/logo.png'}
+              layout="fixed"
+              width="140px"
+              height="40px"
+            />
+            <Image
+              alt="text along with logo which is 'Interactive Computing Lab'"
+              key={'text'}
+              src={'/static/images/text.png'}
+              layout="fixed"
+              width="200px"
+              height="40px"
+            />
           </Link>
           <button
             type="button"

@@ -17,6 +17,7 @@ const alumnis = Object.values(memberData).filter(
 export default function Members() {
   return (
     <div className={styles.container}>
+      <PageSEO title={`Members`} description={'Members of Interactive Computing Lab'} />
       <H2>Members</H2>
       <div className={styles.member_list}>
         {programs.map((program) => {

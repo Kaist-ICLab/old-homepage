@@ -1,3 +1,4 @@
+const { PHASE_PRODUCTION_BUILD, PHASE_EXPORT } = require("next/constants");
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
@@ -52,43 +53,52 @@ const securityHeaders = [
   },
 ]
 
-module.exports = withBundleAnalyzer({
-  // assetPrefix: "https://highjun10170.imgix.net/",
-  // basePath: basePath,
-  reactStrictMode: true,
-  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-  eslint: {
-    dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
-  },
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: securityHeaders,
-      },
-    ]
-  },
-  webpack: (config, { dev, isServer }) => {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ['@svgr/webpack'],
-    })
 
-    if (!dev && !isServer) {
-      // Replace React with Preact only in client production build
-      Object.assign(config.resolve.alias, {
-        'react/jsx-runtime.js': 'preact/compat/jsx-runtime',
-        react: 'preact/compat',
-        'react-dom/test-utils': 'preact/test-utils',
-        'react-dom': 'preact/compat',
+module.exports = (phase, {defaultConfig}) =>{
+  const baseConfig = {
+    reactStrictMode: true,
+    pageExtensions: ['js', 'jsx', 'md', 'mdx'],
+    eslint: {
+      dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
+    },
+    async headers() {
+      return [
+        {
+          source: '/(.*)',
+          headers: securityHeaders,
+        },
+      ]
+    },
+    webpack: (config, { dev, isServer }) => {
+      config.module.rules.push({
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
       })
-    }
+  
+      if (!dev && !isServer) {
+        // Replace React with Preact only in client production build
+        Object.assign(config.resolve.alias, {
+          'react/jsx-runtime.js': 'preact/compat/jsx-runtime',
+          react: 'preact/compat',
+          'react-dom/test-utils': 'preact/test-utils',
+          'react-dom': 'preact/compat',
+        })
+      }
+  
+      return config
+    },
+  }
 
-    return config
-  },
-  images: {
-    deviceSizes: [180, 640, 750, 828, 900, 1080, 1200, 1920, 2048, 3840],
-    loader: 'imgix',
-    path: 'https://ickaist.imgix.net/',
-  },
-})
+  if (phase === PHASE_PRODUCTION_BUILD | phase === PHASE_EXPORT) {
+    console.log("This is Deployment Server!")
+    baseConfig['images'] = {
+      deviceSizes: [180, 640, 750, 828, 900, 1080, 1200, 1920, 2048, 3840],
+      loader: 'imgix',
+      path: 'https://ickaist.imgix.net/',
+    }
+  }
+
+  console.log(baseConfig)
+
+  return withBundleAnalyzer(baseConfig)
+}

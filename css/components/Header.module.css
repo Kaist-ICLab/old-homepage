@@ -41,11 +41,11 @@
   gap: 10px;
 }
 
-.logo svg:nth-child(2) {
+.logo *:nth-child(2) {
   visibility: collapse;
 }
 @media screen and (min-width: 600px) {
-  .logo svg:nth-child(2) {
+  .logo *:nth-child(2) {
     visibility: visible;
   }
 }
