@@ -37,14 +37,16 @@ export default function Header() {
               width="140px"
               height="40px"
             />
-            <Image
-              alt="text along with logo which is 'Interactive Computing Lab'"
-              key={'text'}
-              src={'/static/images/text.png'}
-              layout="fixed"
-              width="200px"
-              height="40px"
-            />
+            <div>
+              <Image
+                alt="text along with logo which is 'Interactive Computing Lab'"
+                key={'text'}
+                src={'/static/images/text.png'}
+                layout="fixed"
+                width="200px"
+                height="40px"
+              />
+            </div>
           </Link>
           <button
             type="button"

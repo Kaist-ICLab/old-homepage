@@ -37,15 +37,16 @@
   display: flex;
   flex-direction: row;
   height: 42px;
-
   gap: 10px;
 }
 
 .logo *:nth-child(2) {
+  display: none;
   visibility: collapse;
 }
 @media screen and (min-width: 600px) {
   .logo *:nth-child(2) {
+    display: block;
     visibility: visible;
   }
 }
