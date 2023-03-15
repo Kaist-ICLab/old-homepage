@@ -291,7 +291,7 @@ const memberData = {
       ['MS',  '2023.03 ~'],
     ],
     email: 'hyehye@kaist.ac.kr',
-    homepage: 'hyesoopark.com',
+    homepage: 'https://hyesoopark.com',
     github: 'https://github.com/HyeSPark',
     scholar: 'https://scholar.google.com/citations?user=RI56iIAAAAAJ&hl=ko',
     image: '/static/images/members/HyeSooPark.jpg',
