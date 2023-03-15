@@ -256,7 +256,7 @@ const memberData = {
     email: 'th.lee@kaist.ac.kr',
     github: 'https://github.com/taehooonlee',
     scholar: 'https://scholar.google.co.kr/citations?user=mA8QOeoAAAAJ&hl=ko',
-    image: '/static/images/members/YunjoHan.jpg',
+    image: '/static/images/members/TaeHoonLee.jpg',
     research_interests: ['Digital Twin', 'Affective Computing', 'IoT Sensor Data'],
   },
   EunkiJung: {
@@ -268,7 +268,7 @@ const memberData = {
     ],
     email: 'eunki@kaist.ac.kr',
     github: 'https://github.com/eunkiyomi',
-    image: '/static/images/members/YunjoHan.jpg',
+    image: '/static/images/members/EunkiJung.jpg',
     research_interests: ['Human-Computer Interaction', 'Computer-Mediated Communication'],
   },
   HeejeongLim: {
@@ -280,7 +280,7 @@ const memberData = {
     ],
     email: 'hj.lim@kaist.ac.kr',
     github: 'https://github.com/Heej99',
-    image: '/static/images/members/YunjoHan.jpg',
+    image: '/static/images/members/HeejeongLim.jpg',
     research_interests: ['Sensor Data Science', 'IoT sensor data'],
   },
   HyeSooPark: {
@@ -294,7 +294,7 @@ const memberData = {
     homepage: 'hyesoopark.com',
     github: 'https://github.com/HyeSPark',
     scholar: 'https://scholar.google.com/citations?user=RI56iIAAAAAJ&hl=ko',
-    image: '/static/images/members/YunjoHan.jpg',
+    image: '/static/images/members/HyeSooPark.jpg',
     research_interests: ['Human-Computer Interaction', 'Behavioral Change Support System', 'Assistive Technologies'],
   },
 
