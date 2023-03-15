@@ -246,6 +246,57 @@ const memberData = {
     image: '/static/images/members/YunjoHan.jpg',
     research_interests: ['Affective Computing', 'Mobile Sensing'],
   },
+  TaeHoonLee: {
+    name: 'TaeHoon Lee',
+    isAlumni: false,
+    current_position: 'PhD Program',
+    program: [
+      ['PhD',  '2023.03 ~'],
+    ],
+    email: 'th.lee@kaist.ac.kr',
+    github: 'https://github.com/taehooonlee',
+    scholar: 'https://scholar.google.co.kr/citations?user=mA8QOeoAAAAJ&hl=ko',
+    image: '/static/images/members/YunjoHan.jpg',
+    research_interests: ['Digital Twin', 'Affective Computing', 'IoT Sensor Data'],
+  },
+  EunkiJung: {
+    name: 'Eunki Jung',
+    isAlumni: false,
+    current_position: 'Master Program',
+    program: [
+      ['MS',  '2023.03 ~'],
+    ],
+    email: 'eunki@kaist.ac.kr',
+    github: 'https://github.com/eunkiyomi',
+    image: '/static/images/members/YunjoHan.jpg',
+    research_interests: ['Human-Computer Interaction', 'Computer-Mediated Communication'],
+  },
+  HeejeongLim: {
+    name: 'Heejeong Lim',
+    isAlumni: false,
+    current_position: 'Master Program',
+    program: [
+      ['MS',  '2023.03 ~'],
+    ],
+    email: 'hj.lim@kaist.ac.kr',
+    github: 'https://github.com/Heej99',
+    image: '/static/images/members/YunjoHan.jpg',
+    research_interests: ['Sensor Data Science', 'IoT sensor data'],
+  },
+  HyeSooPark: {
+    name: 'HyeSoo Park',
+    isAlumni: false,
+    current_position: 'Master Program',
+    program: [
+      ['MS',  '2023.03 ~'],
+    ],
+    email: 'hyehye@kaist.ac.kr',
+    homepage: 'hyesoopark.com',
+    github: 'https://github.com/HyeSPark',
+    scholar: 'https://scholar.google.com/citations?user=RI56iIAAAAAJ&hl=ko',
+    image: '/static/images/members/YunjoHan.jpg',
+    research_interests: ['Human-Computer Interaction', 'Behavioral Change Support System', 'Assistive Technologies'],
+  },
 
   // From Here Alumni
   YongShinKim: {
