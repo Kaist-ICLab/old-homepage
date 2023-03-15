@@ -1,7 +1,7 @@
 ---
 title: 'Data-intensive Future Smart Home and Proactive Health Service Design Research'
 publications: [shin2022smarthome]
-participated: [WoohyeokChoi, HyunsooLee, YouwonShin, YoungjiKoh, JieunLim]
+participated: [WoohyeokChoi, HyunsooLee, YouwonShin, YoungjiKoh, JieunLim, EunkiJung, HeejeongLim]
 image: '/static/images/projects/Smarthome.jpg'
 status: 'Ongoing'
 ---
