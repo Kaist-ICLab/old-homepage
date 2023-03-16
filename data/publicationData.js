@@ -1,27 +1,16 @@
 const publicationData = {
-  shin2022smarthome: {
-    year: 2022,
+  choi2023loss: {
+    year: 2023,
     title: 
-    "스마트홈 IoT 기술 및 프라이버시 최신 연구 동향",
-    authors: ["신유원", "이현수","최우혁","김희평","정용","이의진"],
-    venue: "KCC",
-    full_venue: "2022년 한국컴퓨터종합학술대회(KCC) 논문집",
+    "Loss-Framed Adaptive Microcontingency Management for Preventing Prolonged Sedentariness: Development and Feasibility Study",
+    authors: ["Woohyeok Choi", "Uichin Lee"],
+    venue: "JMU",
+    full_venue: "JMIR mHealth and uHealth",
     published: true,
-    pdf: "https://drive.google.com/file/d/1ukmHubtxPlXMxPiux0HqWq1Xpj2UY6Pd/view?usp=share_link",
-    slide: "https://drive.google.com/file/d/15yI_Gn8Xj7m02bCk0AzfGFwPnbILIK5G/view?usp=share_link"
+    pdf: "https://mhealth.jmir.org/2023/1/e41660"
   },
-  lee2022towarddynamic: {
-    year: 2022,
-    title:
-      'Toward Dynamic Consent for Privacy-Aware Pervasive Health and Well-being: A scoping review and research directions',
-    authors: ['Hyunsoo Lee', 'Uichin Lee'],
-    venue: 'IEEE PerCom',
-    full_venue: 'IEEE International Conference on Pervasive Computing and Communications, 2022',
-    published: false,
-    pdf: 'https://drive.google.com/file/d/1Bjw2bbtvukHLmL5YGSLkNDnlEWBeu_h1/view?usp=sharing',
-  },
-  lee2022toward: {
-    year: 2022,
+  lee2023toward: {
+    year: 2023,
     title:
       'Toward Data-Driven Digital Therapeutics Analytics: Literature Review and Research Directions',
     authors: [
@@ -36,25 +25,192 @@ const publicationData = {
     ],
     venue: 'IEEE',
     full_venue: 'IEEE/CAA Journal of Automatica Sinica',
-    published: false,
+    published: true,
     pdf: 'https://arxiv.org/pdf/2205.01851.pdf',
+  },
+  shin2022smarthome: {
+    year: 2022,
+    title: "스마트홈 IoT 기술 및 프라이버시 최신 연구 동향",
+    authors: ["신유원", "이현수","최우혁","김희평","정용","이의진"],
+    venue: "KCC",
+    full_venue: "2022년 한국컴퓨터종합학술대회(KCC) 논문집",
+    published: true,
+    pdf: "https://drive.google.com/file/d/1ukmHubtxPlXMxPiux0HqWq1Xpj2UY6Pd/view?usp=share_link",
+    slide: "https://drive.google.com/file/d/15yI_Gn8Xj7m02bCk0AzfGFwPnbILIK5G/view?usp=share_link"
+  },
+  zitouni2022lstm: {
+    year: 2022,
+    title:
+      'LSTM-Modeling of Emotion Recognition Using Peripheral Physiological Signals in Naturalistic Conversations',
+    authors: [
+      "M. Sami Zitouni",
+      "Cheul Young Park",
+      "Uichin Lee", 
+      "Leontios J. Hadjileontiadis",
+      "Ahsan Khandoker"
+    ],
+    venue: 'IEEE',
+    full_venue: 'IEEE Journal of Biomedical and Health Informatics',
+    published: true,
+    pdf: 'https://ieeexplore.ieee.org/abstract/document/9965601',
+  },
+  lee2022trends: {
+    year: 2022,
+    title:
+      'Trends in smart helmets with multimodal sensing for health and safety: scoping review',
+    authors: [
+      "Peter Lee",
+      "Heepyung Kim",
+      "M. Sami Zitouni",
+      "Ahsan Khandoker",
+      "Herbert F. Jelinek",
+      "Leontios J. Hadjileontiadis",
+      "Uichin Lee",
+      "Yong Jeong"
+    ],
+    venue: 'JMU',
+    full_venue: 'JMIR mHealth and uHealth',
+    published: true,
+    pdf: 'https://mhealth.jmir.org/2022/11/e40797',
   },
   choi2022you: {
     year: 2022,
     title:
-      'You Are Not Alone: How Trending Stress Topics Brought #Awareness and #Resonance on Campus',
+      'You Are Not Alone: How Trending Stress Topics Brought \#Awareness and \#Resonance on Campus',
     authors: [
-      'Ryuhaerang Choi',
-      'Chanwoo Yun',
-      'Hyunsung Cho',
-      'Hwajung Hong',
-      'Uichin Lee',
-      'Sung-Ju Lee',
+      "Ryuhaerang Choi",
+      "Chanwoo Yun",
+      "Hyunsung Cho",
+      "Hwajung Hong",
+      "Uichin Lee",
+      "Sung-ju Lee"
     ],
     venue: 'CSCW',
-    published: false,
-    full_venue:
-      "Proceedings of the ACM on Human-Computer Interaction (PACM-HCI) / CSCW, Volume 6, CSCW2, November'22",
+    full_venue: 'Proceedings of the ACM on Human-Computer Interaction',
+    published: true,
+    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3555612',
+  },
+  lee2022towarddynamic: {
+    year: 2022,
+    title:
+      'Toward Dynamic Consent for Privacy-Aware Pervasive Health and Well-being: A scoping review and research directions',
+    authors: ['Hyunsoo Lee', 'Uichin Lee'],
+    venue: 'IEEE PerCom',
+    full_venue: 'IEEE International Conference on Pervasive Computing and Communications, 2022',
+    published: true,
+    pdf: 'https://ieeexplore.ieee.org/abstract/document/9944071',
+  },
+  lee2022lv: {
+    year: 2022,
+    title:
+      'LV-Linker: Supporting Fine-grained User Interaction Analyses by Linking Smartphone Log and Recorded Video Data',
+    authors: [
+      "Hansoo Lee",
+      "Sangwook Lee",
+      "Youngji Koh",
+      "Uichin Lee"
+    ],
+    venue: 'UIST',
+    full_venue: 'Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology',
+    published: true,
+    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3526114.3558714',
+  },
+  lee2022method: {
+    year: 2022,
+    title:
+      'Method and apparatus for context-adaptive personalized psychological state sampling for wearable device',
+    authors: [
+      "Uichin Lee",
+      "Cheulyoung Park",
+      "Soowon Kang",
+      "Narae Cha"
+    ],
+    venue: 'Google Patents',
+    full_venue: 'Google Patents',
+    published: true,
+    pdf: 'https://patents.google.com/patent/US11439334B2/en',
+  },
+  lee2022method: {
+    year: 2022,
+    title:
+      'Method and system for distraction management of context-aware rule-based smart device',
+    authors: [
+      "Uichin Lee",
+      "Inyeop Kim"
+    ],
+    venue: 'Google Patents',
+    full_venue: 'Google Patents',
+    published: true,
+    pdf: 'https://patents.google.com/patent/US11290590B2/en',
+  },
+  choi2022facilitating: {
+    year: 2022,
+    title:
+      'Facilitating instant interactions for stressful experiences sharing and peer support',
+    authors: [
+      "Ryuhaerang Choi",
+      "Chanwoo Yun",
+      "Hyunsung Cho",
+      "Hwajung Hong",
+      "Uichin Lee",
+      "Sung-ju Lee"
+    ],
+    venue: 'MobiSys',
+    full_venue: 'Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services',
+    published: true,
+    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3498361.3538672',
+  },
+  lee2022beyond: {
+    year: 2022,
+    title:
+      'Beyond pathogen filtration: Possibility of smart masks as wearable devices for personal and group health and safety management',
+    authors: [
+      "Peter Lee",
+      "Heepyung Kim",
+      "Yongshin Kim",
+      "Woohyeok Choi",
+      "M. Sami Zitouni",
+      "Ahsan Khandoker",
+      "Herbert F. Jelinek",
+      "Leontios Hadjileontiadis",
+      "Uichin Lee",
+      "Yong Jeong"
+    ],
+    venue: 'JMU',
+    full_venue: 'JMIR mHealth and uHealth',
+    published: true,
+    pdf: 'https://mhealth.jmir.org/2022/6/e38614',
+  },
+  lee2022lv: {
+    year: 2022,
+    title:
+      'LV-Linker: Supporting Linked Exploration of Phone Usage Log Data and Screen Video Data',
+    authors: [
+      "Hansoo Lee",
+      "Sangwook Lee",
+      "Youngji Koh",
+      "Uichin Lee"
+    ],
+    venue: 'arXiv',
+    full_venue: 'arXiv preprint arXiv:2205.14641',
+    published: true,
+    pdf: 'https://arxiv.org/abs/2205.14641',
+  },
+  salman2022darcas: {
+    year: 2022,
+    title:
+      'DARCAS: Dynamic Association Regulator Considering Airtime Over SDN-Enabled Framework',
+    authors: [
+      "Muhammad Salman",
+      "Jin-ho Son",
+      "Dong-wan Choi",
+      "Uichin Lee",
+      "Youngtae Noh"
+    ],
+    venue: 'IEEE',
+    full_venue: 'IEEE Internet of Things Journal',
+    published: true,
+    pdf: 'https://ieeexplore.ieee.org/abstract/document/9777768',
   },
   kim2022social: {
     year: 2022,
@@ -71,7 +227,8 @@ const publicationData = {
     venue: 'CSCW',
     full_venue:
       "Proceedings of the ACM on Human-Computer Interaction (PACM-HCI) / CSCW, Volume 6, CSCW2, November'22",
-    published: false,
+    published: true,
+    pdf: "https://dl.acm.org/doi/pdf/10.1145/3555162"
   },
   lee2022adverse: {
     year: 2022,
@@ -139,7 +296,7 @@ const publicationData = {
   },
   zitouni2022privacy: {
     year: 2022,
-    title: 'Privacy-Aware Affective State Recognition from Visual Data',
+    title: 'Privacy Aware Affective State Recognition from Visual Data',
     authors: [
       'M Sami Zitouni',
       'Peter Lee',
@@ -173,6 +330,49 @@ const publicationData = {
     venue: 'JAMA',
     full_venue: 'JAMA Network Open 2022;5(2):e220214',
     pdf: 'https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2789277',
+  },
+  kim2021poster: {
+    year: 2021,
+    title:
+      'Poster: Exploring User Contexts and Needs for Context-aware Smartphone Distraction Management',
+    authors: [
+      'Inyeop Kim',
+      'Hwarang Goh',
+      'Youngtae Noh',
+      'Uichin Lee'
+    ],
+    venue: 'Ubicomp',
+    full_venue: 'Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers',
+    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3460418.3479307',
+  },
+  kang2021poster: {
+    year: 2021,
+    title:
+      'Poster: Toward Context-aware Proactive Conversation for Smart Speakerst',
+    authors: [
+      'Soowon Kang',
+      'Heepyung Kim',
+      'Youngtae Noh',
+      'Uichin Lee'
+    ],
+    venue: 'Ubicomp',
+    full_venue: 'Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers',
+    pdf: 'https://dl.acm.org/doi/abs/10.1145/3460418.3479306',
+  },
+  kim2021causal: {
+    year: 2021,
+    title:
+      'Causal Analysis of Observational Mobile Sensor Data: A Comparative Study',
+    authors: [
+      'Yongshin Kim',
+      'Panyu Zhang',
+      'Gyuwon Jung',
+      'Heepyung Kim', 
+      'Uichin Lee'
+    ],
+    venue: 'Ubicomp',
+    full_venue: '한국정보과학회 학술발표논문집',
+    pdf: 'https://yong-shin.github.io/assets/pdf/Causal%20Analysis%20of%20Observational%20Mobile%20Sensor%20Data_A%20Comparative%20Study.pdf',
   },
   kim2021cheersbot: {
     year: 2021,
@@ -282,6 +482,41 @@ const publicationData = {
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/3448089',
     slide: 'Ubicomp2022_Beneficial Neglect.pptx',
   },
+  samson2020asian: {
+    year: 2020,
+    title:
+      'Asian CHI symposium: HCI research from Asia and on Asian contexts and cultures',
+    authors: [
+      'Briane Paul V. Samson',
+      'Suleman Shahid',
+      'Akihiro Matsufuji',
+      'Chat Wacharamanotham',
+      'Toni-Jan Keith P. Monserrat',
+      'Keyur Sorathia',
+      'Masitah Ghazali',
+      'Shio Miyafuji',
+      'Nova Ahmed',
+      'Kazuyuki Fujita',
+      'A. B. M. Alim Al Islam',
+      'Eunice Sari',
+      'Murni Mahmud',
+      'Adi Tedjasaputra',
+      'Juho Kim',
+      'Uichin Lee',
+      'Thippaya Chintakovid',
+      'Sheng-Ming Wang',
+      'Zhengjie Liu',
+      'Xiangmin Fan',
+      'Ellen Yi-Luen Do',
+      'Yoshifumi Kitamura',
+      'Simon Tangi Perrault',
+      'Bing-Yu Chen'
+    ],
+    venue: 'CHI',
+    full_venue:
+      "Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems",
+    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3334480.3375068',
+  },
   kim2020understanding: {
     year: 2020,
     title:
@@ -362,7 +597,7 @@ const publicationData = {
   cha2020hello: {
     year: 2020,
     title:
-      'Hello there! Is now a good time to talk?: Understanding Opportune Moments for Proactive Conversational Interaction with Smart Speakers',
+      'Hello there! Is now a good time to talk?: Opportune Moments for Proactive Conversational Interaction with Smart Speakers',
     authors: [
       'Narae Cha',
       'Auk Kim',
@@ -472,6 +707,13 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2020 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 4, Issue 1, March 2020',
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/3381009',
+  },
+  lee2020objectively: {
+    year: 2020,
+    title:
+      'Objectively-Measured Smartphone Usage, Sleep Quality, and Physical Activity Among Chinese Adolescents and Young Adults',
+    authors: ['Peter H Lee', 'Andy C. Y. Tse', 'Cynthia S. T. Wu', 'Yim Wah Mak', 'Uichin Lee'],
+    pdf: 'https://assets.researchsquare.com/files/rs-30312/v1/bc9374a5-9e0b-46a2-a799-bcef7c26a785.pdf?c=1631841255',
   },
   lee2019maximizing: {
     year: 2019,

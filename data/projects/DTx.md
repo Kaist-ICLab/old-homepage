@@ -1,6 +1,6 @@
 ---
 title: Data-Driven Digital Therapeutics (DTx) Analytics Platform Research
-publications: [lee2022toward, choi2019multi]
+publications: [lee2023toward, choi2019multi]
 participated: [GyuwonJung, SangjunPark, PanyuZhang]
 image: '/static/images/projects/DTx.png'
 status: 'Ongoing'
