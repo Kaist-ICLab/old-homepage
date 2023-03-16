@@ -9,7 +9,7 @@ import Syllabus from '@/data/Icons/syllabus.svg'
 import styles from '@/css/components/Supplement.module.css'
 
 const icons = {
-  pdf: [Pdf, 'rgba(220, 53, 69, 0.9)', 'Pdf'],
+  pdf: [Pdf, 'rgba(220, 53, 69, 0.9)', 'PDF'],
   code: [Code, 'rgba(0, 0, 0, 0.9)', 'Code'],
   slide: [Slide, 'rgba(244, 180, 0, 0.85)', 'Slide'],
   video: [Video, 'rgba(255, 0, 0, 0.8)', 'Video'],

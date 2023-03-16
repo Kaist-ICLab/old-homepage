@@ -31,7 +31,7 @@ export default function Member({ member }) {
         <div className={styles.position}>{member.current_position}</div>
         {member.research_interests && member.research_interests.length !== 0 ? (
           <div className={styles.research_interests}>
-            <div className={styles.ri_title}>Researh Interest</div>
+            <div className={styles.ri_title}>Research Interest</div>
             <ul className={styles.ri_list}>
               {member.research_interests.map((item) => (
                 <li key={item} className={styles.ri_elem}>
