@@ -1,4 +1,40 @@
 const publicationData = {
+  park2023charlie: {
+    year: 2023,
+    title:
+      'Charlie and the Semi-Automated Factory: Data-Driven Operator Behavior and Performance Modeling for Human-Machine Collaborative Systems',
+    authors: ['Eunji Park', 'Yugyeong Jung', 'Inyeop Kim', 'Uichin Lee'],
+    venue: 'CHI',
+    full_venue: 'CHI Conference on Human Factors in Computing Systems',
+    published: false
+  },
+  park2023quickref: {
+    year: 2023,
+    title:
+      'QuickRef: Should I Read Cited Papers for Understanding This Paper?',
+    authors: ['Sangjun Park', 'Chanhee Lee', 'Uichin Lee'],
+    venue: 'CHI',
+    full_venue: 'CHI Conference on Human Factors in Computing Systems',
+    published: false
+  },
+  jung2023enjoy: {
+    year: 2023,
+    title:
+      'Enjoy, but Moderately!”: Designing a Social Companion Robot for Social Engagement and Behavior Moderation in Solitary Drinking Context',
+    authors: ['Yugyeong Jung', 'Gyuwon Jung', 'Sooyeon Jeong', 'Chaewon Kim', 'Woontack Woo', 'Hwajung Hong', 'Uichin Lee'],
+    venue: 'CSCW',
+    full_venue: 'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
+    published: false
+  },
+  han2023stressbal: {
+    year: 2023,
+    title:
+      'StressBal: Personalized Just-in-time Stress Intervention with Wearable and Phone Sensing',
+    authors: ['Yunjo Han', 'Hyemin Lee', 'Kobiljon Toshnazarov', 'Youngtae Noh', 'Uichin Lee'],
+    venue: 'Ubicomp',
+    full_venue: 'Proceedings of the 2022 ACM International Joint Conference on Pervasive and Ubiquitous Computing',
+    published: false
+  },
   choi2023loss: {
     year: 2023,
     title: 
