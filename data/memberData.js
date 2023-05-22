@@ -144,7 +144,7 @@ const memberData = {
     image: '/static/images/members/YoungjiKoh.jpg',
     scholar: 'https://scholar.google.com/citations?user=9YItZ30AAAAJ&hl=en',
     github: 'https://github.com/youngji-koh',
-    research_interests: ['Mobile Sensing', 'Mental Health', 'Voice User Interaction'],
+    research_interests: ['Mental Health Tracking & Intervention', 'Voice Interaction'],
   },
   YugyeongJung: {
     name: 'Yugyeong Jung',
