@@ -43,7 +43,7 @@ const publicationData = {
     title: 'Data Processing Pipeline of Short-Term Depression Detection with Large-Scale Dataset',
     authors: ['Yonggeon Lee', 'Youngtae Noh', 'Uichin Lee'],
     venue: 'BigComp',
-    full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)'
+    full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
     published: true,
     pdf: pdfDir + 'lee2023data2.pdf'
   },
