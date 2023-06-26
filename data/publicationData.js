@@ -74,7 +74,7 @@ const publicationData = {
     authors: ['Yugyeong Jung', 'Gyuwon Jung', 'Sooyeon Jeong', 'Chaewon Kim', 'Woontack Woo', 'Hwajung Hong', 'Uichin Lee'],
     venue: 'CSCW',
     full_venue: 'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
-    published: false
+    published: false,
   },
   han2023stressbal: {
     year: 2023,
@@ -552,7 +552,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'Ubicomp 2021 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 5, Issue 1, March 2021',
-    pdf: pdf + 'kim2021beneficial.pdf',
+    pdf: pdfDir + 'kim2021beneficial.pdf',
     slide: 'Ubicomp2022_Beneficial Neglect.pptx',
   },
   samson2020asian: {
