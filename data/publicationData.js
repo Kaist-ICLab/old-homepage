@@ -9,7 +9,7 @@ const publicationData = {
     full_venue:
     'ACM Ubicomp 2023 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 7, Issue 2, June 2023',
     published: true,
-    pdf: pdfDir + 'park2023understanding.pdf'
+    pdf: pdfDir + 'park2023understanding.pdf',
   },
   kang2023k: {
     year: 2023,
@@ -18,7 +18,7 @@ const publicationData = {
     venue: 'Scientific Data',
     full_venue: 'Scientific Data Volume 10, No. 1, 2023',
     published: true,
-    pdf: pdfDir + 'kang2023k.pdf'
+    pdf: pdfDir + 'kang2023k.pdf',
   },
   jung2023causal: {
     year: 2023,
@@ -27,7 +27,7 @@ const publicationData = {
     venue: 'BigComp',
     full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
     published: true,
-    pdf: pdfDir + 'jung2023causal.pdf'
+    pdf: pdfDir + 'jung2023causal.pdf',
   },
   lee2023data1: {
     year: 2023,
@@ -36,7 +36,7 @@ const publicationData = {
     venue: 'BigComp',
     full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
     published: true,
-    pdf: pdfDir + 'lee2023data1.pdf'
+    pdf: pdfDir + 'lee2023data1.pdf',
   },
   lee2023data2: {
     year: 2023,
@@ -45,7 +45,7 @@ const publicationData = {
     venue: 'BigComp',
     full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
     published: true,
-    pdf: pdfDir + 'lee2023data2.pdf'
+    pdf: pdfDir + 'lee2023data2.pdf',
   },
   park2023charlie: {
     year: 2023,
@@ -55,7 +55,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
     published: true,
-    pdf: pdfDir + 'park2023charlie.pdf'
+    pdf: pdfDir + 'park2023charlie.pdf',
   },
   park2023quickref: {
     year: 2023,
@@ -65,7 +65,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
     published: true,
-    pdf: pdfDir + 'park2023quickref.pdf'
+    pdf: pdfDir + 'park2023quickref.pdf',
   },
   jung2023enjoy: {
     year: 2023,
@@ -84,7 +84,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue: 'Proceedings of the 2022 ACM International Joint Conference on Pervasive and Ubiquitous Computing',
     published: true,
-    pdf: pdfDir + 'han2023stressbal.pdf'
+    pdf: pdfDir + 'han2023stressbal.pdf',
   },
   choi2023loss: {
     year: 2023,
@@ -94,7 +94,7 @@ const publicationData = {
     venue: "JMU",
     full_venue: "JMIR mHealth and uHealth",
     published: true,
-    pdf: pdfDir + 'choi2023loss.pdf'
+    pdf: pdfDir + 'choi2023loss.pdf',
   },
   lee2023toward: {
     year: 2023,
