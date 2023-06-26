@@ -1,3 +1,5 @@
+const pdfDir = "../static/papers/"
+
 const publicationData = {
   park2023charlie: {
     year: 2023,
@@ -821,7 +823,7 @@ const publicationData = {
     venue: 'AsianCHI',
     full_venue:
       "AsianHCI '19: Proceedings of Asian CHI Symposium 2019: Emerging HCI Research Collection, May 2019",
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3309700.3338446',
+    pdf: pdfDir + 'lee2019commitment.pdf',
   },
   shin2019slow: {
     year: 2019,
