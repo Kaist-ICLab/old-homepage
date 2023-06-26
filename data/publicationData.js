@@ -816,6 +816,11 @@ const publicationData = {
       'Proceedings of the 2019 CHI conference on human factors in computing systems, May 2019',
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/3290605.3300927',
   },
+  
+  //////////////
+  // HS start //
+  //////////////
+
   lee2019commitment: {
     year: 2019,
     title: 'Commitment devices in online behavior change support systems',
@@ -840,7 +845,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, May 2019',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3290605.3300843',
+    pdf: pdfDir + 'shin2019slow.pdf',
     video: 'https://www.youtube.com/watch?v=0iQ6hzU_ct0',
   },
   lee2019interaction: {
@@ -850,7 +855,7 @@ const publicationData = {
     venue: 'CHI Workshop',
     full_venue:
       'ACM CHI Workshop: Designing for Digital Wellbeing , Glasgow, Scotland UK, May 4, 2019',
-    pdf: 'https://drive.google.com/file/d/1bRyPijUkbyvqDCk8gkYreUkscAnbCJVp/view?usp=sharing',
+    pdf: pdfDir + 'lee2019interaction.pdf',
     slide:
       'https://docs.google.com/presentation/d/15tb5lJk-qdwgNB1mhjwRu8eXeOKuAfNL/edit?usp=sharing&ouid=106005907395814480996&rtpof=true&sd=true',
   },
@@ -870,7 +875,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       "CHI EA '19: Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems, May 2019",
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3290607.3312765',
+    pdf: pdfDir + 'oh2019wake.pdf',
   },
   kim2019goalkeeper: {
     year: 2019,
@@ -879,7 +884,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2019 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 3, Issue 1, Mar. 2019',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3314403',
+    pdf: pdfDir + 'kim2019goalkeeper.pdf',
   },
   kang2019fire: {
     year: 2019,
@@ -896,7 +901,7 @@ const publicationData = {
     venue: 'MobiCom',
     full_venue:
       "MobiCom '19: The 25th Annual International Conference on Mobile Computing and Networking, August 2019",
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3300061.3300128',
+    pdf: pdfDir + 'kang2019fire.pdf',
   },
   kim2018interrupting: {
     year: 2019,
@@ -906,7 +911,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2019 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 2, Issue 4, Dec. 2018',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3287053',
+    pdf: pdfDir + 'kim2018interrupting.pdf',
   },
   이의진2019긍정: {
     year: 2019,
@@ -914,8 +919,11 @@ const publicationData = {
     authors: ['이의진', '김재정'],
     venue: 'HCI Korea',
     full_venue: 'HCI Korea 2019, 2019.2.13-16',
-    pdf: 'https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE08008320&googleIPSandBox=false&mark=0&useDate=&ipRange=false&accessgl=Y&language=ko_KR&hasTopBanner=true',
+    pdf: pdfDir + '이의진2019긍정.pdf',
   },
+
+  // bookmark
+  
   kang2018understanding: {
     year: 2018,
     title: "Understanding Customers'Interests in the Wild",
@@ -1624,6 +1632,11 @@ const publicationData = {
     published: true,
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/2556288.2557366',
   },
+
+  /////////////////
+  // Emily start //
+  /////////////////
+
   baumer2014refusing: {
     year: 2014,
     title:
