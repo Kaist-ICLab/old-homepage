@@ -300,7 +300,7 @@ const publicationData = {
     full_venue:
       "Proceedings of the ACM on Human-Computer Interaction (PACM-HCI) / CSCW, Volume 6, CSCW2, November'22",
     published: true,
-    pdf: pdfDir + "kim2022social.pdf"
+    pdf: pdfDir + 'kim2022social.pdf',
   },
   lee2022adverse: {
     year: 2022,
@@ -308,7 +308,7 @@ const publicationData = {
     authors: ['Uichin Lee', 'Paul H. Lee'],
     venue: 'Frontiers Public Health',
     full_venue: 'Volume II, Frontiers Public Health, 09 August 2022 Sec. Digital Public Health',
-    pdf: "https://www.frontiersin.org/articles/10.3389/fpubh.2022.984398/full",
+    pdf: 'https://www.frontiersin.org/articles/10.3389/fpubh.2022.984398/full',
   },
   lee2021systematic: {
     year: 2022,
