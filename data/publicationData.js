@@ -308,7 +308,7 @@ const publicationData = {
     authors: ['Uichin Lee', 'Paul H. Lee'],
     venue: 'Frontiers Public Health',
     full_venue: 'Volume II, Frontiers Public Health, 09 August 2022 Sec. Digital Public Health',
-    pdf: pdfDir + 'lee2022adverse.pdf',
+    pdf: "https://www.frontiersin.org/articles/10.3389/fpubh.2022.984398/full",
   },
   lee2021systematic: {
     year: 2022,
@@ -513,6 +513,7 @@ const publicationData = {
     venue: 'Frontiers Public Health',
     full_venue:
       'Frontiers in Public Health (Digital Public Health Section), 18 March 2021 (to appear)',
+    // cannot download pdf file
     pdf: 'https://www.frontiersin.org/articles/10.3389/fpubh.2021.586615/full',
   },
   jung2021good: {
