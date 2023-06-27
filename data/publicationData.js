@@ -518,7 +518,7 @@ const publicationData = {
     full_venue:
       'Ubicomp 2021 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 5, Issue 1, March 2021',
     pdf: 'https://dl.acm.org/doi/pdf/10.1145/3448089',
-    slide: 'Ubicomp2022_Beneficial Neglect.pptx',
+    slide: 'Ubicomp2022_Beneficial Neglect.pptx', // page not found
   },
   samson2020asian: {
     year: 2020,
