@@ -308,7 +308,7 @@ const publicationData = {
     authors: ['Uichin Lee', 'Paul H. Lee'],
     venue: 'Frontiers Public Health',
     full_venue: 'Volume II, Frontiers Public Health, 09 August 2022 Sec. Digital Public Health',
-    pdf: 'https://www.frontiersin.org/articles/10.3389/fpubh.2022.984398/full',
+    pdf: pdfDir +  'lee2022adverse.pdf',
   },
   lee2021systematic: {
     year: 2022,
@@ -514,7 +514,7 @@ const publicationData = {
     full_venue:
       'Frontiers in Public Health (Digital Public Health Section), 18 March 2021 (to appear)',
     // cannot download pdf file
-    pdf: 'https://www.frontiersin.org/articles/10.3389/fpubh.2021.586615/full',
+    pdf: pdfDir + 'lee2021benefits.pdf',
   },
   jung2021good: {
     year: 2021,
@@ -552,7 +552,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'Ubicomp 2021 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 5, Issue 1, March 2021',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3448089',
+    pdf: pdfDir + 'kim2021beneficial.pdf',
     slide: 'Ubicomp2022_Beneficial Neglect.pptx', // page not found
   },
   samson2020asian: {
@@ -694,8 +694,7 @@ const publicationData = {
     authors: ['Gyuwon Jung', 'Hyunsoo Lee', 'Auk Kim', 'Uichin Lee'],
     venue: 'FrontPubHealth',
     full_venue: 'Frontiers in Public Health 2020',
-    // cannot download pdf file
-    pdf: 'https://www.frontiersin.org/articles/10.3389/fpubh.2020.00305/full',
+    pdf: pdfDir + 'jung2020too.pdf',
   },
   kim2020dashcam: {
     year: 2020,
