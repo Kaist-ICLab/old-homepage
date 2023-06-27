@@ -2276,7 +2276,7 @@ const publicationData = {
   lee2007enhanced: {
     authors: ['Kevin C. Lee', 'Jerome Haerri', 'Uichin Lee', 'Mario Gerla'],
     title:
-      'Standard integration of sensing and opportunistic diffusion for urban monitoring in vehicular sensor networks: The MobEyes architecture',
+      'Enhanced Perimeter Routing for Geographic Forwarding Protocols in Urban Vehicular Scenarios',
     full_venue: '2007 ieee globecom workshops',
     venue: 'IEEE',
     year: 2007,
