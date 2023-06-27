@@ -1,6 +1,52 @@
 const pdfDir = "../files/papers/"
 
 const publicationData = {
+  park2023understanding: {
+    year: 2023,
+    title: 'Understanding Disengagement in Just-in-Time Mobile Health Interventions',
+    authors: ['Joonyoung Park', 'Uichin Lee'],
+    venue: 'IMWUT',
+    full_venue:
+    'ACM Ubicomp 2023 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 7, Issue 2, June 2023',
+    published: true,
+    pdf: pdfDir + 'park2023understanding.pdf',
+  },
+  kang2023k: {
+    year: 2023,
+    title: 'K-EmoPhone: A Mobile and Wearable Dataset with In-Situ Emotion, Stress, and Attention Labels',
+    authors: ['Soowon Kang', 'Woohyeok Choi', 'CheulYoung Park', 'Narae Cha', 'Auk Kim', 'Ahsan Habib Khandoker', 'Leontios Hadjileontiadis', 'Heepyung Kim', 'Yong Jeong', 'Uichin Lee'],
+    venue: 'Scientific Data',
+    full_venue: 'Scientific Data Volume 10, No. 1, 2023',
+    published: true,
+    pdf: pdfDir + 'kang2023k.pdf',
+  },
+  jung2023causal: {
+    year: 2023,
+    title: 'Causal Analytic Process for Mobile Health Data',
+    authors: ['Gyuwon Jung', 'Sangjun Park', 'Uichin Lee', 'Eun-Yeol Ma', 'Heeyoung Kim'],
+    venue: 'BigComp',
+    full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
+    published: true,
+    pdf: pdfDir + 'jung2023causal.pdf',
+  },
+  lee2023data1: {
+    year: 2023,
+    title: 'Data-driven Digital Therapeutics Analytics',
+    authors: ['Uichin Lee', 'Gyuwon Jung', 'Sangjun Park', 'Eun-Yeol Ma', 'Heeyoung Kim', 'Yonggeon Lee', 'Youngtae Noh'],
+    venue: 'BigComp',
+    full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
+    published: true,
+    pdf: pdfDir + 'lee2023data1.pdf',
+  },
+  lee2023data2: {
+    year: 2023,
+    title: 'Data Processing Pipeline of Short-Term Depression Detection with Large-Scale Dataset',
+    authors: ['Yonggeon Lee', 'Youngtae Noh', 'Uichin Lee'],
+    venue: 'BigComp',
+    full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
+    published: true,
+    pdf: pdfDir + 'lee2023data2.pdf',
+  },
   park2023charlie: {
     year: 2023,
     title:
@@ -8,7 +54,8 @@ const publicationData = {
     authors: ['Eunji Park', 'Yugyeong Jung', 'Inyeop Kim', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
-    published: false
+    published: true,
+    pdf: pdfDir + 'park2023charlie.pdf',
   },
   park2023quickref: {
     year: 2023,
@@ -17,7 +64,8 @@ const publicationData = {
     authors: ['Sangjun Park', 'Chanhee Lee', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
-    published: false
+    published: true,
+    pdf: pdfDir + 'park2023quickref.pdf',
   },
   jung2023enjoy: {
     year: 2023,
@@ -26,7 +74,7 @@ const publicationData = {
     authors: ['Yugyeong Jung', 'Gyuwon Jung', 'Sooyeon Jeong', 'Chaewon Kim', 'Woontack Woo', 'Hwajung Hong', 'Uichin Lee'],
     venue: 'CSCW',
     full_venue: 'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
-    published: false
+    published: false,
   },
   han2023stressbal: {
     year: 2023,
@@ -35,7 +83,8 @@ const publicationData = {
     authors: ['Yunjo Han', 'Hyemin Lee', 'Kobiljon Toshnazarov', 'Youngtae Noh', 'Uichin Lee'],
     venue: 'Ubicomp',
     full_venue: 'Proceedings of the 2022 ACM International Joint Conference on Pervasive and Ubiquitous Computing',
-    published: false
+    published: true,
+    pdf: pdfDir + 'han2023stressbal.pdf',
   },
   choi2023loss: {
     year: 2023,
@@ -45,7 +94,7 @@ const publicationData = {
     venue: "JMU",
     full_venue: "JMIR mHealth and uHealth",
     published: true,
-    pdf: "https://mhealth.jmir.org/2023/1/e41660"
+    pdf: pdfDir + 'choi2023loss.pdf',
   },
   lee2023toward: {
     year: 2023,
@@ -64,7 +113,7 @@ const publicationData = {
     venue: 'IEEE',
     full_venue: 'IEEE/CAA Journal of Automatica Sinica',
     published: true,
-    pdf: 'https://arxiv.org/pdf/2205.01851.pdf',
+    pdf: pdfDir + 'lee2023toward.pdf',
   },
   shin2022smarthome: {
     year: 2022,
@@ -73,7 +122,7 @@ const publicationData = {
     venue: "KCC",
     full_venue: "2022년 한국컴퓨터종합학술대회(KCC) 논문집",
     published: true,
-    pdf: "https://drive.google.com/file/d/1ukmHubtxPlXMxPiux0HqWq1Xpj2UY6Pd/view?usp=share_link",
+    pdf: pdfDir + "shin2022smarthome.pdf",
     slide: "https://drive.google.com/file/d/15yI_Gn8Xj7m02bCk0AzfGFwPnbILIK5G/view?usp=share_link"
   },
   zitouni2022lstm: {
@@ -90,7 +139,7 @@ const publicationData = {
     venue: 'IEEE',
     full_venue: 'IEEE Journal of Biomedical and Health Informatics',
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/abstract/document/9965601',
+    pdf: pdfDir + 'zitouni2022lstm.pdf',
   },
   lee2022trends: {
     year: 2022,
@@ -109,7 +158,7 @@ const publicationData = {
     venue: 'JMU',
     full_venue: 'JMIR mHealth and uHealth',
     published: true,
-    pdf: 'https://mhealth.jmir.org/2022/11/e40797',
+    pdf: pdfDir + 'lee2022trends.pdf',
   },
   choi2022you: {
     year: 2022,
@@ -126,7 +175,7 @@ const publicationData = {
     venue: 'CSCW',
     full_venue: 'Proceedings of the ACM on Human-Computer Interaction',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3555612',
+    pdf: pdfDir + 'choi2022you.pdf',
   },
   lee2022towarddynamic: {
     year: 2022,
@@ -136,7 +185,7 @@ const publicationData = {
     venue: 'IEEE PerCom',
     full_venue: 'IEEE International Conference on Pervasive Computing and Communications, 2022',
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/abstract/document/9944071',
+    pdf: pdfDir + 'lee2022towarddynamic.pdf',
   },
   lee2022lv: {
     year: 2022,
@@ -151,7 +200,7 @@ const publicationData = {
     venue: 'UIST',
     full_venue: 'Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3526114.3558714',
+    pdf: pdfDir + 'lee2022lv.pdf',
   },
   lee2022method: {
     year: 2022,
@@ -166,7 +215,7 @@ const publicationData = {
     venue: 'Google Patents',
     full_venue: 'Google Patents',
     published: true,
-    pdf: 'https://patents.google.com/patent/US11439334B2/en',
+    pdf: pdfDir + 'lee2022method.pdf',
   },
   lee2022method: {
     year: 2022,
@@ -179,7 +228,7 @@ const publicationData = {
     venue: 'Google Patents',
     full_venue: 'Google Patents',
     published: true,
-    pdf: 'https://patents.google.com/patent/US11290590B2/en',
+    pdf: pdfDir + 'lee2022method.pdf',
   },
   choi2022facilitating: {
     year: 2022,
@@ -196,7 +245,7 @@ const publicationData = {
     venue: 'MobiSys',
     full_venue: 'Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3498361.3538672',
+    pdf: pdfDir + 'choi2022facilitating.pdf',
   },
   lee2022beyond: {
     year: 2022,
@@ -217,22 +266,7 @@ const publicationData = {
     venue: 'JMU',
     full_venue: 'JMIR mHealth and uHealth',
     published: true,
-    pdf: 'https://mhealth.jmir.org/2022/6/e38614',
-  },
-  lee2022lv: {
-    year: 2022,
-    title:
-      'LV-Linker: Supporting Linked Exploration of Phone Usage Log Data and Screen Video Data',
-    authors: [
-      "Hansoo Lee",
-      "Sangwook Lee",
-      "Youngji Koh",
-      "Uichin Lee"
-    ],
-    venue: 'arXiv',
-    full_venue: 'arXiv preprint arXiv:2205.14641',
-    published: true,
-    pdf: 'https://arxiv.org/abs/2205.14641',
+    pdf: pdfDir + 'lee2022beyond.pdf',
   },
   salman2022darcas: {
     year: 2022,
@@ -248,7 +282,7 @@ const publicationData = {
     venue: 'IEEE',
     full_venue: 'IEEE Internet of Things Journal',
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/abstract/document/9777768',
+    pdf: pdfDir + 'salman2022darcas.pdf',
   },
   kim2022social: {
     year: 2022,
@@ -266,7 +300,7 @@ const publicationData = {
     full_venue:
       "Proceedings of the ACM on Human-Computer Interaction (PACM-HCI) / CSCW, Volume 6, CSCW2, November'22",
     published: true,
-    pdf: "https://dl.acm.org/doi/pdf/10.1145/3555162"
+    pdf: pdfDir + 'kim2022social.pdf',
   },
   lee2022adverse: {
     year: 2022,
@@ -282,7 +316,7 @@ const publicationData = {
     authors: ['Hansoo Lee', 'Joonyoung Park', 'Uichin Lee'],
     venue: 'ACM CSUR',
     full_venue: 'ACM Computing Surveys (CSUR)',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3530814',
+    pdf: pdfDir + 'lee2021systematic.pdf',
   },
   lee2022understanding: {
     year: 2022,
@@ -292,7 +326,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2022 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 6, Issue 2, July 2022',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3534623',
+    pdf: pdfDir + 'lee2022understanding.pdf',
   },
   salman2022csi: {
     year: 2022,
@@ -302,7 +336,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2022 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 6, Issue 2, July 2022',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3534593',
+    pdf: pdfDir + 'salman2022csi.pdf',
   },
   jung2022caremouse: {
     year: 2022,
@@ -312,7 +346,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       "CHI EA '22: Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems",
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3491101.3519857',
+    pdf: pdfDir + 'jung2022caremouse.pdf',
     video: 'https://www.youtube.com/watch?v=lUj4s3ITmxs',
   },
   kang2022understanding: {
@@ -321,7 +355,7 @@ const publicationData = {
     authors: ['Soowon Kang', 'Cheul Young Park', 'Narae Cha', 'Auk Kim', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3491102.3501944',
+    pdf: pdfDir + 'kang2022understanding.pdf',
   },
   choi2022s: {
     year: 2022,
@@ -330,7 +364,7 @@ const publicationData = {
     authors: ['Dasom Choi', 'Uichin Lee', 'Hwajung Hong'],
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3491102.3517574',
+    pdf: pdfDir + 'choi2022s.pdf',
   },
   zitouni2022privacy: {
     year: 2022,
@@ -344,7 +378,7 @@ const publicationData = {
     ],
     venue: 'IEEE',
     full_venue: 'IEEE Access 07 April 2022',
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9751038&tag=1',
+    pdf: pdfDir + 'zitouni2022privacy.pdf',
   },
   al2022successfully: {
     year: 2022,
@@ -367,7 +401,7 @@ const publicationData = {
     ],
     venue: 'JAMA',
     full_venue: 'JAMA Network Open 2022;5(2):e220214',
-    pdf: 'https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2789277',
+    pdf: pdfDir + 'al2022successfully.pdf',
   },
   kim2021poster: {
     year: 2021,
@@ -381,7 +415,7 @@ const publicationData = {
     ],
     venue: 'Ubicomp',
     full_venue: 'Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3460418.3479307',
+    pdf: pdfDir + 'kim2021poster.pdf',
   },
   kang2021poster: {
     year: 2021,
@@ -395,7 +429,7 @@ const publicationData = {
     ],
     venue: 'Ubicomp',
     full_venue: 'Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers',
-    pdf: 'https://dl.acm.org/doi/abs/10.1145/3460418.3479306',
+    pdf: pdfDir + 'kang2021poster.pdf',
   },
   kim2021causal: {
     year: 2021,
@@ -408,9 +442,9 @@ const publicationData = {
       'Heepyung Kim', 
       'Uichin Lee'
     ],
-    venue: 'Ubicomp',
+    venue: '한국정보과학회',
     full_venue: '한국정보과학회 학술발표논문집',
-    pdf: 'https://yong-shin.github.io/assets/pdf/Causal%20Analysis%20of%20Observational%20Mobile%20Sensor%20Data_A%20Comparative%20Study.pdf',
+    pdf: pdfDir + 'kim2021causal.pdf',
   },
   kim2021cheersbot: {
     year: 2021,
@@ -419,7 +453,7 @@ const publicationData = {
     venue: "HCI Korea",
     full_venue: "한국HCI학회 학술대회, 2021",
     published: true,
-    pdf: "https://drive.google.com/file/d/1alv7Lxv2HRv-7nW234cMDJs6otA54Z-R/view?usp=share_link"
+    pdf: pdfDir + "kim2021cheersbot.pdf"
   },
   nasrat2021emotion: {
     year: 2021,
@@ -435,7 +469,7 @@ const publicationData = {
     ],
     venue: 'BIBM',
     full_venue: '2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)',
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9669553',
+    pdf: pdfDir + 'nasrat2021emotion.pdf',
   },
   zitouni2021arousal: {
     year: 2021,
@@ -451,7 +485,7 @@ const publicationData = {
     venue: 'EMBC',
     full_venue:
       '2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)',
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9630252',
+    pdf: pdfDir + 'zitouni2021arousal.pdf',
   },
   lee2021dynamic: {
     year: 2021,
@@ -460,7 +494,7 @@ const publicationData = {
     venue: 'ICMU',
     full_venue:
       'ICMU 2021, The 13th International Conference on Mobile Computing and Ubiquitous Networking, November 17-19th, 2021, Tokyo, Japan',
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9638790',
+    pdf: pdfDir + 'lee2021dynamic.pdf',
   },
   kim2021utilitarian: {
     year: 2021,
@@ -470,7 +504,7 @@ const publicationData = {
     venue: 'HCII',
     full_venue:
       'HCI International 2021, International Conference on Human-Computer Interaction, 2021/7/24',
-    pdf: 'https://link.springer.com/chapter/10.1007/978-3-030-78635-9_58',
+    pdf: pdfDir + 'kim2021utilitarian.pdf',
   },
   lee2021benefits: {
     year: 2021,
@@ -479,6 +513,7 @@ const publicationData = {
     venue: 'Frontiers Public Health',
     full_venue:
       'Frontiers in Public Health (Digital Public Health Section), 18 March 2021 (to appear)',
+    // cannot download pdf file
     pdf: 'https://www.frontiersin.org/articles/10.3389/fpubh.2021.586615/full',
   },
   jung2021good: {
@@ -487,7 +522,7 @@ const publicationData = {
     authors: ['Gyuwon Jung', 'Jio Oh', 'Youjin Jung', 'Juho Sun', 'Ha-Kyung Kong', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3411764.3445608',
+    pdf: pdfDir + 'jung2021good.pdf',
     video: 'https://www.youtube.com/watch?v=mxMoqi58A4I&feature=youtu.be',
   },
   lee2021sticky: {
@@ -496,7 +531,7 @@ const publicationData = {
     authors: ['Hyunsoo Lee', 'Auk Kim', 'Hwajung Hong', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3411764.3445295',
+    pdf: pdfDir + 'lee2021sticky.pdf',
     video: 'https://www.youtube.com/watch?v=mSCXgOceCpA&ab_channel=ACMSIGCHI',
   },
   park2021goldentime: {
@@ -506,7 +541,7 @@ const publicationData = {
     authors: ['Joonyoung Park', 'Hyunsoo Lee', 'Sangkeun Park', 'Kyong-Mee Chung', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3411764.3445489',
+    pdf: pdfDir + 'park2021goldentime.pdf',
     video: 'https://www.youtube.com/watch?v=oVSeVFfBhQE',
   },
   kim2021beneficial: {
@@ -553,7 +588,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       "Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems",
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3334480.3375068',
+    pdf: pdfDir + 'samson2020asian.pdf',
   },
   kim2020understanding: {
     year: 2020,
@@ -563,7 +598,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2021/ Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) Volume 4, Issue 4, Dec. 2020',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3432213',
+    pdf: pdfDir + 'kim2020understanding.pdf',
   },
   lee2021validation: {
     year: 2020,
@@ -572,7 +607,7 @@ const publicationData = {
     authors: ['Paul H Lee', 'Andy C. Y. Tse', 'Cynthia S. T. Wu', 'Yim Wah Mak', 'Uichin Lee'],
     venue: 'PI',
     full_venue: 'Psychiatry Investigation 2021 Feb',
-    pdf: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7960745/',
+    pdf: pdfDir + 'lee2021validation.pdf',
   },
   al2020riyadh: {
     year: 2020,
@@ -594,7 +629,7 @@ const publicationData = {
     ],
     venue: 'Lancet',
     full_venue: 'The Lancet 2020 Volume 396, Issue 10262',
-    pdf: 'https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2931978-4',
+    pdf: pdfDir + 'al2020riyadh.pdf',
   },
   lee2021temporal: {
     year: 2020,
@@ -603,7 +638,7 @@ const publicationData = {
     authors: ['Paul H. Lee', 'Andy C. Y. Tse', 'Cynthia S. T. Wu', 'Yim Wah Mak', 'Uichin Lee'],
     venue: 'JSR',
     full_venue: 'Journal of Sleep Research Oct. 2020',
-    pdf: 'https://onlinelibrary.wiley.com/doi/full/10.1111/jsr.13213',
+    pdf: pdfDir + 'lee2021temporal.pdf',
   },
   murray2020digital: {
     year: 2020,
@@ -611,7 +646,7 @@ const publicationData = {
     authors: ['Christopher J L Murray', 'Nurah Maziad S Alamro', 'Hee Hwang', 'Uichin Lee'],
     venue: 'Lancet',
     full_venue: 'Lancet Public Health Volume 5, Issue 9, E469-E470, Sept. 2020',
-    pdf: 'https://www.thelancet.com/action/showPdf?pii=S2468-2667%2820%2930187-0',
+    pdf: pdfDir + 'murray2020digital.pdf',
   },
   park2020k: {
     year: 2020,
@@ -630,7 +665,7 @@ const publicationData = {
     ],
     venue: 'Scientific Data',
     full_venue: 'Scientific Data Volume 7, No. 293, 2020',
-    pdf: 'https://www.nature.com/articles/s41597-020-00630-y',
+    pdf: pdfDir + 'park2020k.pdf',
   },
   cha2020hello: {
     year: 2020,
@@ -649,7 +684,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2021/ Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) Vol. 4, No. 3, Article 74, Sept. 2020',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3411810',
+    pdf: pdfDir + 'cha2020hello.pdf',
     video: 'https://www.youtube.com/watch?v=AA8CTi2hEf0',
   },
   jung2020too: {
@@ -659,6 +694,7 @@ const publicationData = {
     authors: ['Gyuwon Jung', 'Hyunsoo Lee', 'Auk Kim', 'Uichin Lee'],
     venue: 'FrontPubHealth',
     full_venue: 'Frontiers in Public Health 2020',
+    // cannot download pdf file
     pdf: 'https://www.frontiersin.org/articles/10.3389/fpubh.2020.00305/full',
   },
   kim2020dashcam: {
@@ -667,7 +703,7 @@ const publicationData = {
     authors: ['Joohyun Kim', 'Sangkeun Park', 'Uichin Lee'],
     venue: 'IEEE',
     full_venue: 'IEEE Access 2020',
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9115483',
+    pdf: pdfDir + 'kim2020dashcam.pdf',
   },
   balili2020termball: {
     year: 2020,
@@ -676,7 +712,7 @@ const publicationData = {
     authors: ['Christine Balili', 'Uichin Lee', 'Aviv Segev', 'Jaejeung Kim', 'Minsam Ko'],
     venue: 'IEEE',
     full_venue: 'IEEE Access 2020',
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9110856',
+    pdf: pdfDir + 'balili2020termball.pdf',
   },
   park2020cognitive: {
     year: 2020,
@@ -685,7 +721,7 @@ const publicationData = {
     authors: ['Daehee Park', 'Wan Chul Yoon', 'Uichin Lee'],
     venue: 'Sensors',
     full_venue: 'Sensors 2020, 20(10), 2978',
-    pdf: 'https://www.mdpi.com/1424-8220/20/10/2978/pdf?version=1590630489',
+    pdf: pdfDir + 'park2020cognitive.pdf',
   },
   rhim2020tracking: {
     year: 2020,
@@ -694,7 +730,7 @@ const publicationData = {
     venue: 'UMAP',
     full_venue:
       "ACM UMAP'20 / Conference on User Modeling, Adaptation and Personalization , July 14-17, 2020, Genoa, Italy",
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3340631.3394855',
+    pdf: pdfDir + 'rhim2020tracking.pdf',
   },
   lee2020privacy: {
     year: 2020,
@@ -702,7 +738,7 @@ const publicationData = {
     authors: ['Hyunsoo Lee', 'Uichin Lee'],
     venue: 'CHI Workshop',
     full_venue: 'ACM CHI 2020 Networked Privacy Workshop, April 25-30, 2020',
-    pdf: 'https://networkedprivacy2020.files.wordpress.com/2020/04/05_lee.pdf',
+    pdf: pdfDir + 'lee2020privacy.pdf',
   },
   sun2020beactive: {
     year: 2020,
@@ -724,7 +760,7 @@ const publicationData = {
     venue: 'AsianCHI',
     full_venue:
       "AsianCHI '20: Proceedings of the 2020 Symposium on Emerging Research from Asia and on Asian Contexts and Cultures, April 2020 Pages 17-20",
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3391203.3391206',
+    pdf: pdfDir + 'sun2020beactive.pdf',
   },
   oh2020scriptfree: {
     year: 2020,
@@ -734,7 +770,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       "CHI EA '20: Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems, April 2020",
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3334480.3382896',
+    pdf: pdfDir + 'oh2020scriptfree.pdf',
   },
   kim2020interruptibility: {
     year: 2020,
@@ -744,14 +780,14 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2020 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 4, Issue 1, March 2020',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3381009',
+    pdf: pdfDir + 'kim2020interruptibility.pdf',
   },
   lee2020objectively: {
     year: 2020,
     title:
       'Objectively-Measured Smartphone Usage, Sleep Quality, and Physical Activity Among Chinese Adolescents and Young Adults',
     authors: ['Peter H Lee', 'Andy C. Y. Tse', 'Cynthia S. T. Wu', 'Yim Wah Mak', 'Uichin Lee'],
-    pdf: 'https://assets.researchsquare.com/files/rs-30312/v1/bc9374a5-9e0b-46a2-a799-bcef7c26a785.pdf?c=1631841255',
+    pdf: pdfDir + 'lee2020objectively.pdf',
   },
   lee2019maximizing: {
     year: 2019,
@@ -761,7 +797,7 @@ const publicationData = {
     venue: 'PMC',
     full_venue:
       'Pervasive and Mobile Computing Pervasive and Mobile Computing Volume 60, November 2019, 101082',
-    pdf: 'https://www.sciencedirect.com/science/article/pii/S157411921930447X',
+    pdf: pdfDir + 'lee2019maximizing.pdf',
   },
   kim2019predicting: {
     year: 2019,
@@ -770,7 +806,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue:
       'Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3341162.3343841',
+    pdf: pdfDir + 'kim2019predicting.pdf',
   },
   lee2019pass: {
     year: 2019,
@@ -779,7 +815,7 @@ const publicationData = {
     authors: ['Jemin Lee', 'Uichin Lee', 'Hyungshin Kim'],
     venue: 'IEEE',
     full_venue: 'IEEE Transactions on Mobile Computing 2019',
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8769892',
+    pdf: pdfDir + 'lee2019pass.pdf',
   },
   kim2019understanding: {
     year: 2019,
@@ -796,7 +832,7 @@ const publicationData = {
     ],
     venue: 'Computers & Education',
     full_venue: 'Computers & Education Volume 141, November 2019, 103611',
-    pdf: 'https://www.sciencedirect.com/science/article/pii/S0360131519301642',
+    pdf: pdfDir + 'kim2019understanding.pdf',
   },
   choi2019multi: {
     year: 2019,
@@ -805,7 +841,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2019 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 3, Issue 2, Article 39, June 2019',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3328910',
+    pdf: pdfDir + 'choi2019multi.pdf',
   },
   kim2019lockntype: {
     year: 2019,
@@ -814,7 +850,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 2019 CHI conference on human factors in computing systems, May 2019',
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/3290605.3300927',
+    pdf: pdfDir + 'kim2019lockntype.pdf',
   },
   
   //////////////
