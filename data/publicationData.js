@@ -1931,7 +1931,7 @@ const publicationData = {
     venue: '',
     year: 2011,
     published: true,
-    pdf: 'http://mslab.kaist.ac.kr/wikipages/files/ubiquitous_knowledge_services_crc_2011.pdf', // cannot access original page
+    pdf: pdfDir + 'lee2012emerging.pdf',
   },
   ahnn2011geoserv: {
     authors: ['Jong Hoon Ahn', 'Uichin Lee', 'Hyun Jin Moon'],
