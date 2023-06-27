@@ -1678,7 +1678,7 @@ const publicationData = {
     full_venue: 'CHI14 Extended Abstracts on Human Factors in Computing Systems',
     venue: 'CHI',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/2559206.2559224',
+    pdf: pdfDir + 'baumer2014refusing.pdf',
   },
   ko2014motives: {
     year: 2014,
@@ -1695,7 +1695,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 23rd International Conference on World Wide Web',
     venue: 'WWW',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/2567948.2577340',
+    pdf: pdfDir + 'ko2014motives.pdf',
   },
   gerla2014internet: {
     year: 2014,
@@ -1704,7 +1704,7 @@ const publicationData = {
     full_venue: '2014 IEEE world forum on internet of things (WF-IoT)',
     venue: 'WF-IoT',
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6803166',
+    pdf: pdfDir + 'gerla2014internet.pdf',
   },
   noh2014dots: {
     year: 2014,
@@ -1722,7 +1722,7 @@ const publicationData = {
     full_venue: 'IEEE Transactions on Mobile Computing',
     venue: 'IEEE CASS',
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6708483',
+    pdf: pdfDir + 'noh2014dots.pdf',
   },
   고민삼2014스마트폰: {
     year: 2014,
@@ -1732,7 +1732,7 @@ const publicationData = {
     // full_venue: '한국 HCI 학회 학술대회',
     venue: '',
     published: true,
-    pdf: 'https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE02374721&googleIPSandBox=false&mark=0&useDate=&ipRange=false&accessgl=Y&language=ko_KR&hasTopBanner=true',
+    pdf: pdfDir + '고민삼2014스마트폰.pdf',
   },
   강성준2014다중: {
     year: 2014,
@@ -1742,7 +1742,7 @@ const publicationData = {
     // full_venue: '한국 HCI 학회 학술대회',
     venue: '',
     published: true,
-    pdf: 'https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE02374702&googleIPSandBox=false&mark=0&useDate=&ipRange=false&accessgl=Y&language=ko_KR&hasTopBanner=true',
+    pdf: pdfDir + '강성준2014다중.pdf',
   },
   lee2013understanding: {
     year: 2013,
@@ -1752,7 +1752,7 @@ const publicationData = {
     full_venue: 'IEEE Transactions on Parallel and Distributed Systems',
     venue: 'IEEE TPDS',
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6336749',
+    pdf: pdfDir + 'lee2013understanding.pdf',
   },
   sung2013booming: {
     year: 2013,
@@ -1762,7 +1762,7 @@ const publicationData = {
     full_venue: 'Proceedings of the International AAAI Conference on Web and Social Media',
     venue: 'ICWSM',
     published: true,
-    pdf: 'https://ojs.aaai.org/index.php/ICWSM/article/view/14387/14236',
+    pdf: pdfDir + 'sung2013booming.pdf',
   },
   lee2013sociophone: {
     year: 2013,
@@ -1784,7 +1784,7 @@ const publicationData = {
       'Proceeding of the 11th annual international conference on Mobile systems, applications, and services',
     venue: 'MobiSys',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/2462456.2465426',
+    pdf: pdfDir + 'lee2013sociophone.pdf',
   },
   lee2013analyzing: {
     year: 2013,
@@ -1793,7 +1793,7 @@ const publicationData = {
     full_venue: 'Proceedings of the SIGCHI conference on human factors in computing systems',
     venue: 'CHI',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/2470654.2470730',
+    pdf: pdfDir + 'lee2013analyzing.pdf',
   },
   oh2013facilitating: {
     year: 2013,
@@ -1802,7 +1802,7 @@ const publicationData = {
     full_venue: 'CHI13 Extended Abstracts on Human Factors in Computing Systems',
     venue: 'CHI',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/2468356.2468681',
+    pdf: pdfDir + 'oh2013facilitating.pdf',
   },
   bao2013dataspotting: {
     year: 2013,
@@ -1812,7 +1812,7 @@ const publicationData = {
     full_venue: '2013 Proceedings IEEE INFOCOM',
     venue: 'IEEE INFOCOM',
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6566807',
+    pdf: pdfDir + 'bao2013dataspotting.pdf',
   },
   han2013m: {
     year: 2013,
@@ -1822,13 +1822,13 @@ const publicationData = {
     full_venue: '2013 Proceedings IEEE INFOCOM',
     venue: 'IEEE INFOCOM',
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6566852',
+    pdf: pdfDir + 'han2013m.pdf',
   },
   noh2013infrastructure: {
     full_venue: 'IEEE Transactions on Systems, Man, and Cybernetics: Systems',
     venue: 'IEEE SMC',
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7747408',
+    pdf: pdfDir + 'noh2013infrastructure.pdf',
     year: 2013,
     title:
       'CLIPS: Infrastructure-free Collaborative Indoor Positioning Scheme for Time-critical Team Operations',
@@ -1846,7 +1846,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 2013 conference on Computer supported cooperative work',
     venue: 'CSCW',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/2441776.2441823',
+    pdf: pdfDir + 'park2013exersync.pdf',
     year: 2013,
     title: 'ExerSync: Facilitating Interpersonal Synchrony in Social Exergames',
     authors: [
@@ -1863,7 +1863,7 @@ const publicationData = {
     full_venue: 'Proceedings of CHI',
     venue: 'CHI',
     published: false,
-    pdf: '',
+    pdf: '', // no pdf
     year: 2013,
     title: 'Mobile Q&A: Beyond Text-only Q&A and Privacy Concerns',
     authors: ['Uichin Lee', 'Eunhee Yi', 'Minsam Ko'],
@@ -1883,14 +1883,14 @@ const publicationData = {
       'Proceedings of the 2013 ACM conference on Pervasive and Ubiquitous Computing adjunct publication',
     venue: 'Ubicomp',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/2494091.2494180',
+    pdf: pdfDir + 'lee2013dungeons.pdf',
   },
   park2012exerlink: {
     full_venue:
       'Proceedings of the 10th international conference on Mobile systems, applications, and services',
     venue: 'MobiSys',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/2307636.2307639',
+    pdf: pdfDir + 'park2012exerlink.pdf',
     year: 2012,
     title: 'ExerLink: enabling pervasive social exergames with heterogeneous exercise devices',
     authors: ['Park et al.'],
@@ -1902,7 +1902,7 @@ const publicationData = {
     full_venue: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems',
     venue: 'CHI',
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/2207676.2208741',
+    pdf: pdfDir + 'lee2012understanding.pdf',
   },
   noh2013vapr: {
     authors: ['Youngtae Noh', 'Uichin Lee', 'Paul Wang', 'Brian Sung Chul Choi', 'Mario Gerla'],
@@ -1911,7 +1911,7 @@ const publicationData = {
     venue: 'IEEE TMC',
     year: 2013,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6158644',
+    pdf: pdfDir + 'noh2013vapr.pdf',
   },
   bellavista2012editorial: {
     key: '',
@@ -1921,7 +1921,7 @@ const publicationData = {
     venue: '',
     year: 2012,
     published: true,
-    pdf: 'https://www.sciencedirect.com/science/article/pii/S1574119212000193',
+    pdf: pdfDir + 'bellavista2012editorial.pdf',
   },
   lee2012emerging: {
     authors: ['Uichin Lee', 'Howon Lee', 'Bang Chul Jung', 'Junehwa Song'],
@@ -1931,7 +1931,7 @@ const publicationData = {
     venue: '',
     year: 2011,
     published: true,
-    pdf: 'http://mslab.kaist.ac.kr/wikipages/files/ubiquitous_knowledge_services_crc_2011.pdf',
+    pdf: 'http://mslab.kaist.ac.kr/wikipages/files/ubiquitous_knowledge_services_crc_2011.pdf', // cannot access original page
   },
   ahnn2011geoserv: {
     authors: ['Jong Hoon Ahn', 'Uichin Lee', 'Hyun Jin Moon'],
@@ -1940,7 +1940,7 @@ const publicationData = {
     venue: 'IEEE CCGRID',
     year: 2011,
     published: true,
-    pdf: 'https://www.researchgate.net/profile/Hyun-Moon-3/publication/224246697_GeoServ_A_Distributed_Urban_Sensing_Platform/links/0c960517040c3ca5cd000000/GeoServ-A-Distributed-Urban-Sensing-Platform.pdf',
+    pdf: pdfDir + 'ahnn2011geoserv.pdf',
   },
   lim2013sewersnort: {
     authors: [
@@ -1958,7 +1958,7 @@ const publicationData = {
     venue: '',
     year: 2011,
     published: true,
-    pdf: 'https://reader.elsevier.com/reader/sd/pii/S1570870511000382?token=43B58A6B40DC84210DBAA193289AE8B3A5D907603AD8DBB79234533020B3F7CCBF301245D96100439717A2C7EE824D3C&originRegion=us-east-1&originCreation=20221005102124',
+    pdf: pdfDir + 'lim2013sewersnort.pdf',
   },
   lee2011toward: {
     authors: ['Uichin Lee', 'Ivica Rimac', 'Daniel Kilper', 'Volker Hilt'],
@@ -1967,7 +1967,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2011,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5730523',
+    pdf: pdfDir + 'lee2011toward.pdf',
   },
   varvello2011design: {
     authors: ['Matteo Varvello', 'Ivica Rimac', 'Uichin Lee', 'Lloyd Greenwald', 'Volker Hilt'],
@@ -1977,7 +1977,7 @@ const publicationData = {
     venue: 'WONS',
     year: 2011,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5720195',
+    pdf: pdfDir + 'varvello2011design.pdf',
   },
   noh2010dots: {
     title:
@@ -1987,7 +1987,7 @@ const publicationData = {
     venue: 'IEEE ICNP',
     year: 2010,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5762767',
+    pdf: pdfDir + 'noh2010dots.pdf',
   },
   noh2012vapr: {
     authors: ['Youngtae Noh', 'Paul Wang', 'Uichin Lee', 'Mario Gerla'],
@@ -1996,7 +1996,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2010,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6158644',
+    pdf: pdfDir + 'noh2012vapr.pdf',
   },
   lee2010geo: {
     authors: ['Kevin C. Lee', 'Uichin Lee', 'Mario Gerla'],
@@ -2005,7 +2005,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2010,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5458378',
+    pdf: pdfDir + 'lee2010geo.pdf',
   },
   lee2010trace: {
     authors: ['Kevin C. Lee', 'Juan M. Navarro', 'Tin Y. Chong', 'Uichin Lee', 'Mario Gerla'],
@@ -2014,7 +2014,7 @@ const publicationData = {
     venue: 'IEEE VTC',
     year: 2010,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5494171',
+    pdf: pdfDir + 'lee2010trace.pdf',
   },
   lee2010greening: {
     authors: ['Uichin Lee', 'Ivica Rimac', 'Volker Hilt'],
@@ -2024,7 +2024,7 @@ const publicationData = {
     venue: 'E-Energy',
     year: 2010,
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/1791314.1791342',
+    pdf: pdfDir + 'lee2010greening.pdf',
   },
   cho2010autogait: {
     authors: ['Dae-Ki Cho', 'Min Mun', 'Uichin Lee', 'William J. Kaiser', 'Mario Gerla'],
@@ -2034,7 +2034,7 @@ const publicationData = {
     venue: 'PerCom',
     year: 2010,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5466984',
+    pdf: pdfDir + 'cho2010autogait.pdf',
   },
   park2010vehicular: {
     authors: ['Joon-Sang Park', 'Uichin Lee', 'Mario Gerla'],
@@ -2043,7 +2043,7 @@ const publicationData = {
     venue: 'JISA',
     year: 2010,
     published: true,
-    pdf: 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Vehicular+Communications%3A+Emergency+Video+Streams+and+Network+Coding&btnG=',
+    pdf: pdfDir + 'park2010vehicular.pdf',
   },
   lee2010pressure: {
     authors: [
@@ -2059,7 +2059,7 @@ const publicationData = {
     venue: 'IEEE INFOCOM',
     year: 2010,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5461986',
+    pdf: pdfDir + 'lee2010pressure.pdf',
   },
   lee2010surveyurban: {
     authors: ['Uichin Lee', 'Mario Gerla'],
@@ -2068,7 +2068,7 @@ const publicationData = {
     venue: '',
     year: 2010,
     published: true,
-    pdf: 'https://www.sciencedirect.com/science/article/pii/S1389128609002382',
+    pdf: pdfDir + 'lee2010surveyurban.pdf',
   },
   lee2009fleanet: {
     authors: ['Uichin Lee', 'Jiyeon Lee', 'Joon-Sang Park', 'Mario Gerla'],
@@ -2077,7 +2077,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2010,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5223624',
+    pdf: pdfDir + 'lee2009fleanet.pdf',
   },
   lee2009p2p: {
     authors: ['Uichin Lee', 'Sewook Jung', 'Alexander Chang', 'Dae-Ki Cho', 'Mario Gerla'],
@@ -2086,7 +2086,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2010,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5223693',
+    pdf: pdfDir + 'lee2009p2p.pdf',
   },
   lee2009scaling: {
     authors: ['Uichin Lee', 'Soon Young Oh', 'Kang-Won Lee', 'Mario Gerla'],
@@ -2095,7 +2095,7 @@ const publicationData = {
     venue: 'CHANTS',
     year: 2009,
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/1614222.1614226',
+    pdf: pdfDir + 'lee2009scaling.pdf',
   },
   lee2009relaycast: {
     authors: ['Uichin Lee', 'Soon Young Oh', 'Kang-Won Lee', 'Mario Gerla'],
@@ -2104,7 +2104,7 @@ const publicationData = {
     venue: 'ITA',
     year: 2009,
     published: true,
-    pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.519.8156&rep=rep1&type=pdf',
+    pdf: pdfDir + 'lee2009relaycast.pdf',
   },
   kim2009sewersnort: {
     authors: [
@@ -2123,7 +2123,7 @@ const publicationData = {
     venue: 'SECON',
     year: 2009,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5168971',
+    pdf: pdfDir + 'kim2009sewersnort.pdf',
   },
   lee2009go: {
     authors: ['Kevin C. Lee', 'Uichin Lee', 'Mario Gerla'],
@@ -2133,7 +2133,7 @@ const publicationData = {
     venue: 'WONS',
     year: 2009,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4801842',
+    pdf: pdfDir + 'lee2009go.pdf',
   },
   lee2010surveyrouting: {
     authors: ['Kevin C. Lee', 'Uichin Lee', 'Mario Gerla.'],
@@ -2142,7 +2142,7 @@ const publicationData = {
     venue: 'VANET',
     year: 2009,
     published: true,
-    pdf: 'https://www.igi-global.com/chapter/advances-vehicular-hoc-networks/43169',
+    pdf: 'https://www.igi-global.com/chapter/advances-vehicular-hoc-networks/43169',  // need to pay for downloading pdf
   },
   lee2009bio: {
     authors: [
@@ -2158,7 +2158,7 @@ const publicationData = {
     venue: '',
     year: 2009,
     published: true,
-    pdf: 'https://reader.elsevier.com/reader/sd/pii/S1570870508000504?token=895015387937D0731F5333B2FC5B51CA5A8651EE73C19EC37575DEF3D236BC6CB9FBEB7586C9425FB5BEA700AAFA39CC&originRegion=us-east-1&originCreation=20221005081741',
+    pdf: pdfDir + 'lee2009bio.pdf',
   },
   lee2008dissemination: {
     authors: [
@@ -2173,7 +2173,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2009,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4573261',
+    pdf: pdfDir + 'lee2008dissemination.pdf',
   },
   lee2009emerging: {
     authors: ['Uichin Lee', 'Ryan Cheung', 'Mario Gerla'],
@@ -2182,7 +2182,7 @@ const publicationData = {
     venue: '',
     year: 2009,
     published: true,
-    pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.459.2888&rep=rep1&type=pdf',
+    pdf: pdfDir + 'lee2009emerging.pdf',
   },
   lee2008relaycast: {
     authors: ['Uichin Lee', 'Soon Young Oh', 'Kang-Won Lee', 'Mario Gerla'],
@@ -2191,7 +2191,7 @@ const publicationData = {
     venue: 'IEEE ICNP',
     year: 2008,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4697040',
+    pdf: pdfDir + 'lee2008relaycast.pdf',
   },
   vieira2008phero: {
     authors: ['Luiz F. M. Vieira', 'Uichin Lee', 'Mario Gerla'],
@@ -2200,7 +2200,7 @@ const publicationData = {
     venue: 'WuWNet',
     year: 2008,
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/1410107.1410116',
+    pdf: pdfDir + 'vieira2008phero.pdf',
   },
   lee2007bio: {
     authors: [
@@ -2216,7 +2216,7 @@ const publicationData = {
     venue: 'BIOWIRE',
     year: 2008,
     published: true,
-    pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.648.1655&rep=rep1&type=pdf',
+    pdf: pdfDir + 'lee2007bio.pdf',
   },
   lee2008content: {
     authors: ['Seung-Hoon Lee', 'Uichin Lee', 'Kang-Won Lee', 'Mario Gerla'],
@@ -2227,7 +2227,7 @@ const publicationData = {
     venue: 'IEEE SECON',
     year: 2008,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4557747',
+    pdf: pdfDir + 'lee2008content.pdf',
   },
   lee2008efficient: {
     authors: [
@@ -2243,7 +2243,7 @@ const publicationData = {
     venue: 'JCN',
     year: 2008,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6389858',
+    pdf: pdfDir + 'lee2008efficient.pdf',
   },
   park2008delay: {
     authors: [
@@ -2261,7 +2261,7 @@ const publicationData = {
     venue: 'IEICE',
     year: 2008,
     published: true,
-    pdf: 'https://www.jstage.jst.go.jp/article/transinf/E91.D/10/E91.D_10_2524/_pdf',
+    pdf: pdfDir + 'park2008delay.pdf',
   },
   gerla2008tapping: {
     key: '',
@@ -2271,7 +2271,7 @@ const publicationData = {
     venue: '',
     year: 2008,
     published: true,
-    pdf: 'https://www.amazon.com/Homeland-Security-Technology-Challenges-Encrypting/dp/1596932899',
+    pdf: 'https://www.amazon.com/Homeland-Security-Technology-Challenges-Encrypting/dp/1596932899',   // have to pay for downloading pdf
   },
   lee2007enhanced: {
     authors: ['Kevin C. Lee', 'Jerome Haerri', 'Uichin Lee', 'Mario Gerla'],
@@ -2281,7 +2281,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2007,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4437832',
+    pdf: pdfDir + 'lee2007enhanced.pdf',
   },
   bellavista2007standard: {
     authors: ['P. Bellavista', 'E. Magistretti', 'U. Lee', 'and M. Gerla.'],
@@ -2291,7 +2291,7 @@ const publicationData = {
     venue: 'IEEE ISIE',
     year: 2007,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4375015',
+    pdf: pdfDir + 'bellavista2007standard.pdf',
   },
   magistretti2007mobile: {
     authors: [
@@ -2308,7 +2308,7 @@ const publicationData = {
     venue: 'IEEE WCNC',
     year: 2007,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/abstract/document/4224776',
+    pdf: pdfDir + 'magistretti2007mobile.pdf',
   },
   jung2007bluetorrent: {
     authors: ['Sewook Jung', 'Uichin Lee', 'Alexander Chang', 'Dae-Ki Cho', 'Mario Gerla'],
@@ -2317,7 +2317,7 @@ const publicationData = {
     venue: 'PMC',
     year: 2007,
     published: true,
-    pdf: 'https://www.sciencedirect.com/science/article/pii/S1574119207000466',
+    pdf: pdfDir + 'jung2007bluetorrent.pdf',
   },
   lee2007time: {
     authors: ['Uichin Lee', 'Jiejun Kong', 'Eugenio Magistretti', 'Joon-Sang Park', 'Mario Gerla'],
@@ -2327,7 +2327,7 @@ const publicationData = {
     venue: '',
     year: 2007,
     published: true,
-    pdf: 'https://reader.elsevier.com/reader/sd/pii/S157087050700025X?token=81368F7073A985C7ABADEC5D6DEAD1644782D644A1C4DCAE25D8B06847BB4873369C4202EE7249EC088537D0C4C7802D&originRegion=us-east-1&originCreation=20221005072909',
+    pdf: pdfDir + 'lee2007time.pdf',
   },
   lee2006mobeyes: {
     authors: [
@@ -2343,7 +2343,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2006,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4015709',
+    pdf: pdfDir + 'lee2006mobeyes.pdf',
   },
   lee2006code: {
     authors: ['Uichin Lee', 'Joon-Sang Park', 'Joseph Yeh', 'Giovanni Pau', 'Mario Gerla'],
@@ -2353,7 +2353,7 @@ const publicationData = {
     venue: 'MobiCom',
     year: 2006,
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/1161252.1161254',
+    pdf: pdfDir + 'lee2006code.pdf',
   },
   gerla2006vehicular: {
     authors: [
@@ -2369,7 +2369,7 @@ const publicationData = {
     venue: 'WICON',
     year: 2006,
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/1234161.1234180',
+    pdf: pdfDir + 'gerla2006vehicular.pdf',
   },
   lee2006efficient: {
     authors: [
@@ -2386,7 +2386,7 @@ const publicationData = {
     venue: 'PERCOMW',
     year: 2006,
     published: true,
-    pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.9467&rep=rep1&type=pdf',
+    pdf: pdfDir + 'lee2006efficient.pdf',
   },
   lee2006understanding: {
     authors: ['Uichin Lee', 'Min Choi', 'Junghoo Cho', 'Medy. Y. Sanadidi', 'Mario Gerla'],
@@ -2395,7 +2395,7 @@ const publicationData = {
     venue: 'IPTPS',
     year: 2006,
     published: true,
-    pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.76.3025&rep=rep1&type=pdf',
+    pdf: pdfDir + 'lee2006understanding.pdf',
   },
   lee2005flowbased: {
     authors: ['Uichin Lee', 'Joon-Sang Park', 'M. Y. Sanadidi', 'M. Gerla'],
@@ -2404,7 +2404,7 @@ const publicationData = {
     venue: '',
     year: 2005,
     published: false,
-    pdf: '',
+    pdf: pdfDir + 'lee2005flowbased.pdf',
   },
   lee2005automatic: {
     authors: ['Uichin Lee', 'Zhenyu Liu', 'Junghoo Cho'],
@@ -2413,7 +2413,7 @@ const publicationData = {
     venue: 'WWW',
     year: 2005,
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/1060745.1060804',
+    pdf: pdfDir + 'lee2005automatic.pdf',
   },
   chen2009codecast: {
     authors: ['Chien-Chia Chen', 'Chieh-Ning Lien', 'Uichin Lee', 'Soon Y. Oh', 'Mario Gerla'],
@@ -2423,7 +2423,7 @@ const publicationData = {
     venue: 'HotMobile',
     year: 2009,
     published: true,
-    pdf: 'http://wiiau4.free.fr/pdf/CodeCast%20-%20Network%20Coding%20Based%20Multicast%20in%20MANETs.pdf',
+    pdf: pdfDir + 'chen2009codecast.pdf',
   },
   cao2008proof: {
     authors: ['Zhen Cao', 'Jiejun Kong', 'Uichin Lee', 'Mario Gerla', 'Zhong Chen'],
@@ -2433,7 +2433,7 @@ const publicationData = {
     venue: 'INFOCOM WKSHPS',
     year: 2008,
     published: true,
-    pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.902.6844&rep=rep1&type=pdf',
+    pdf: pdfDir + 'cao2008proof.pdf',
   },
   lee2008understanding: {
     authors: ['Uichin Lee', 'Kang-Won Lee', 'Soon-Young Oh', 'Mario Gerla'],
@@ -2443,7 +2443,7 @@ const publicationData = {
     venue: '',
     year: 2007,
     published: true,
-    pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.5354&rep=rep1&type=pdf',
+    pdf: pdfDir + 'lee2008understanding.pdf',
   },
   lee2007first: {
     authors: ['Kevin C. Lee', 'Seung-Hoon Lee', 'Ryan Cheung', 'Uichin Lee', 'Mario Gerla'],
@@ -2452,7 +2452,7 @@ const publicationData = {
     venue: '',
     year: 2007,
     published: true,
-    pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4300814',
+    pdf: pdfDir + 'lee2007first.pdf',
   },
   vieira2006analysis: {
     authors: ['Luiz Filipe M. Vieira', 'Jiejun Kong', 'Uichin Lee', 'Mario Gerla'],
@@ -2461,7 +2461,7 @@ const publicationData = {
     venue: '',
     year: 2006,
     published: true,
-    pdf: 'https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.458.1899&rep=rep1&type=pdf',
+    pdf: pdfDir + 'vieira2006analysis.pdf',
   },
   park2006emergency: {
     authors: ['Joon-Sang Park', 'Uichin Lee', 'Soon Young Oh', 'Mario Gerla', 'Desmond Lun'],
@@ -2470,7 +2470,7 @@ const publicationData = {
     venue: 'VANET',
     year: 2006,
     published: true,
-    pdf: 'https://dl.acm.org/doi/pdf/10.1145/1161064.1161087',
+    pdf: pdfDir + 'park2006emergency.pdf',
   },
 }
 
