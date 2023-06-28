@@ -1101,6 +1101,7 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
     pdf: pdfDir + 'kim2017technology.pdf',
+    slide: "https://docs.google.com/presentation/d/14aLQ6gl9uHVPYwJAoA81h4Y1mq3MmaDK/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   kim2017let: {
     year: 2017,
@@ -1123,6 +1124,7 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
     pdf: pdfDir + 'kim2017trailsense.pdf',
+    slide: "https://docs.google.com/presentation/d/1ISJRg5jMjs6o0zh2_jIOkCUp8L83h1Eq/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   jeong2017smartwatch: {
     year: 2017,
@@ -1132,6 +1134,7 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
     pdf: pdfDir + 'jeong2017smartwatch.pdf',
+    slide: "https://docs.google.com/presentation/d/1rjso1XaEBYnozAdaLokl1JJWQn1oCeXD/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   oh2017understanding: {
     year: 2017,
@@ -1165,6 +1168,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2017',
     pdf: pdfDir + 'chin2017watchout.pdf',
+    slide: "https://drive.google.com/file/d/144pLugEwKrhoal4xTE42_Ag3w7Xs4XYB/view?usp=sharing",
   },
   kim2017sensors: {
     year: 2017,
@@ -1216,6 +1220,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, May 2017',
     pdf: pdfDir + 'park2017facilitating.pdf',
+    slide: "https://docs.google.com/presentation/d/1tNF-aOKvmhzixa4qrBDnW4a_uYbjkdpH/edit?usp=sharing&ouid=108518890505131881492&rtpof=true&sd=true",
   },
   kim2017letspic: {
     year: 2017,
@@ -1225,6 +1230,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, May 2017',
     pdf: pdfDir + 'kim2017letspic.pdf',
+    slide: "https://drive.google.com/file/d/1_6UnGEmTwaDfmkHhxQQcyDUIP2fkIRDn/view?usp=sharing",
   },
   noh2016infrastructure: {
     year: 2016,
@@ -1261,6 +1267,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2016',
     pdf: pdfDir + 'choi2016exploring.pdf',
+    slide: "https://docs.google.com/presentation/d/1vNX2tRcTgbktMNBEKuINqZWzyZyk8F_d/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   choi2016designing: {
     year: 2016,
@@ -1296,6 +1303,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2016',
     pdf: pdfDir + 'choi2016lockdoll.pdf',
+    slide: "https://drive.google.com/file/d/1uiufuohnZZaqadAnjWiWjWnr_oSS1-Pn/view?usp=sharing",
   },
   kim2016ecomeal: {
     year: 2016,
@@ -1305,6 +1313,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2016',
     pdf: pdfDir + 'kim2016ecomeal.pdf',
+    slide: "https://drive.google.com/file/d/1np3U1jK-PvCf6jLcfc0iUAYmQNK4V1k0/view?usp=sharing",
   },
   jung2016social: {
     year: 2016,
@@ -1322,6 +1331,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2016 CHI conference extended abstracts on human factors in computing systems, May 2016',
     pdf: pdfDir + 'jung2016social.pdf',
+    slide: "https://drive.google.com/file/d/1I9SVxx_RBoWjAySJxuCDXY5BJJA7LM2N/view?usp=sharing",
   },
   oh2016report: {
     year: 2016,
@@ -1331,6 +1341,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2016',
     pdf: pdfDir + 'oh2016report.pdf',
+    slide: "https://drive.google.com/file/d/1TUGvBVbcJ8HWC2QGegnbIF9uVdZZcwzx/view?usp=sharing",
   },
   kim2016slideqa: {
     year: 2016,
@@ -1340,6 +1351,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2016',
     pdf: pdfDir + 'kim2016slideqa.pdf',
+    slide: "https://drive.google.com/file/d/1bGoWcQ4WKYLNaNU9f0aWr0UDV03JY1Zh/view?usp=sharing",
   },
   choi2016swimtrain: {
     year: 2016,
@@ -1349,6 +1361,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, May 2016',
     pdf: pdfDir + 'choi2016swimtrain.pdf',
+    slide: "https://drive.google.com/file/d/1TwXt6DlJM7R2mYqdlQoPrin4-Cd8Mg78/view?usp=sharing",
   },
   park2016motives: {
     year: 2016,
@@ -1407,6 +1420,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing, Spetember 2015',
     pdf: pdfDir + 'ko2015familync.pdf',
+    slide: "https://docs.google.com/presentation/d/1UTSyxArynRQsAjDUrXn1YWfPUxG7qDVa/edit?usp=sharing&ouid=108518890505131881492&rtpof=true&sd=true",
   },
   choi2015designing: {
     year: 2015,
@@ -1425,6 +1439,7 @@ const publicationData = {
     full_venue:
       'Adjunct Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers, September 2015',
     pdf: pdfDir + 'jeong2015eng.pdf',
+    slide: "https://drive.google.com/file/d/1I25TWgMmHW2P-41038JouGIGgDbPM0SO/view?usp=sharing",
   },
   kim2015crowdcolor: {
     year: 2015,
@@ -1440,6 +1455,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services, August 2015',
     pdf: pdfDir + 'kim2015crowdcolor.pdf',
+    slide: "https://docs.google.com/presentation/d/1GmXKpyXBYAgxxDJUQBqKCet-92hBNiAz/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   noh2015hydrocast: {
     year: 2015,
@@ -1466,6 +1482,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, April 2015',
     pdf: pdfDir + 'oh2015scanshot.pdf',
+    slide: "https://docs.google.com/presentation/d/1JvtcHp60Em5STUjy9CUt3kPTQGSVCNEa/edit?usp=sharing&ouid=108518890505131881492&rtpof=true&sd=true",
   },
   ko2015lock: {
     year: 2015,
@@ -1484,6 +1501,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems, April 2015',
     pdf: pdfDir + 'ko2015lock.pdf',
+    slide: "https://drive.google.com/file/d/1YBlsacCYpZ9r_PkCGP7B75pNoZrPXnqQ/view?usp=sharing",
   },
   song2015every: {
     year: 2015,
@@ -1494,6 +1512,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems, April 2015',
     pdf: pdfDir + 'song2015every.pdf',
+    slide: "https://drive.google.com/file/d/1EVfkjPwfewHBilXsvCxMHbBgBLUWLe5v/view?usp=sharing",
   },
   lee2015socialkeyboard: {
     year: 2015,
@@ -1524,6 +1543,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing, February 2015',
     pdf: pdfDir + 'ko2015nugu.pdf',
+    slide: "https://docs.google.com/presentation/d/1lZChDgIo-3qJIEChAYVcz8uxOTbVR7cg/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   oh2015exploring: {
     year: 2015,
@@ -1533,6 +1553,7 @@ const publicationData = {
     full_venue:
       '2015 Eighth International Conference on Mobile Computing and Ubiquitous Networking',
     pdf: pdfDir + 'oh2015exploring.pdf',
+    slide: "https://docs.google.com/presentation/d/122pyArv5vz4NaUhagHH2rM38ejXN7fO4/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   이의진2015iot: {
     year: 2015,
@@ -1603,6 +1624,7 @@ const publicationData = {
       'Inseok Hwang',
       'Junehwa Song',
     ],
+    slide: "https://docs.google.com/presentation/d/1hrb7VPYFRJxtfO3usff-xj4VRi1KWhDe/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
     // full_venue:
     //   "In Proc. of the 12th ACM Conference on Embedded Networked Sensor Systems (SenSys'14), Memphis, TN, November 3-6, 2014",
   },
@@ -1612,6 +1634,7 @@ const publicationData = {
     venue: 'MobileHCI',
     published: true,
     pdf: pdfDir + 'park2014understanding.pdf',
+    slide: "https://docs.google.com/presentation/d/11r7gS7mH3w0-8oqgBaFHEgYbZn4gbxvA/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
     year: 2014,
     title: 'Understanding Localness of Knowledge Sharing: A Study of Naver KiN Here',
     authors: ['Sangkeun Park', 'Yongsung Kim', 'Uichin Lee', 'Mark Ackerman'],
@@ -1663,6 +1686,7 @@ const publicationData = {
     venue: 'CHI',
     published: true,
     pdf: pdfDir + 'lee2014hooked.pdf',
+    slide: "https://docs.google.com/presentation/d/1tEzNjBibqsUgjMH2PsO4dDxkWJrIxxCr/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
 
   /////////////////
@@ -1704,6 +1728,7 @@ const publicationData = {
     venue: 'WF-IoT',
     published: true,
     pdf: pdfDir + 'gerla2014internet.pdf',
+    slide: "https://docs.google.com/presentation/d/1Xv-FrYGSo4Z6_52yM3AWGh8UB-xfz4gW/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   noh2014dots: {
     year: 2014,
