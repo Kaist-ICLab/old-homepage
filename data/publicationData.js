@@ -1818,6 +1818,7 @@ const publicationData = {
     venue: 'CHI',
     published: true,
     pdf: pdfDir + 'lee2013analyzing.pdf',
+    slide: "https://docs.google.com/presentation/d/1ttMdb-EC13HH9oD6KqFH0k-gbu6ZmMvF/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   oh2013facilitating: {
     year: 2013,
@@ -1847,6 +1848,7 @@ const publicationData = {
     venue: 'IEEE INFOCOM',
     published: true,
     pdf: pdfDir + 'han2013m.pdf',
+    slide: "https://docs.google.com/presentation/d/1YjhvlY6p2AEstYHaMYe1WuCO09X6MXvk/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   noh2013infrastructure: {
     full_venue: 'IEEE Transactions on Systems, Man, and Cybernetics: Systems',
@@ -1927,6 +1929,7 @@ const publicationData = {
     venue: 'CHI',
     published: true,
     pdf: pdfDir + 'lee2012understanding.pdf',
+    slide: "https://docs.google.com/presentation/d/1OR0OeOTDLU2c66qHv9FK5Dim_oODyzfu/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   noh2013vapr: {
     authors: ['Youngtae Noh', 'Uichin Lee', 'Paul Wang', 'Brian Sung Chul Choi', 'Mario Gerla'],
@@ -1965,6 +1968,7 @@ const publicationData = {
     year: 2011,
     published: true,
     pdf: pdfDir + 'ahnn2011geoserv.pdf',
+    slide: "https://docs.google.com/presentation/d/1xmLtOoUEQ-s-V3tbHVKOLrKnAl0b2-Tm/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lim2013sewersnort: {
     authors: [
@@ -1983,6 +1987,7 @@ const publicationData = {
     year: 2011,
     published: true,
     pdf: pdfDir + 'lim2013sewersnort.pdf',
+    slide: "https://docs.google.com/presentation/d/1LU3AA04AnNRpjBEh75NolwhjbNZu1r6w/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2011toward: {
     authors: ['Uichin Lee', 'Ivica Rimac', 'Daniel Kilper', 'Volker Hilt'],
@@ -2012,6 +2017,7 @@ const publicationData = {
     year: 2010,
     published: true,
     pdf: pdfDir + 'noh2010dots.pdf',
+    slide: "https://docs.google.com/presentation/d/1GhdSDIIA3Btl0ceYZoO4KUFPKyDY_l3Y/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   noh2012vapr: {
     authors: ['Youngtae Noh', 'Paul Wang', 'Uichin Lee', 'Mario Gerla'],
@@ -2049,6 +2055,7 @@ const publicationData = {
     year: 2010,
     published: true,
     pdf: pdfDir + 'lee2010greening.pdf',
+    slide: "https://docs.google.com/presentation/d/1Dtsv04bdXB9iGce0XjuXqY_BlEaYjy6y/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   cho2010autogait: {
     authors: ['Dae-Ki Cho', 'Min Mun', 'Uichin Lee', 'William J. Kaiser', 'Mario Gerla'],
@@ -2059,6 +2066,7 @@ const publicationData = {
     year: 2010,
     published: true,
     pdf: pdfDir + 'cho2010autogait.pdf',
+    slide: "https://docs.google.com/presentation/d/1OhXfmQJEpUBU15tDbkfCrQ4vkghkkBOv/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   park2010vehicular: {
     authors: ['Joon-Sang Park', 'Uichin Lee', 'Mario Gerla'],
@@ -2084,6 +2092,7 @@ const publicationData = {
     year: 2010,
     published: true,
     pdf: pdfDir + 'lee2010pressure.pdf',
+    slide: "https://docs.google.com/presentation/d/1ksgreNU8KEQxsmOk7P73kTHp5c3tpTn2/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2010surveyurban: {
     authors: ['Uichin Lee', 'Mario Gerla'],
@@ -2102,6 +2111,7 @@ const publicationData = {
     year: 2010,
     published: true,
     pdf: pdfDir + 'lee2009fleanet.pdf',
+    slide: "https://docs.google.com/presentation/d/1f0IEES0siTqldBdqICx1hODTrnps1b7L/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2009p2p: {
     authors: ['Uichin Lee', 'Sewook Jung', 'Alexander Chang', 'Dae-Ki Cho', 'Mario Gerla'],
@@ -2120,6 +2130,7 @@ const publicationData = {
     year: 2009,
     published: true,
     pdf: pdfDir + 'lee2009scaling.pdf',
+    slide: "https://docs.google.com/presentation/d/1UBEpYkXYByzEfP6wkcZ2OffDvU1Do676/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2009relaycast: {
     authors: ['Uichin Lee', 'Soon Young Oh', 'Kang-Won Lee', 'Mario Gerla'],
@@ -2158,6 +2169,7 @@ const publicationData = {
     year: 2009,
     published: true,
     pdf: pdfDir + 'lee2009go.pdf',
+    slide: "https://docs.google.com/presentation/d/1RO9TvlQL8lHajRVxQ8Pm6JaiE8pRGCFX/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2010surveyrouting: {
     authors: ['Kevin C. Lee', 'Uichin Lee', 'Mario Gerla.'],
@@ -2216,6 +2228,7 @@ const publicationData = {
     year: 2008,
     published: true,
     pdf: pdfDir + 'lee2008relaycast.pdf',
+    slide: "https://docs.google.com/presentation/d/1h0A5NjcX4yllQKdwxaOh-G96sD-TUHW2/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   vieira2008phero: {
     authors: ['Luiz F. M. Vieira', 'Uichin Lee', 'Mario Gerla'],
@@ -2225,6 +2238,7 @@ const publicationData = {
     year: 2008,
     published: true,
     pdf: pdfDir + 'vieira2008phero.pdf',
+    slide: "https://docs.google.com/presentation/d/1lmrSHa_-YN9CQSpHbAv4UmQJvsEWLSvm/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2007bio: {
     authors: [
@@ -2252,6 +2266,7 @@ const publicationData = {
     year: 2008,
     published: true,
     pdf: pdfDir + 'lee2008content.pdf',
+    slide: "https://docs.google.com/presentation/d/13Sd1KvNij4Wz4sY6_vEv9a2K7drRCz0Q/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2008efficient: {
     authors: [
@@ -2342,6 +2357,7 @@ const publicationData = {
     year: 2007,
     published: true,
     pdf: pdfDir + 'jung2007bluetorrent.pdf',
+    slide: "https://docs.google.com/presentation/d/18bcOXbprVcv2z-K2f5mrjQdiaw490jiI/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2007time: {
     authors: ['Uichin Lee', 'Jiejun Kong', 'Eugenio Magistretti', 'Joon-Sang Park', 'Mario Gerla'],
@@ -2368,6 +2384,7 @@ const publicationData = {
     year: 2006,
     published: true,
     pdf: pdfDir + 'lee2006mobeyes.pdf',
+    slide: "https://docs.google.com/presentation/d/11Gh7DUW1MFdGKV9pONZBnstxscyb5mer/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2006code: {
     authors: ['Uichin Lee', 'Joon-Sang Park', 'Joseph Yeh', 'Giovanni Pau', 'Mario Gerla'],
@@ -2378,6 +2395,7 @@ const publicationData = {
     year: 2006,
     published: true,
     pdf: pdfDir + 'lee2006code.pdf',
+    slide: "https://docs.google.com/presentation/d/1UYVkm2aKPSp0RWUTBPND0UDMyHD1mo51/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   gerla2006vehicular: {
     authors: [
@@ -2394,6 +2412,7 @@ const publicationData = {
     year: 2006,
     published: true,
     pdf: pdfDir + 'gerla2006vehicular.pdf',
+    slide: "https://docs.google.com/presentation/d/1tSgl-7rgivjaLEUhT4qEZoFMHVKIZ9wJ/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2006efficient: {
     authors: [
@@ -2420,6 +2439,7 @@ const publicationData = {
     year: 2006,
     published: true,
     pdf: pdfDir + 'lee2006understanding.pdf',
+    slide: "https://docs.google.com/presentation/d/1MFBNgKVxHilQTSL7DZy_dS31H2UMzMsv/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2005flowbased: {
     authors: ['Uichin Lee', 'Joon-Sang Park', 'M. Y. Sanadidi', 'M. Gerla'],
@@ -2477,6 +2497,7 @@ const publicationData = {
     year: 2007,
     published: true,
     pdf: pdfDir + 'lee2007first.pdf',
+    slide: "https://drive.google.com/file/d/1YXoA4Qsb_TurHnMoAHY-lJrR8Wj6FQXx/view?usp=sharing",
   },
   vieira2006analysis: {
     authors: ['Luiz Filipe M. Vieira', 'Jiejun Kong', 'Uichin Lee', 'Mario Gerla'],
