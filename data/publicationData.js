@@ -55,6 +55,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
     published: true,
+    video: 'https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3544548.3581457&file=3544548.3581457-talk-video.mp4',
     pdf: pdfDir + 'park2023charlie.pdf',
   },
   park2023quickref: {
@@ -65,6 +66,8 @@ const publicationData = {
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
     published: true,
+    slide: 'https://drive.google.com/file/d/1O-CKpQ-nE0SyTSLy-DeW6VmtzY3i3D3d/view?usp=drive_link',
+    video: 'https://youtu.be/SH8Ac7DGWRU',
     pdf: pdfDir + 'park2023quickref.pdf',
   },
   jung2023enjoy: {
@@ -84,6 +87,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue: 'Proceedings of the 2022 ACM International Joint Conference on Pervasive and Ubiquitous Computing',
     published: true,
+    video: 'https://docs.google.com/presentation/d/1vNkznJx4q5KoOaxMKlzQI5P4IN_leSYscdkZ2WX-KN8/edit?usp=sharing',
     pdf: pdfDir + 'han2023stressbal.pdf',
   },
   choi2023loss: {
@@ -123,6 +127,7 @@ const publicationData = {
     full_venue: "2022년 한국컴퓨터종합학술대회(KCC) 논문집",
     published: true,
     pdf: pdfDir + "shin2022smarthome.pdf",
+
     slide: "https://drive.google.com/file/d/15yI_Gn8Xj7m02bCk0AzfGFwPnbILIK5G/view?usp=share_link"
   },
   zitouni2022lstm: {
@@ -300,6 +305,7 @@ const publicationData = {
     full_venue:
       "Proceedings of the ACM on Human-Computer Interaction (PACM-HCI) / CSCW, Volume 6, CSCW2, November'22",
     published: true,
+    video: 'https://youtu.be/Ohd-YyQ8tl4',
     pdf: pdfDir + 'kim2022social.pdf',
   },
   lee2022adverse: {
@@ -347,6 +353,7 @@ const publicationData = {
     full_venue:
       "CHI EA '22: Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems",
     pdf: pdfDir + 'jung2022caremouse.pdf',
+    slide: 'https://drive.google.com/file/d/1fZQT66Mvk4gPBjc61pHdPhisV_5zEsH8/view?usp=sharing',
     video: 'https://www.youtube.com/watch?v=lUj4s3ITmxs',
   },
   kang2022understanding: {
@@ -444,6 +451,7 @@ const publicationData = {
     ],
     venue: '한국정보과학회',
     full_venue: '한국정보과학회 학술발표논문집',
+    slide: 'https://docs.google.com/presentation/d/1sKbMjCKrq8y9gGkqEUe0vLOZmc6_OZcUV2O-TxW7csI/edit?usp=sharing',
     pdf: pdfDir + 'kim2021causal.pdf',
   },
   kim2021cheersbot: {
@@ -542,6 +550,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems',
     pdf: pdfDir + 'park2021goldentime.pdf',
+    slide: 'https://drive.google.com/file/d/19nKMfHbOzzMKsEtcGqj8tmcZtZITEFwV/view?usp=drive_link',
     video: 'https://www.youtube.com/watch?v=oVSeVFfBhQE',
   },
   kim2021beneficial: {
@@ -553,7 +562,6 @@ const publicationData = {
     full_venue:
       'Ubicomp 2021 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 5, Issue 1, March 2021',
     pdf: pdfDir + 'kim2021beneficial.pdf',
-    slide: 'Ubicomp2022_Beneficial Neglect.pptx', // page not found
   },
   samson2020asian: {
     year: 2020,
@@ -703,6 +711,7 @@ const publicationData = {
     venue: 'IEEE',
     full_venue: 'IEEE Access 2020',
     pdf: pdfDir + 'kim2020dashcam.pdf',
+    slide: 'https://docs.google.com/presentation/d/1AqJV2kOUGfLqcrKosdLy4BapVxIjnTHO/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true',
   },
   balili2020termball: {
     year: 2020,
@@ -850,6 +859,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2019 CHI conference on human factors in computing systems, May 2019',
     pdf: pdfDir + 'kim2019lockntype.pdf',
+    slide: 'https://docs.google.com/presentation/d/19Fp6V5-9VQ0iK7blqzUvOZg-XoI42kY3/edit?usp=sharing&ouid=104860675243862886660&rtpof=true&sd=true',
   },
   
   //////////////
