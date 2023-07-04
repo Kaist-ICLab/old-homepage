@@ -1056,6 +1056,8 @@ const publicationData = {
     full_venue:
       'Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, April 2018',
     pdf: pdfDir + 'park2018interaction.pdf',
+    slide: 'https://drive.google.com/file/d/120lIVMzEUe--XuMdUkaitKniBw2LCs83/view?usp=sharing',
+    video: 'https://drive.google.com/file/d/1S4_C4uozwrfX9yvtBXcCj7u0y33LHzHU/view?usp=sharing',
   },
   shin2018actuating: {
     year: 2018,
@@ -1372,6 +1374,7 @@ const publicationData = {
       'Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, May 2016',
     pdf: pdfDir + 'choi2016swimtrain.pdf',
     slide: "https://drive.google.com/file/d/1TwXt6DlJM7R2mYqdlQoPrin4-Cd8Mg78/view?usp=sharing",
+    video: "https://drive.google.com/file/d/0B7KaX6-7H5PNRXpiQm5Iekx1a00/view?usp=drive_link&resourcekey=0-VD3f9LkX9DAfJaTOgft9OQ",
   },
   park2016motives: {
     year: 2016,
@@ -1421,6 +1424,7 @@ const publicationData = {
     full_venue: 'ACM Transactions on Computer-Human Interaction, Volume 23 Issue 1, February 2016',
     pdf: pdfDir + 'ko2016understanding.pdf',
     code: 'https://zenodo.org/record/34939#.Vnt0dRWLTcu',
+    slide: "https://docs.google.com/presentation/d/1q4g7jpO5agiEGiinRe8gEDne5iUklKb-/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   ko2015familync: {
     year: 2015,
@@ -1440,6 +1444,7 @@ const publicationData = {
     full_venue:
       'Adjunct Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers, September 2015',
     pdf: pdfDir + 'choi2015designing.pdf',
+    slide: "https://drive.google.com/file/d/0B7KaX6-7H5PNODgyYUxCR3hvWkU/view?usp=drive_link&resourcekey=0-pV2gqwfhWE1OS8taia8Svw",
   },
   jeong2015eng: {
     year: 2015,
@@ -1607,6 +1612,7 @@ const publicationData = {
     venue: 'Wireless Personal Communications',
     published: true,
     pdf: pdfDir + 'lee2015secure.pdf',
+    slide: "https://docs.google.com/presentation/d/1WLeounWyNOiDASLEn-cFr6D1C4hO-u_6/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   bao2014methods: {
     year: 2014,
@@ -1635,6 +1641,7 @@ const publicationData = {
       'Junehwa Song',
     ],
     slide: "https://docs.google.com/presentation/d/1hrb7VPYFRJxtfO3usff-xj4VRi1KWhDe/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
+    video: "https://drive.google.com/file/d/0B7KaX6-7H5PNckJRZU5wSDVfbWc/view?usp=drive_link&resourcekey=0-ma5aSEqaL1OvULdSvOGUHA",
     // full_venue:
     //   "In Proc. of the 12th ACM Conference on Embedded Networked Sensor Systems (SenSys'14), Memphis, TN, November 3-6, 2014",
   },
@@ -1764,7 +1771,7 @@ const publicationData = {
     authors: ['고민삼', '이준원', '양수빈', '이의진'],
     full_venue: 'HCI Korea, Feb. 2014',
     // full_venue: '한국 HCI 학회 학술대회',
-    venue: '',
+    venue: 'HCI Korea',
     published: true,
     pdf: pdfDir + '고민삼2014스마트폰.pdf',
   },
@@ -1774,7 +1781,7 @@ const publicationData = {
     authors: ['강성준', '신대희', '명미라', '이의진', '박준성'],
     full_venue: 'HCI Korea, Feb. 2014',
     // full_venue: '한국 HCI 학회 학술대회',
-    venue: '',
+    venue: 'HCI Korea',
     published: true,
     pdf: pdfDir + '강성준2014다중.pdf',
   },
@@ -2107,8 +2114,8 @@ const publicationData = {
   lee2010surveyurban: {
     authors: ['Uichin Lee', 'Mario Gerla'],
     title: 'A Survey of Urban Vehicular Sensing Platforms',
+    venue: 'Computer Networks',
     full_venue: 'Computer Networks',
-    venue: '',
     year: 2010,
     published: true,
     pdf: pdfDir + 'lee2010surveyurban.pdf',
