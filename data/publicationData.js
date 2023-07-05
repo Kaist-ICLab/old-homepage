@@ -1,4 +1,5 @@
-const pdfDir = "../files/papers/"
+const paperDir = "../files/papers/"
+const slideDir = "../files/slides/"
 
 const publicationData = {
   park2023understanding: {
@@ -9,7 +10,7 @@ const publicationData = {
     full_venue:
     'ACM Ubicomp 2023 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 7, Issue 2, June 2023',
     published: true,
-    pdf: pdfDir + 'park2023understanding.pdf',
+    pdf: paperDir + 'park2023understanding.pdf',
   },
   kang2023k: {
     year: 2023,
@@ -18,7 +19,7 @@ const publicationData = {
     venue: 'Scientific Data',
     full_venue: 'Scientific Data Volume 10, No. 1, 2023',
     published: true,
-    pdf: pdfDir + 'kang2023k.pdf',
+    pdf: paperDir + 'kang2023k.pdf',
   },
   jung2023causal: {
     year: 2023,
@@ -27,7 +28,7 @@ const publicationData = {
     venue: 'BigComp',
     full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
     published: true,
-    pdf: pdfDir + 'jung2023causal.pdf',
+    pdf: paperDir + 'jung2023causal.pdf',
   },
   lee2023data1: {
     year: 2023,
@@ -36,7 +37,7 @@ const publicationData = {
     venue: 'BigComp',
     full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
     published: true,
-    pdf: pdfDir + 'lee2023data1.pdf',
+    pdf: paperDir + 'lee2023data1.pdf',
   },
   lee2023data2: {
     year: 2023,
@@ -45,7 +46,7 @@ const publicationData = {
     venue: 'BigComp',
     full_venue: '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
     published: true,
-    pdf: pdfDir + 'lee2023data2.pdf',
+    pdf: paperDir + 'lee2023data2.pdf',
   },
   park2023charlie: {
     year: 2023,
@@ -56,7 +57,7 @@ const publicationData = {
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
     published: true,
     video: 'https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3544548.3581457&file=3544548.3581457-talk-video.mp4',
-    pdf: pdfDir + 'park2023charlie.pdf',
+    pdf: paperDir + 'park2023charlie.pdf',
   },
   park2023quickref: {
     year: 2023,
@@ -68,7 +69,7 @@ const publicationData = {
     published: true,
     slide: 'https://drive.google.com/file/d/1O-CKpQ-nE0SyTSLy-DeW6VmtzY3i3D3d/view?usp=drive_link',
     video: 'https://youtu.be/SH8Ac7DGWRU',
-    pdf: pdfDir + 'park2023quickref.pdf',
+    pdf: paperDir + 'park2023quickref.pdf',
   },
   jung2023enjoy: {
     year: 2023,
@@ -88,7 +89,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 2022 ACM International Joint Conference on Pervasive and Ubiquitous Computing',
     published: true,
     video: 'https://docs.google.com/presentation/d/1vNkznJx4q5KoOaxMKlzQI5P4IN_leSYscdkZ2WX-KN8/edit?usp=sharing',
-    pdf: pdfDir + 'han2023stressbal.pdf',
+    pdf: paperDir + 'han2023stressbal.pdf',
   },
   choi2023loss: {
     year: 2023,
@@ -98,7 +99,7 @@ const publicationData = {
     venue: "JMU",
     full_venue: "JMIR mHealth and uHealth",
     published: true,
-    pdf: pdfDir + 'choi2023loss.pdf',
+    pdf: paperDir + 'choi2023loss.pdf',
   },
   lee2023toward: {
     year: 2023,
@@ -117,7 +118,7 @@ const publicationData = {
     venue: 'IEEE',
     full_venue: 'IEEE/CAA Journal of Automatica Sinica',
     published: true,
-    pdf: pdfDir + 'lee2023toward.pdf',
+    pdf: paperDir + 'lee2023toward.pdf',
   },
   shin2022smarthome: {
     year: 2022,
@@ -126,7 +127,7 @@ const publicationData = {
     venue: "KCC",
     full_venue: "2022년 한국컴퓨터종합학술대회(KCC) 논문집",
     published: true,
-    pdf: pdfDir + "shin2022smarthome.pdf",
+    pdf: paperDir + "shin2022smarthome.pdf",
 
     slide: "https://drive.google.com/file/d/15yI_Gn8Xj7m02bCk0AzfGFwPnbILIK5G/view?usp=share_link"
   },
@@ -144,7 +145,7 @@ const publicationData = {
     venue: 'IEEE',
     full_venue: 'IEEE Journal of Biomedical and Health Informatics',
     published: true,
-    pdf: pdfDir + 'zitouni2022lstm.pdf',
+    pdf: paperDir + 'zitouni2022lstm.pdf',
   },
   lee2022trends: {
     year: 2022,
@@ -163,7 +164,7 @@ const publicationData = {
     venue: 'JMU',
     full_venue: 'JMIR mHealth and uHealth',
     published: true,
-    pdf: pdfDir + 'lee2022trends.pdf',
+    pdf: paperDir + 'lee2022trends.pdf',
   },
   choi2022you: {
     year: 2022,
@@ -180,7 +181,7 @@ const publicationData = {
     venue: 'CSCW',
     full_venue: 'Proceedings of the ACM on Human-Computer Interaction',
     published: true,
-    pdf: pdfDir + 'choi2022you.pdf',
+    pdf: paperDir + 'choi2022you.pdf',
   },
   lee2022towarddynamic: {
     year: 2022,
@@ -190,7 +191,7 @@ const publicationData = {
     venue: 'IEEE PerCom',
     full_venue: 'IEEE International Conference on Pervasive Computing and Communications, 2022',
     published: true,
-    pdf: pdfDir + 'lee2022towarddynamic.pdf',
+    pdf: paperDir + 'lee2022towarddynamic.pdf',
   },
   lee2022lv: {
     year: 2022,
@@ -205,7 +206,7 @@ const publicationData = {
     venue: 'UIST',
     full_venue: 'Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology',
     published: true,
-    pdf: pdfDir + 'lee2022lv.pdf',
+    pdf: paperDir + 'lee2022lv.pdf',
   },
   lee2022method: {
     year: 2022,
@@ -220,7 +221,7 @@ const publicationData = {
     venue: 'Google Patents',
     full_venue: 'Google Patents',
     published: true,
-    pdf: pdfDir + 'lee2022method.pdf',
+    pdf: paperDir + 'lee2022method.pdf',
   },
   lee2022method: {
     year: 2022,
@@ -233,7 +234,7 @@ const publicationData = {
     venue: 'Google Patents',
     full_venue: 'Google Patents',
     published: true,
-    pdf: pdfDir + 'lee2022method.pdf',
+    pdf: paperDir + 'lee2022method.pdf',
   },
   choi2022facilitating: {
     year: 2022,
@@ -250,7 +251,7 @@ const publicationData = {
     venue: 'MobiSys',
     full_venue: 'Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services',
     published: true,
-    pdf: pdfDir + 'choi2022facilitating.pdf',
+    pdf: paperDir + 'choi2022facilitating.pdf',
   },
   lee2022beyond: {
     year: 2022,
@@ -271,7 +272,7 @@ const publicationData = {
     venue: 'JMU',
     full_venue: 'JMIR mHealth and uHealth',
     published: true,
-    pdf: pdfDir + 'lee2022beyond.pdf',
+    pdf: paperDir + 'lee2022beyond.pdf',
   },
   salman2022darcas: {
     year: 2022,
@@ -287,7 +288,7 @@ const publicationData = {
     venue: 'IEEE',
     full_venue: 'IEEE Internet of Things Journal',
     published: true,
-    pdf: pdfDir + 'salman2022darcas.pdf',
+    pdf: paperDir + 'salman2022darcas.pdf',
   },
   kim2022social: {
     year: 2022,
@@ -306,7 +307,7 @@ const publicationData = {
       "Proceedings of the ACM on Human-Computer Interaction (PACM-HCI) / CSCW, Volume 6, CSCW2, November'22",
     published: true,
     video: 'https://youtu.be/Ohd-YyQ8tl4',
-    pdf: pdfDir + 'kim2022social.pdf',
+    pdf: paperDir + 'kim2022social.pdf',
   },
   lee2022adverse: {
     year: 2022,
@@ -314,7 +315,7 @@ const publicationData = {
     authors: ['Uichin Lee', 'Paul H. Lee'],
     venue: 'Frontiers Public Health',
     full_venue: 'Volume II, Frontiers Public Health, 09 August 2022 Sec. Digital Public Health',
-    pdf: pdfDir +  'lee2022adverse.pdf',
+    pdf: paperDir +  'lee2022adverse.pdf',
   },
   lee2021systematic: {
     year: 2022,
@@ -322,7 +323,7 @@ const publicationData = {
     authors: ['Hansoo Lee', 'Joonyoung Park', 'Uichin Lee'],
     venue: 'ACM CSUR',
     full_venue: 'ACM Computing Surveys (CSUR)',
-    pdf: pdfDir + 'lee2021systematic.pdf',
+    pdf: paperDir + 'lee2021systematic.pdf',
   },
   lee2022understanding: {
     year: 2022,
@@ -332,7 +333,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2022 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 6, Issue 2, July 2022',
-    pdf: pdfDir + 'lee2022understanding.pdf',
+    pdf: paperDir + 'lee2022understanding.pdf',
   },
   salman2022csi: {
     year: 2022,
@@ -342,7 +343,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2022 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 6, Issue 2, July 2022',
-    pdf: pdfDir + 'salman2022csi.pdf',
+    pdf: paperDir + 'salman2022csi.pdf',
   },
   jung2022caremouse: {
     year: 2022,
@@ -352,7 +353,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       "CHI EA '22: Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems",
-    pdf: pdfDir + 'jung2022caremouse.pdf',
+    pdf: paperDir + 'jung2022caremouse.pdf',
     slide: 'https://drive.google.com/file/d/1fZQT66Mvk4gPBjc61pHdPhisV_5zEsH8/view?usp=sharing',
     video: 'https://www.youtube.com/watch?v=lUj4s3ITmxs',
   },
@@ -362,7 +363,7 @@ const publicationData = {
     authors: ['Soowon Kang', 'Cheul Young Park', 'Narae Cha', 'Auk Kim', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
-    pdf: pdfDir + 'kang2022understanding.pdf',
+    pdf: paperDir + 'kang2022understanding.pdf',
   },
   choi2022s: {
     year: 2022,
@@ -371,7 +372,7 @@ const publicationData = {
     authors: ['Dasom Choi', 'Uichin Lee', 'Hwajung Hong'],
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
-    pdf: pdfDir + 'choi2022s.pdf',
+    pdf: paperDir + 'choi2022s.pdf',
   },
   zitouni2022privacy: {
     year: 2022,
@@ -385,7 +386,7 @@ const publicationData = {
     ],
     venue: 'IEEE',
     full_venue: 'IEEE Access 07 April 2022',
-    pdf: pdfDir + 'zitouni2022privacy.pdf',
+    pdf: paperDir + 'zitouni2022privacy.pdf',
   },
   al2022successfully: {
     year: 2022,
@@ -408,7 +409,7 @@ const publicationData = {
     ],
     venue: 'JAMA',
     full_venue: 'JAMA Network Open 2022;5(2):e220214',
-    pdf: pdfDir + 'al2022successfully.pdf',
+    pdf: paperDir + 'al2022successfully.pdf',
   },
   kim2021poster: {
     year: 2021,
@@ -422,7 +423,7 @@ const publicationData = {
     ],
     venue: 'Ubicomp',
     full_venue: 'Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers',
-    pdf: pdfDir + 'kim2021poster.pdf',
+    pdf: paperDir + 'kim2021poster.pdf',
   },
   kang2021poster: {
     year: 2021,
@@ -436,7 +437,7 @@ const publicationData = {
     ],
     venue: 'Ubicomp',
     full_venue: 'Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers',
-    pdf: pdfDir + 'kang2021poster.pdf',
+    pdf: paperDir + 'kang2021poster.pdf',
   },
   kim2021causal: {
     year: 2021,
@@ -452,7 +453,7 @@ const publicationData = {
     venue: '한국정보과학회',
     full_venue: '한국정보과학회 학술발표논문집',
     slide: 'https://docs.google.com/presentation/d/1sKbMjCKrq8y9gGkqEUe0vLOZmc6_OZcUV2O-TxW7csI/edit?usp=sharing',
-    pdf: pdfDir + 'kim2021causal.pdf',
+    pdf: paperDir + 'kim2021causal.pdf',
   },
   kim2021cheersbot: {
     year: 2021,
@@ -461,7 +462,7 @@ const publicationData = {
     venue: "HCI Korea",
     full_venue: "한국HCI학회 학술대회, 2021",
     published: true,
-    pdf: pdfDir + "kim2021cheersbot.pdf"
+    pdf: paperDir + "kim2021cheersbot.pdf"
   },
   nasrat2021emotion: {
     year: 2021,
@@ -477,7 +478,7 @@ const publicationData = {
     ],
     venue: 'BIBM',
     full_venue: '2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)',
-    pdf: pdfDir + 'nasrat2021emotion.pdf',
+    pdf: paperDir + 'nasrat2021emotion.pdf',
   },
   zitouni2021arousal: {
     year: 2021,
@@ -493,7 +494,7 @@ const publicationData = {
     venue: 'EMBC',
     full_venue:
       '2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)',
-    pdf: pdfDir + 'zitouni2021arousal.pdf',
+    pdf: paperDir + 'zitouni2021arousal.pdf',
   },
   lee2021dynamic: {
     year: 2021,
@@ -502,7 +503,7 @@ const publicationData = {
     venue: 'ICMU',
     full_venue:
       'ICMU 2021, The 13th International Conference on Mobile Computing and Ubiquitous Networking, November 17-19th, 2021, Tokyo, Japan',
-    pdf: pdfDir + 'lee2021dynamic.pdf',
+    pdf: paperDir + 'lee2021dynamic.pdf',
   },
   kim2021utilitarian: {
     year: 2021,
@@ -512,7 +513,7 @@ const publicationData = {
     venue: 'HCII',
     full_venue:
       'HCI International 2021, International Conference on Human-Computer Interaction, 2021/7/24',
-    pdf: pdfDir + 'kim2021utilitarian.pdf',
+    pdf: paperDir + 'kim2021utilitarian.pdf',
   },
   lee2021benefits: {
     year: 2021,
@@ -522,7 +523,7 @@ const publicationData = {
     full_venue:
       'Frontiers in Public Health (Digital Public Health Section), 18 March 2021 (to appear)',
     // cannot download pdf file
-    pdf: pdfDir + 'lee2021benefits.pdf',
+    pdf: paperDir + 'lee2021benefits.pdf',
   },
   jung2021good: {
     year: 2021,
@@ -530,7 +531,7 @@ const publicationData = {
     authors: ['Gyuwon Jung', 'Jio Oh', 'Youjin Jung', 'Juho Sun', 'Ha-Kyung Kong', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems',
-    pdf: pdfDir + 'jung2021good.pdf',
+    pdf: paperDir + 'jung2021good.pdf',
     video: 'https://www.youtube.com/watch?v=mxMoqi58A4I&feature=youtu.be',
   },
   lee2021sticky: {
@@ -539,7 +540,7 @@ const publicationData = {
     authors: ['Hyunsoo Lee', 'Auk Kim', 'Hwajung Hong', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems',
-    pdf: pdfDir + 'lee2021sticky.pdf',
+    pdf: paperDir + 'lee2021sticky.pdf',
     video: 'https://www.youtube.com/watch?v=mSCXgOceCpA&ab_channel=ACMSIGCHI',
   },
   park2021goldentime: {
@@ -549,7 +550,7 @@ const publicationData = {
     authors: ['Joonyoung Park', 'Hyunsoo Lee', 'Sangkeun Park', 'Kyong-Mee Chung', 'Uichin Lee'],
     venue: 'CHI',
     full_venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems',
-    pdf: pdfDir + 'park2021goldentime.pdf',
+    pdf: paperDir + 'park2021goldentime.pdf',
     slide: 'https://drive.google.com/file/d/19nKMfHbOzzMKsEtcGqj8tmcZtZITEFwV/view?usp=drive_link',
     video: 'https://www.youtube.com/watch?v=oVSeVFfBhQE',
   },
@@ -561,7 +562,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'Ubicomp 2021 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 5, Issue 1, March 2021',
-    pdf: pdfDir + 'kim2021beneficial.pdf',
+    pdf: paperDir + 'kim2021beneficial.pdf',
   },
   samson2020asian: {
     year: 2020,
@@ -596,7 +597,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       "Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems",
-    pdf: pdfDir + 'samson2020asian.pdf',
+    pdf: paperDir + 'samson2020asian.pdf',
   },
   kim2020understanding: {
     year: 2020,
@@ -606,7 +607,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2021/ Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) Volume 4, Issue 4, Dec. 2020',
-    pdf: pdfDir + 'kim2020understanding.pdf',
+    pdf: paperDir + 'kim2020understanding.pdf',
   },
   lee2021validation: {
     year: 2020,
@@ -615,7 +616,7 @@ const publicationData = {
     authors: ['Paul H Lee', 'Andy C. Y. Tse', 'Cynthia S. T. Wu', 'Yim Wah Mak', 'Uichin Lee'],
     venue: 'PI',
     full_venue: 'Psychiatry Investigation 2021 Feb',
-    pdf: pdfDir + 'lee2021validation.pdf',
+    pdf: paperDir + 'lee2021validation.pdf',
   },
   al2020riyadh: {
     year: 2020,
@@ -637,7 +638,7 @@ const publicationData = {
     ],
     venue: 'Lancet',
     full_venue: 'The Lancet 2020 Volume 396, Issue 10262',
-    pdf: pdfDir + 'al2020riyadh.pdf',
+    pdf: paperDir + 'al2020riyadh.pdf',
   },
   lee2021temporal: {
     year: 2020,
@@ -646,7 +647,7 @@ const publicationData = {
     authors: ['Paul H. Lee', 'Andy C. Y. Tse', 'Cynthia S. T. Wu', 'Yim Wah Mak', 'Uichin Lee'],
     venue: 'JSR',
     full_venue: 'Journal of Sleep Research Oct. 2020',
-    pdf: pdfDir + 'lee2021temporal.pdf',
+    pdf: paperDir + 'lee2021temporal.pdf',
   },
   murray2020digital: {
     year: 2020,
@@ -654,7 +655,7 @@ const publicationData = {
     authors: ['Christopher J L Murray', 'Nurah Maziad S Alamro', 'Hee Hwang', 'Uichin Lee'],
     venue: 'Lancet',
     full_venue: 'Lancet Public Health Volume 5, Issue 9, E469-E470, Sept. 2020',
-    pdf: pdfDir + 'murray2020digital.pdf',
+    pdf: paperDir + 'murray2020digital.pdf',
   },
   park2020k: {
     year: 2020,
@@ -673,7 +674,7 @@ const publicationData = {
     ],
     venue: 'Scientific Data',
     full_venue: 'Scientific Data Volume 7, No. 293, 2020',
-    pdf: pdfDir + 'park2020k.pdf',
+    pdf: paperDir + 'park2020k.pdf',
   },
   cha2020hello: {
     year: 2020,
@@ -692,7 +693,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2021/ Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) Vol. 4, No. 3, Article 74, Sept. 2020',
-    pdf: pdfDir + 'cha2020hello.pdf',
+    pdf: paperDir + 'cha2020hello.pdf',
     video: 'https://www.youtube.com/watch?v=AA8CTi2hEf0',
   },
   jung2020too: {
@@ -702,7 +703,7 @@ const publicationData = {
     authors: ['Gyuwon Jung', 'Hyunsoo Lee', 'Auk Kim', 'Uichin Lee'],
     venue: 'FrontPubHealth',
     full_venue: 'Frontiers in Public Health 2020',
-    pdf: pdfDir + 'jung2020too.pdf',
+    pdf: paperDir + 'jung2020too.pdf',
   },
   kim2020dashcam: {
     year: 2020,
@@ -710,7 +711,7 @@ const publicationData = {
     authors: ['Joohyun Kim', 'Sangkeun Park', 'Uichin Lee'],
     venue: 'IEEE',
     full_venue: 'IEEE Access 2020',
-    pdf: pdfDir + 'kim2020dashcam.pdf',
+    pdf: paperDir + 'kim2020dashcam.pdf',
     slide: 'https://docs.google.com/presentation/d/1AqJV2kOUGfLqcrKosdLy4BapVxIjnTHO/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true',
   },
   balili2020termball: {
@@ -720,7 +721,7 @@ const publicationData = {
     authors: ['Christine Balili', 'Uichin Lee', 'Aviv Segev', 'Jaejeung Kim', 'Minsam Ko'],
     venue: 'IEEE',
     full_venue: 'IEEE Access 2020',
-    pdf: pdfDir + 'balili2020termball.pdf',
+    pdf: paperDir + 'balili2020termball.pdf',
   },
   park2020cognitive: {
     year: 2020,
@@ -729,7 +730,7 @@ const publicationData = {
     authors: ['Daehee Park', 'Wan Chul Yoon', 'Uichin Lee'],
     venue: 'Sensors',
     full_venue: 'Sensors 2020, 20(10), 2978',
-    pdf: pdfDir + 'park2020cognitive.pdf',
+    pdf: paperDir + 'park2020cognitive.pdf',
   },
   rhim2020tracking: {
     year: 2020,
@@ -738,7 +739,7 @@ const publicationData = {
     venue: 'UMAP',
     full_venue:
       "ACM UMAP'20 / Conference on User Modeling, Adaptation and Personalization , July 14-17, 2020, Genoa, Italy",
-    pdf: pdfDir + 'rhim2020tracking.pdf',
+    pdf: paperDir + 'rhim2020tracking.pdf',
   },
   lee2020privacy: {
     year: 2020,
@@ -746,7 +747,7 @@ const publicationData = {
     authors: ['Hyunsoo Lee', 'Uichin Lee'],
     venue: 'CHI Workshop',
     full_venue: 'ACM CHI 2020 Networked Privacy Workshop, April 25-30, 2020',
-    pdf: pdfDir + 'lee2020privacy.pdf',
+    pdf: paperDir + 'lee2020privacy.pdf',
   },
   sun2020beactive: {
     year: 2020,
@@ -768,7 +769,7 @@ const publicationData = {
     venue: 'AsianCHI',
     full_venue:
       "AsianCHI '20: Proceedings of the 2020 Symposium on Emerging Research from Asia and on Asian Contexts and Cultures, April 2020 Pages 17-20",
-    pdf: pdfDir + 'sun2020beactive.pdf',
+    pdf: paperDir + 'sun2020beactive.pdf',
   },
   oh2020scriptfree: {
     year: 2020,
@@ -778,7 +779,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       "CHI EA '20: Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems, April 2020",
-    pdf: pdfDir + 'oh2020scriptfree.pdf',
+    pdf: paperDir + 'oh2020scriptfree.pdf',
   },
   kim2020interruptibility: {
     year: 2020,
@@ -788,14 +789,14 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2020 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 4, Issue 1, March 2020',
-    pdf: pdfDir + 'kim2020interruptibility.pdf',
+    pdf: paperDir + 'kim2020interruptibility.pdf',
   },
   lee2020objectively: {
     year: 2020,
     title:
       'Objectively-Measured Smartphone Usage, Sleep Quality, and Physical Activity Among Chinese Adolescents and Young Adults',
     authors: ['Peter H Lee', 'Andy C. Y. Tse', 'Cynthia S. T. Wu', 'Yim Wah Mak', 'Uichin Lee'],
-    pdf: pdfDir + 'lee2020objectively.pdf',
+    pdf: paperDir + 'lee2020objectively.pdf',
   },
   lee2019maximizing: {
     year: 2019,
@@ -805,7 +806,7 @@ const publicationData = {
     venue: 'PMC',
     full_venue:
       'Pervasive and Mobile Computing Pervasive and Mobile Computing Volume 60, November 2019, 101082',
-    pdf: pdfDir + 'lee2019maximizing.pdf',
+    pdf: paperDir + 'lee2019maximizing.pdf',
   },
   kim2019predicting: {
     year: 2019,
@@ -814,7 +815,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue:
       'Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers',
-    pdf: pdfDir + 'kim2019predicting.pdf',
+    pdf: paperDir + 'kim2019predicting.pdf',
   },
   lee2019pass: {
     year: 2019,
@@ -823,7 +824,7 @@ const publicationData = {
     authors: ['Jemin Lee', 'Uichin Lee', 'Hyungshin Kim'],
     venue: 'IEEE',
     full_venue: 'IEEE Transactions on Mobile Computing 2019',
-    pdf: pdfDir + 'lee2019pass.pdf',
+    pdf: paperDir + 'lee2019pass.pdf',
   },
   kim2019understanding: {
     year: 2019,
@@ -840,7 +841,7 @@ const publicationData = {
     ],
     venue: 'Computers & Education',
     full_venue: 'Computers & Education Volume 141, November 2019, 103611',
-    pdf: pdfDir + 'kim2019understanding.pdf',
+    pdf: paperDir + 'kim2019understanding.pdf',
   },
   choi2019multi: {
     year: 2019,
@@ -849,7 +850,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2019 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 3, Issue 2, Article 39, June 2019',
-    pdf: pdfDir + 'choi2019multi.pdf',
+    pdf: paperDir + 'choi2019multi.pdf',
   },
   kim2019lockntype: {
     year: 2019,
@@ -858,7 +859,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 2019 CHI conference on human factors in computing systems, May 2019',
-    pdf: pdfDir + 'kim2019lockntype.pdf',
+    pdf: paperDir + 'kim2019lockntype.pdf',
     slide: 'https://docs.google.com/presentation/d/19Fp6V5-9VQ0iK7blqzUvOZg-XoI42kY3/edit?usp=sharing&ouid=104860675243862886660&rtpof=true&sd=true',
   },
   
@@ -873,7 +874,7 @@ const publicationData = {
     venue: 'AsianCHI',
     full_venue:
       "AsianHCI '19: Proceedings of Asian CHI Symposium 2019: Emerging HCI Research Collection, May 2019",
-    pdf: pdfDir + 'lee2019commitment.pdf',
+    pdf: paperDir + 'lee2019commitment.pdf',
   },
   shin2019slow: {
     year: 2019,
@@ -890,7 +891,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, May 2019',
-    pdf: pdfDir + 'shin2019slow.pdf',
+    pdf: paperDir + 'shin2019slow.pdf',
     video: 'https://www.youtube.com/watch?v=0iQ6hzU_ct0',
   },
   lee2019interaction: {
@@ -900,7 +901,7 @@ const publicationData = {
     venue: 'CHI Workshop',
     full_venue:
       'ACM CHI Workshop: Designing for Digital Wellbeing , Glasgow, Scotland UK, May 4, 2019',
-    pdf: pdfDir + 'lee2019interaction.pdf',
+    pdf: paperDir + 'lee2019interaction.pdf',
     slide:
       'https://docs.google.com/presentation/d/15tb5lJk-qdwgNB1mhjwRu8eXeOKuAfNL/edit?usp=sharing&ouid=106005907395814480996&rtpof=true&sd=true',
   },
@@ -920,7 +921,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       "CHI EA '19: Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems, May 2019",
-    pdf: pdfDir + 'oh2019wake.pdf',
+    pdf: paperDir + 'oh2019wake.pdf',
   },
   kim2019goalkeeper: {
     year: 2019,
@@ -929,7 +930,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2019 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 3, Issue 1, Mar. 2019',
-    pdf: pdfDir + 'kim2019goalkeeper.pdf',
+    pdf: paperDir + 'kim2019goalkeeper.pdf',
   },
   kang2019fire: {
     year: 2019,
@@ -946,7 +947,7 @@ const publicationData = {
     venue: 'MobiCom',
     full_venue:
       "MobiCom '19: The 25th Annual International Conference on Mobile Computing and Networking, August 2019",
-    pdf: pdfDir + 'kang2019fire.pdf',
+    pdf: paperDir + 'kang2019fire.pdf',
   },
   kim2018interrupting: {
     year: 2019,
@@ -956,7 +957,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2019 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 2, Issue 4, Dec. 2018',
-    pdf: pdfDir + 'kim2018interrupting.pdf',
+    pdf: paperDir + 'kim2018interrupting.pdf',
   },
   이의진2019긍정: {
     year: 2019,
@@ -964,7 +965,7 @@ const publicationData = {
     authors: ['이의진', '김재정'],
     venue: 'HCI Korea',
     full_venue: 'HCI Korea 2019, 2019.2.13-16',
-    pdf: pdfDir + '이의진2019긍정.pdf',
+    pdf: paperDir + '이의진2019긍정.pdf',
   },
   kang2018understanding: {
     year: 2018,
@@ -973,7 +974,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue:
       'Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers',
-    pdf: pdfDir + 'kang2018understanding.pdf',
+    pdf: paperDir + 'kang2018understanding.pdf',
   },
   cha2018hellobot: {
     year: 2018,
@@ -982,7 +983,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue:
       'Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers',
-    pdf: pdfDir + 'cha2018hellobot.pdf',
+    pdf: paperDir + 'cha2018hellobot.pdf',
   },
   kim2018exploring: {
     year: 2018,
@@ -991,7 +992,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue:
       'Proceedings of the 2018 ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers',
-    pdf: pdfDir + 'kim2018exploring.pdf',
+    pdf: paperDir + 'kim2018exploring.pdf',
   },
   park2018campuswatch: {
     year: 2018,
@@ -1000,7 +1001,7 @@ const publicationData = {
     venue: 'PACM-HCI',
     full_venue:
       'Proceedings of the ACM on Human-Computer Interaction, Vol. 2, Issue CSCW, Article 134, Nov. 2018',
-    pdf: pdfDir + 'park2018campuswatch.pdf',
+    pdf: paperDir + 'park2018campuswatch.pdf',
   },
   cha2018complex: {
     year: 2018,
@@ -1009,7 +1010,7 @@ const publicationData = {
     venue: 'PACM-HCI',
     full_venue:
       'Proceedings of the ACM on Human-Computer Interaction, Vol. 2, Issue CSCW, Article 30, Nov. 2018',
-    pdf: pdfDir + 'cha2018complex.pdf',
+    pdf: paperDir + 'cha2018complex.pdf',
   },
   park2018localness: {
     year: 2018,
@@ -1017,7 +1018,7 @@ const publicationData = {
     authors: ['Sangkeun Park', 'Mark S. Ackerman', 'Uichin Lee'],
     venue: 'TWEB',
     full_venue: 'ACM Transactions on the Web, Volume 12, Issue 3, August 2018',
-    pdf: pdfDir + 'park2018localness.pdf',
+    pdf: paperDir + 'park2018localness.pdf',
   },
   lee2019intelligent: {
     year: 2018,
@@ -1036,7 +1037,7 @@ const publicationData = {
     ],
     venue: 'Ad Hoc Networks',
     full_venue: 'Ad Hoc Networks, Volume 83, Pages 8-24, February 2019',
-    pdf: pdfDir + 'lee2019intelligent.pdf',
+    pdf: paperDir + 'lee2019intelligent.pdf',
   },
   han2019optical: {
     year: 2018,
@@ -1045,7 +1046,7 @@ const publicationData = {
     authors: ['Sungwon Han', 'Youngtae Noh', 'Uichin Lee', 'Mario Gerla'],
     venue: 'Ad Hoc Networks',
     full_venue: 'Ad Hoc Networks, Volume 83, Pages 1-7, February 2019',
-    pdf: pdfDir + 'han2019optical.pdf',
+    pdf: paperDir + 'han2019optical.pdf',
   },
   park2018interaction: {
     year: 2018,
@@ -1055,7 +1056,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, April 2018',
-    pdf: pdfDir + 'park2018interaction.pdf',
+    pdf: paperDir + 'park2018interaction.pdf',
     slide: 'https://drive.google.com/file/d/120lIVMzEUe--XuMdUkaitKniBw2LCs83/view?usp=sharing',
     video: 'https://drive.google.com/file/d/1S4_C4uozwrfX9yvtBXcCj7u0y33LHzHU/view?usp=sharing',
   },
@@ -1066,7 +1067,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, April 2018',
-    pdf: pdfDir + 'shin2018actuating.pdf',
+    pdf: paperDir + 'shin2018actuating.pdf',
   },
   shin2018tnt: {
     year: 2018,
@@ -1075,7 +1076,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, April 2018',
-    pdf: pdfDir + 'shin2018tnt.pdf',
+    pdf: paperDir + 'shin2018tnt.pdf',
   },
   lee2018flower: {
     year: 2017,
@@ -1093,7 +1094,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2018 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 4, Dec. 2017',
-    pdf: pdfDir + 'lee2018flower.pdf',
+    pdf: paperDir + 'lee2018flower.pdf',
     slide: 'https://drive.google.com/file/d/1R5IPY5JHNMl_nbD1RkCi9_tUpzzmImEm/view?usp=sharing',
   },
   balili2017tracking: {
@@ -1102,7 +1103,7 @@ const publicationData = {
     authors: ['Christine Balili', 'Aviv Segev', 'Uichin Lee'],
     venue: 'IEEE',
     full_venue: 'IEEE BigData 2017, Dec 11-14, 2017 Boston, MA, USA',
-    pdf: pdfDir + 'balili2017tracking.pdf',
+    pdf: paperDir + 'balili2017tracking.pdf',
   },
   kim2017technology: {
     year: 2017,
@@ -1112,7 +1113,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
-    pdf: pdfDir + 'kim2017technology.pdf',
+    pdf: paperDir + 'kim2017technology.pdf',
     slide: "https://docs.google.com/presentation/d/14aLQ6gl9uHVPYwJAoA81h4Y1mq3MmaDK/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   kim2017let: {
@@ -1122,7 +1123,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
-    pdf: pdfDir + 'kim2017let.pdf',
+    pdf: paperDir + 'kim2017let.pdf',
     slide:
       'https://docs.google.com/presentation/d/1o6DjgB_e4tGHLQae1g-OC2Ch6OUGIybh/edit?usp=sharing&ouid=106005907395814480996&rtpof=true&sd=true',
     video: 'https://www.youtube.com/watch?v=orm1dFj3RY0',
@@ -1135,7 +1136,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
-    pdf: pdfDir + 'kim2017trailsense.pdf',
+    pdf: paperDir + 'kim2017trailsense.pdf',
     slide: "https://docs.google.com/presentation/d/1ISJRg5jMjs6o0zh2_jIOkCUp8L83h1Eq/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   jeong2017smartwatch: {
@@ -1145,7 +1146,7 @@ const publicationData = {
     venue: 'IMWUT',
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
-    pdf: pdfDir + 'jeong2017smartwatch.pdf',
+    pdf: paperDir + 'jeong2017smartwatch.pdf',
     slide: "https://docs.google.com/presentation/d/1rjso1XaEBYnozAdaLokl1JJWQn1oCeXD/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   oh2017understanding: {
@@ -1162,7 +1163,7 @@ const publicationData = {
     venue: 'IJHCS',
     full_venue:
       'International Journal of Human-Computer Studies, Volume 104, Pages 64-79, August 2017',
-    pdf: pdfDir + 'oh2017understanding.pdf',
+    pdf: paperDir + 'oh2017understanding.pdf',
   },
   park2017virtual: {
     year: 2017,
@@ -1170,7 +1171,7 @@ const publicationData = {
     authors: ['Gangrae Park', 'Hyunmin Choi', 'Uichin Lee', 'Seongah Chin'],
     venue: 'The Imaging Science Journal',
     full_venue: 'The Imaging Science Journal, Pages 358-370, Sept. 2017',
-    pdf: pdfDir + 'park2017virtual.pdf',
+    pdf: paperDir + 'park2017virtual.pdf',
   },
   chin2017watchout: {
     year: 2017,
@@ -1179,7 +1180,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2017',
-    pdf: pdfDir + 'chin2017watchout.pdf',
+    pdf: paperDir + 'chin2017watchout.pdf',
     slide: "https://drive.google.com/file/d/144pLugEwKrhoal4xTE42_Ag3w7Xs4XYB/view?usp=sharing",
   },
   kim2017sensors: {
@@ -1196,7 +1197,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems',
-    pdf: pdfDir + 'kim2017sensors.pdf',
+    pdf: paperDir + 'kim2017sensors.pdf',
     slide: 'https://drive.google.com/file/d/1W9eDB50dnBj4RRh-T_gn6Les1Es6l8K3/view?usp=sharing',
   },
   kim2017s: {
@@ -1214,7 +1215,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems',
-    pdf: pdfDir + 'kim2017s.pdf',
+    pdf: paperDir + 'kim2017s.pdf',
     slide: 'https://drive.google.com/file/d/1VOtR5DzIOVlUNmlRn7Vf-GsUr4q-133V/view?usp=sharing',
   },
   park2017facilitating: {
@@ -1231,7 +1232,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, May 2017',
-    pdf: pdfDir + 'park2017facilitating.pdf',
+    pdf: paperDir + 'park2017facilitating.pdf',
     slide: "https://docs.google.com/presentation/d/1tNF-aOKvmhzixa4qrBDnW4a_uYbjkdpH/edit?usp=sharing&ouid=108518890505131881492&rtpof=true&sd=true",
   },
   kim2017letspic: {
@@ -1241,7 +1242,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, May 2017',
-    pdf: pdfDir + 'kim2017letspic.pdf',
+    pdf: paperDir + 'kim2017letspic.pdf',
     slide: "https://drive.google.com/file/d/1_6UnGEmTwaDfmkHhxQQcyDUIP2fkIRDn/view?usp=sharing",
   },
   noh2016infrastructure: {
@@ -1252,7 +1253,7 @@ const publicationData = {
     venue: 'IEEE',
     full_venue:
       'IEEE Transactions on Systems, Man, and Cybernetics: Systems, Volume: 48, Issue: 3, March 2018',
-    pdf: pdfDir + 'noh2016infrastructure.pdf',
+    pdf: paperDir + 'noh2016infrastructure.pdf',
   },
   lee2016internet: {
     year: 2016,
@@ -1260,7 +1261,7 @@ const publicationData = {
     authors: ['Eun-Kyu Lee', 'Mario Gerla', 'Giovanni Pau', 'Uichin Lee', 'Jae-Han Lim'],
     venue: 'IJDSN',
     full_venue: 'International Journal of Distributed Sensor Networks, Vol. 12(9), September 2016',
-    pdf: pdfDir + 'lee2016internet.pdf',
+    pdf: paperDir + 'lee2016internet.pdf',
   },
   chae2016cannibalism: {
     year: 2016,
@@ -1268,7 +1269,7 @@ const publicationData = {
     authors: ['Suhyun Chae', 'Aviv Segev', 'Uichin Lee'],
     venue: 'Knowledge-Based Systems',
     full_venue: 'Knowledge-Based Systems, Volume 108, Sept. 15, 2016, Pages 168-178',
-    pdf: pdfDir + 'chae2016cannibalism.pdf',
+    pdf: paperDir + 'chae2016cannibalism.pdf',
   },
   choi2016exploring: {
     year: 2016,
@@ -1278,7 +1279,7 @@ const publicationData = {
     venue: 'UbiComp',
     full_venue:
       'Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2016',
-    pdf: pdfDir + 'choi2016exploring.pdf',
+    pdf: paperDir + 'choi2016exploring.pdf',
     slide: "https://docs.google.com/presentation/d/1vNX2tRcTgbktMNBEKuINqZWzyZyk8F_d/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   choi2016designing: {
@@ -1297,7 +1298,7 @@ const publicationData = {
     ],
     venue: 'TOSN',
     full_venue: 'ACM Transaction on Sensor Networks, Volume 12, Issue 3, Article 17, July 2016',
-    pdf: pdfDir + 'choi2016designing.pdf',
+    pdf: paperDir + 'choi2016designing.pdf',
   },
   shin2016motion: {
     year: 2016,
@@ -1305,7 +1306,7 @@ const publicationData = {
     authors: ['Seungjae Shin', 'Uichin Lee', 'Falko Dressler', 'Hyunsoo Yoon'],
     venue: 'IEEE',
     full_venue: 'IEEE Transaction on Mobile Computing, Volume 15, Issue 12, Dec. 1 2016',
-    pdf: pdfDir + 'shin2016motion.pdf',
+    pdf: paperDir + 'shin2016motion.pdf',
   },
   choi2016lockdoll: {
     year: 2016,
@@ -1314,8 +1315,8 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2016',
-    pdf: pdfDir + 'choi2016lockdoll.pdf',
-    slide: "https://drive.google.com/file/d/1uiufuohnZZaqadAnjWiWjWnr_oSS1-Pn/view?usp=sharing",
+    pdf: paperDir + 'choi2016lockdoll.pdf',
+    slide: slideDir + 'choi2016lockdoll.pdf',
   },
   kim2016ecomeal: {
     year: 2016,
@@ -1324,7 +1325,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2016',
-    pdf: pdfDir + 'kim2016ecomeal.pdf',
+    pdf: paperDir + 'kim2016ecomeal.pdf',
     slide: "https://drive.google.com/file/d/1np3U1jK-PvCf6jLcfc0iUAYmQNK4V1k0/view?usp=sharing",
   },
   jung2016social: {
@@ -1342,7 +1343,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 2016 CHI conference extended abstracts on human factors in computing systems, May 2016',
-    pdf: pdfDir + 'jung2016social.pdf',
+    pdf: paperDir + 'jung2016social.pdf',
     slide: "https://drive.google.com/file/d/1I9SVxx_RBoWjAySJxuCDXY5BJJA7LM2N/view?usp=sharing",
   },
   oh2016report: {
@@ -1352,7 +1353,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2016',
-    pdf: pdfDir + 'oh2016report.pdf',
+    pdf: paperDir + 'oh2016report.pdf',
     slide: "https://drive.google.com/file/d/1TUGvBVbcJ8HWC2QGegnbIF9uVdZZcwzx/view?usp=sharing",
   },
   kim2016slideqa: {
@@ -1362,7 +1363,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2016',
-    pdf: pdfDir + 'kim2016slideqa.pdf',
+    pdf: paperDir + 'kim2016slideqa.pdf',
     slide: "https://drive.google.com/file/d/1bGoWcQ4WKYLNaNU9f0aWr0UDV03JY1Zh/view?usp=sharing",
   },
   choi2016swimtrain: {
@@ -1372,7 +1373,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, May 2016',
-    pdf: pdfDir + 'choi2016swimtrain.pdf',
+    pdf: paperDir + 'choi2016swimtrain.pdf',
     slide: "https://drive.google.com/file/d/1TwXt6DlJM7R2mYqdlQoPrin4-Cd8Mg78/view?usp=sharing",
     video: "https://drive.google.com/file/d/0B7KaX6-7H5PNRXpiQm5Iekx1a00/view?usp=drive_link&resourcekey=0-VD3f9LkX9DAfJaTOgft9OQ",
   },
@@ -1383,7 +1384,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, May 2016',
-    pdf: pdfDir + 'park2016motives.pdf',
+    pdf: paperDir + 'park2016motives.pdf',
     slide:
       'https://docs.google.com/presentation/d/1vX4z9jnqstpOHwUnt-x377DCvfYS-zZY/edit?usp=sharing&ouid=106005907395814480996&rtpof=true&sd=true',
   },
@@ -1395,7 +1396,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, May 2016 (Best Paper Award)',
-    pdf: pdfDir + 'ko2016lock.pdf',
+    pdf: paperDir + 'ko2016lock.pdf',
   },
   shin2016analysis: {
     year: 2016,
@@ -1403,7 +1404,7 @@ const publicationData = {
     authors: ['Seungjae Shin', 'Uichin Lee', 'Falko Dressler', 'Hyunsoo Yoon'],
     venue: 'IEEE',
     full_venue: 'IEEE Communications Letters, Volume 20, Issue 4, pp 788-791, April 2016',
-    pdf: pdfDir + 'shin2016analysis.pdf',
+    pdf: paperDir + 'shin2016analysis.pdf',
   },
   ko2016makes: {
     year: 2016,
@@ -1412,7 +1413,7 @@ const publicationData = {
     authors: ['Minsam Ko', 'Jaeryong Yeo', 'Juyeong Lee', 'Uichin Lee', 'Young Jae Jang'],
     venue: 'PLOS ONE',
     full_venue: 'PLOS ONE, February 5, 2016',
-    pdf: pdfDir + 'ko2016makes.pdf',
+    pdf: paperDir + 'ko2016makes.pdf',
     code: 'https://zenodo.org/record/34939#.Vnt0dRWLTcu',
   },
   ko2016understanding: {
@@ -1422,7 +1423,7 @@ const publicationData = {
     authors: ['Minsam Ko', 'Seungwoo Choi', 'Joonwon Lee', 'Uichin Lee', 'Aviv Segev'],
     venue: 'TOCHI',
     full_venue: 'ACM Transactions on Computer-Human Interaction, Volume 23 Issue 1, February 2016',
-    pdf: pdfDir + 'ko2016understanding.pdf',
+    pdf: paperDir + 'ko2016understanding.pdf',
     code: 'https://zenodo.org/record/34939#.Vnt0dRWLTcu',
     slide: "https://docs.google.com/presentation/d/1q4g7jpO5agiEGiinRe8gEDne5iUklKb-/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
@@ -1433,7 +1434,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue:
       'Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing, Spetember 2015',
-    pdf: pdfDir + 'ko2015familync.pdf',
+    pdf: paperDir + 'ko2015familync.pdf',
     slide: "https://docs.google.com/presentation/d/1UTSyxArynRQsAjDUrXn1YWfPUxG7qDVa/edit?usp=sharing&ouid=108518890505131881492&rtpof=true&sd=true",
   },
   choi2015designing: {
@@ -1443,7 +1444,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue:
       'Adjunct Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers, September 2015',
-    pdf: pdfDir + 'choi2015designing.pdf',
+    pdf: paperDir + 'choi2015designing.pdf',
     slide: "https://drive.google.com/file/d/0B7KaX6-7H5PNODgyYUxCR3hvWkU/view?usp=drive_link&resourcekey=0-pV2gqwfhWE1OS8taia8Svw",
   },
   jeong2015eng: {
@@ -1453,7 +1454,7 @@ const publicationData = {
     venue: 'Ubicomp',
     full_venue:
       'Adjunct Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers, September 2015',
-    pdf: pdfDir + 'jeong2015eng.pdf',
+    pdf: paperDir + 'jeong2015eng.pdf',
     slide: "https://drive.google.com/file/d/1I25TWgMmHW2P-41038JouGIGgDbPM0SO/view?usp=sharing",
   },
   kim2015crowdcolor: {
@@ -1469,7 +1470,7 @@ const publicationData = {
     venue: 'MobileHCI',
     full_venue:
       'Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services, August 2015',
-    pdf: pdfDir + 'kim2015crowdcolor.pdf',
+    pdf: paperDir + 'kim2015crowdcolor.pdf',
     slide: "https://docs.google.com/presentation/d/1GmXKpyXBYAgxxDJUQBqKCet-92hBNiAz/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   noh2015hydrocast: {
@@ -1487,7 +1488,7 @@ const publicationData = {
     ],
     venue: 'IEEE',
     full_venue: 'IEEE Transaction on Vehicular Technology, Volume 65, Issue 1, January 2016',
-    pdf: pdfDir + 'noh2015hydrocast.pdf',
+    pdf: paperDir + 'noh2015hydrocast.pdf',
   },
   oh2015scanshot: {
     year: 2015,
@@ -1496,7 +1497,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue:
       'Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, April 2015',
-    pdf: pdfDir + 'oh2015scanshot.pdf',
+    pdf: paperDir + 'oh2015scanshot.pdf',
     slide: "https://docs.google.com/presentation/d/1JvtcHp60Em5STUjy9CUt3kPTQGSVCNEa/edit?usp=sharing&ouid=108518890505131881492&rtpof=true&sd=true",
   },
   ko2015lock: {
@@ -1515,7 +1516,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems, April 2015',
-    pdf: pdfDir + 'ko2015lock.pdf',
+    pdf: paperDir + 'ko2015lock.pdf',
     slide: "https://drive.google.com/file/d/1YBlsacCYpZ9r_PkCGP7B75pNoZrPXnqQ/view?usp=sharing",
   },
   song2015every: {
@@ -1526,7 +1527,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems, April 2015',
-    pdf: pdfDir + 'song2015every.pdf',
+    pdf: paperDir + 'song2015every.pdf',
     slide: "https://drive.google.com/file/d/1EVfkjPwfewHBilXsvCxMHbBgBLUWLe5v/view?usp=sharing",
   },
   lee2015socialkeyboard: {
@@ -1536,7 +1537,7 @@ const publicationData = {
     venue: 'CHI EA',
     full_venue:
       'Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems, April 2015',
-    pdf: pdfDir + 'lee2015socialkeyboard.pdf',
+    pdf: paperDir + 'lee2015socialkeyboard.pdf',
   },
   ko2015nugu: {
     year: 2015,
@@ -1557,7 +1558,7 @@ const publicationData = {
     venue: 'CSCW',
     full_venue:
       'Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing, February 2015',
-    pdf: pdfDir + 'ko2015nugu.pdf',
+    pdf: paperDir + 'ko2015nugu.pdf',
     slide: "https://docs.google.com/presentation/d/1lZChDgIo-3qJIEChAYVcz8uxOTbVR7cg/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   oh2015exploring: {
@@ -1567,7 +1568,7 @@ const publicationData = {
     venue: 'ICMU',
     full_venue:
       '2015 Eighth International Conference on Mobile Computing and Ubiquitous Networking',
-    pdf: pdfDir + 'oh2015exploring.pdf',
+    pdf: paperDir + 'oh2015exploring.pdf',
     slide: "https://docs.google.com/presentation/d/122pyArv5vz4NaUhagHH2rM38ejXN7fO4/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   이의진2015iot: {
@@ -1584,7 +1585,7 @@ const publicationData = {
     authors: ['양수빈', '고민삼', '이의진'],
     venue: 'HCIK',
     full_venue: 'HCIK 2015, 12/10-12, 2014',
-    pdf: pdfDir + '양수빈2014청소년.pdf',
+    pdf: paperDir + '양수빈2014청소년.pdf',
   },
   오태화2014활동이론에: {
     year: 2015,
@@ -1593,7 +1594,7 @@ const publicationData = {
     authors: ['오태화', '박상근', '이의진', '윤완철'],
     venue: 'HCIK',
     full_venue: 'HCIK 2015, 12/10-12, 2014',
-    pdf: pdfDir + '오태화2014활동이론에.pdf',
+    pdf: paperDir + '오태화2014활동이론에.pdf',
   },
   최우혁2014수영: {
     year: 2015,
@@ -1601,7 +1602,7 @@ const publicationData = {
     authors: ['최우혁', '이의진'],
     venue: 'HCIK',
     full_venue: 'HCIK 2015, 12/10-12, 2014',
-    pdf: pdfDir + '최우혁2014수영.pdf',
+    pdf: paperDir + '최우혁2014수영.pdf',
   },
   lee2015secure: {
     year: 2014,
@@ -1611,7 +1612,7 @@ const publicationData = {
     key: 'lee2015secure',
     venue: 'Wireless Personal Communications',
     published: true,
-    pdf: pdfDir + 'lee2015secure.pdf',
+    pdf: paperDir + 'lee2015secure.pdf',
     slide: "https://docs.google.com/presentation/d/1WLeounWyNOiDASLEn-cFr6D1C4hO-u_6/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   bao2014methods: {
@@ -1621,13 +1622,13 @@ const publicationData = {
     full_venue: 'US Patent US8914041 B2, Dec 16, 2014',
     venue: 'Google Patents',
     published: true,
-    pdf: pdfDir + 'bao2014methods.pdf',
+    pdf: paperDir + 'bao2014methods.pdf',
   },
   choi2014mobydick: {
     full_venue: 'Proceedings of the 12th ACM Conference on Embedded Network Sensor Systems',
     venue: 'SenSys',
     published: true,
-    pdf: pdfDir + 'choi2014mobydick.pdf',
+    pdf: paperDir + 'choi2014mobydick.pdf',
     year: 2014,
     title: 'MobyDick: An Interactive Multi-swimmer Exergame',
     authors: [
@@ -1650,7 +1651,7 @@ const publicationData = {
     // full_venue: 'Proceedings of the 16th international conference on Human-computer interaction with mobile devices \& services',
     venue: 'MobileHCI',
     published: true,
-    pdf: pdfDir + 'park2014understanding.pdf',
+    pdf: paperDir + 'park2014understanding.pdf',
     slide: "https://docs.google.com/presentation/d/11r7gS7mH3w0-8oqgBaFHEgYbZn4gbxvA/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
     year: 2014,
     title: 'Understanding Localness of Knowledge Sharing: A Study of Naver KiN Here',
@@ -1666,7 +1667,7 @@ const publicationData = {
     full_venue: 'Pervasive and Mobile Computing',
     venue: 'PMC',
     published: true,
-    pdf: pdfDir + 'cho2015placewalker.pdf',
+    pdf: paperDir + 'cho2015placewalker.pdf',
   },
   park2014human: {
     year: 2014,
@@ -1682,7 +1683,7 @@ const publicationData = {
     full_venue: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems',
     venue: 'CHI',
     published: true,
-    pdf: pdfDir + 'park2014human.pdf',
+    pdf: paperDir + 'park2014human.pdf',
   },
   lee2014hooked: {
     year: 2014,
@@ -1702,7 +1703,7 @@ const publicationData = {
     full_venue: 'Proceedings of the SIGCHI conference on human factors in computing systems',
     venue: 'CHI',
     published: true,
-    pdf: pdfDir + 'lee2014hooked.pdf',
+    pdf: paperDir + 'lee2014hooked.pdf',
     slide: "https://docs.google.com/presentation/d/1tEzNjBibqsUgjMH2PsO4dDxkWJrIxxCr/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
 
@@ -1718,7 +1719,7 @@ const publicationData = {
     full_venue: 'CHI14 Extended Abstracts on Human Factors in Computing Systems',
     venue: 'CHI',
     published: true,
-    pdf: pdfDir + 'baumer2014refusing.pdf',
+    pdf: paperDir + 'baumer2014refusing.pdf',
   },
   ko2014motives: {
     year: 2014,
@@ -1735,7 +1736,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 23rd International Conference on World Wide Web',
     venue: 'WWW',
     published: true,
-    pdf: pdfDir + 'ko2014motives.pdf',
+    pdf: paperDir + 'ko2014motives.pdf',
   },
   gerla2014internet: {
     year: 2014,
@@ -1744,7 +1745,7 @@ const publicationData = {
     full_venue: '2014 IEEE world forum on internet of things (WF-IoT)',
     venue: 'WF-IoT',
     published: true,
-    pdf: pdfDir + 'gerla2014internet.pdf',
+    pdf: paperDir + 'gerla2014internet.pdf',
     slide: "https://docs.google.com/presentation/d/1Xv-FrYGSo4Z6_52yM3AWGh8UB-xfz4gW/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
   },
   noh2014dots: {
@@ -1763,7 +1764,7 @@ const publicationData = {
     full_venue: 'IEEE Transactions on Mobile Computing',
     venue: 'IEEE CASS',
     published: true,
-    pdf: pdfDir + 'noh2014dots.pdf',
+    pdf: paperDir + 'noh2014dots.pdf',
   },
   고민삼2014스마트폰: {
     year: 2014,
@@ -1773,7 +1774,7 @@ const publicationData = {
     // full_venue: '한국 HCI 학회 학술대회',
     venue: 'HCI Korea',
     published: true,
-    pdf: pdfDir + '고민삼2014스마트폰.pdf',
+    pdf: paperDir + '고민삼2014스마트폰.pdf',
   },
   강성준2014다중: {
     year: 2014,
@@ -1783,7 +1784,7 @@ const publicationData = {
     // full_venue: '한국 HCI 학회 학술대회',
     venue: 'HCI Korea',
     published: true,
-    pdf: pdfDir + '강성준2014다중.pdf',
+    pdf: paperDir + '강성준2014다중.pdf',
   },
   lee2013understanding: {
     year: 2013,
@@ -1793,7 +1794,7 @@ const publicationData = {
     full_venue: 'IEEE Transactions on Parallel and Distributed Systems',
     venue: 'IEEE TPDS',
     published: true,
-    pdf: pdfDir + 'lee2013understanding.pdf',
+    pdf: paperDir + 'lee2013understanding.pdf',
   },
   sung2013booming: {
     year: 2013,
@@ -1803,7 +1804,7 @@ const publicationData = {
     full_venue: 'Proceedings of the International AAAI Conference on Web and Social Media',
     venue: 'ICWSM',
     published: true,
-    pdf: pdfDir + 'sung2013booming.pdf',
+    pdf: paperDir + 'sung2013booming.pdf',
   },
   lee2013sociophone: {
     year: 2013,
@@ -1825,7 +1826,7 @@ const publicationData = {
       'Proceeding of the 11th annual international conference on Mobile systems, applications, and services',
     venue: 'MobiSys',
     published: true,
-    pdf: pdfDir + 'lee2013sociophone.pdf',
+    pdf: paperDir + 'lee2013sociophone.pdf',
   },
   lee2013analyzing: {
     year: 2013,
@@ -1834,7 +1835,7 @@ const publicationData = {
     full_venue: 'Proceedings of the SIGCHI conference on human factors in computing systems',
     venue: 'CHI',
     published: true,
-    pdf: pdfDir + 'lee2013analyzing.pdf',
+    pdf: paperDir + 'lee2013analyzing.pdf',
     slide: "https://docs.google.com/presentation/d/1ttMdb-EC13HH9oD6KqFH0k-gbu6ZmMvF/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   oh2013facilitating: {
@@ -1844,7 +1845,7 @@ const publicationData = {
     full_venue: 'CHI13 Extended Abstracts on Human Factors in Computing Systems',
     venue: 'CHI',
     published: true,
-    pdf: pdfDir + 'oh2013facilitating.pdf',
+    pdf: paperDir + 'oh2013facilitating.pdf',
   },
   bao2013dataspotting: {
     year: 2013,
@@ -1854,7 +1855,7 @@ const publicationData = {
     full_venue: '2013 Proceedings IEEE INFOCOM',
     venue: 'IEEE INFOCOM',
     published: true,
-    pdf: pdfDir + 'bao2013dataspotting.pdf',
+    pdf: paperDir + 'bao2013dataspotting.pdf',
   },
   han2013m: {
     year: 2013,
@@ -1864,14 +1865,14 @@ const publicationData = {
     full_venue: '2013 Proceedings IEEE INFOCOM',
     venue: 'IEEE INFOCOM',
     published: true,
-    pdf: pdfDir + 'han2013m.pdf',
+    pdf: paperDir + 'han2013m.pdf',
     slide: "https://docs.google.com/presentation/d/1YjhvlY6p2AEstYHaMYe1WuCO09X6MXvk/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   noh2013infrastructure: {
     full_venue: 'IEEE Transactions on Systems, Man, and Cybernetics: Systems',
     venue: 'IEEE SMC',
     published: true,
-    pdf: pdfDir + 'noh2013infrastructure.pdf',
+    pdf: paperDir + 'noh2013infrastructure.pdf',
     year: 2013,
     title:
       'CLIPS: Infrastructure-free Collaborative Indoor Positioning Scheme for Time-critical Team Operations',
@@ -1889,7 +1890,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 2013 conference on Computer supported cooperative work',
     venue: 'CSCW',
     published: true,
-    pdf: pdfDir + 'park2013exersync.pdf',
+    pdf: paperDir + 'park2013exersync.pdf',
     year: 2013,
     title: 'ExerSync: Facilitating Interpersonal Synchrony in Social Exergames',
     authors: [
@@ -1926,14 +1927,14 @@ const publicationData = {
       'Proceedings of the 2013 ACM conference on Pervasive and Ubiquitous Computing adjunct publication',
     venue: 'Ubicomp',
     published: true,
-    pdf: pdfDir + 'lee2013dungeons.pdf',
+    pdf: paperDir + 'lee2013dungeons.pdf',
   },
   park2012exerlink: {
     full_venue:
       'Proceedings of the 10th international conference on Mobile systems, applications, and services',
     venue: 'MobiSys',
     published: true,
-    pdf: pdfDir + 'park2012exerlink.pdf',
+    pdf: paperDir + 'park2012exerlink.pdf',
     year: 2012,
     title: 'ExerLink: enabling pervasive social exergames with heterogeneous exercise devices',
     authors: ['Park et al.'],
@@ -1945,7 +1946,7 @@ const publicationData = {
     full_venue: 'Proceedings of the SIGCHI Conference on Human Factors in Computing Systems',
     venue: 'CHI',
     published: true,
-    pdf: pdfDir + 'lee2012understanding.pdf',
+    pdf: paperDir + 'lee2012understanding.pdf',
     slide: "https://docs.google.com/presentation/d/1OR0OeOTDLU2c66qHv9FK5Dim_oODyzfu/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   noh2013vapr: {
@@ -1955,7 +1956,7 @@ const publicationData = {
     venue: 'IEEE TMC',
     year: 2013,
     published: true,
-    pdf: pdfDir + 'noh2013vapr.pdf',
+    pdf: paperDir + 'noh2013vapr.pdf',
   },
   bellavista2012editorial: {
     key: '',
@@ -1965,7 +1966,7 @@ const publicationData = {
     venue: '',
     year: 2012,
     published: true,
-    pdf: pdfDir + 'bellavista2012editorial.pdf',
+    pdf: paperDir + 'bellavista2012editorial.pdf',
   },
   lee2012emerging: {
     authors: ['Uichin Lee', 'Howon Lee', 'Bang Chul Jung', 'Junehwa Song'],
@@ -1975,7 +1976,7 @@ const publicationData = {
     venue: '',
     year: 2011,
     published: true,
-    pdf: pdfDir + 'lee2012emerging.pdf',
+    pdf: paperDir + 'lee2012emerging.pdf',
   },
   ahnn2011geoserv: {
     authors: ['Jong Hoon Ahn', 'Uichin Lee', 'Hyun Jin Moon'],
@@ -1984,7 +1985,7 @@ const publicationData = {
     venue: 'IEEE CCGRID',
     year: 2011,
     published: true,
-    pdf: pdfDir + 'ahnn2011geoserv.pdf',
+    pdf: paperDir + 'ahnn2011geoserv.pdf',
     slide: "https://docs.google.com/presentation/d/1xmLtOoUEQ-s-V3tbHVKOLrKnAl0b2-Tm/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lim2013sewersnort: {
@@ -2003,7 +2004,7 @@ const publicationData = {
     venue: '',
     year: 2011,
     published: true,
-    pdf: pdfDir + 'lim2013sewersnort.pdf',
+    pdf: paperDir + 'lim2013sewersnort.pdf',
     slide: "https://docs.google.com/presentation/d/1LU3AA04AnNRpjBEh75NolwhjbNZu1r6w/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2011toward: {
@@ -2013,7 +2014,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2011,
     published: true,
-    pdf: pdfDir + 'lee2011toward.pdf',
+    pdf: paperDir + 'lee2011toward.pdf',
   },
   varvello2011design: {
     authors: ['Matteo Varvello', 'Ivica Rimac', 'Uichin Lee', 'Lloyd Greenwald', 'Volker Hilt'],
@@ -2023,7 +2024,7 @@ const publicationData = {
     venue: 'WONS',
     year: 2011,
     published: true,
-    pdf: pdfDir + 'varvello2011design.pdf',
+    pdf: paperDir + 'varvello2011design.pdf',
   },
   noh2010dots: {
     title:
@@ -2033,7 +2034,7 @@ const publicationData = {
     venue: 'IEEE ICNP',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'noh2010dots.pdf',
+    pdf: paperDir + 'noh2010dots.pdf',
     slide: "https://docs.google.com/presentation/d/1GhdSDIIA3Btl0ceYZoO4KUFPKyDY_l3Y/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   noh2012vapr: {
@@ -2043,7 +2044,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'noh2012vapr.pdf',
+    pdf: paperDir + 'noh2012vapr.pdf',
   },
   lee2010geo: {
     authors: ['Kevin C. Lee', 'Uichin Lee', 'Mario Gerla'],
@@ -2052,7 +2053,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'lee2010geo.pdf',
+    pdf: paperDir + 'lee2010geo.pdf',
   },
   lee2010trace: {
     authors: ['Kevin C. Lee', 'Juan M. Navarro', 'Tin Y. Chong', 'Uichin Lee', 'Mario Gerla'],
@@ -2061,7 +2062,7 @@ const publicationData = {
     venue: 'IEEE VTC',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'lee2010trace.pdf',
+    pdf: paperDir + 'lee2010trace.pdf',
   },
   lee2010greening: {
     authors: ['Uichin Lee', 'Ivica Rimac', 'Volker Hilt'],
@@ -2071,7 +2072,7 @@ const publicationData = {
     venue: 'E-Energy',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'lee2010greening.pdf',
+    pdf: paperDir + 'lee2010greening.pdf',
     slide: "https://docs.google.com/presentation/d/1Dtsv04bdXB9iGce0XjuXqY_BlEaYjy6y/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   cho2010autogait: {
@@ -2082,7 +2083,7 @@ const publicationData = {
     venue: 'PerCom',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'cho2010autogait.pdf',
+    pdf: paperDir + 'cho2010autogait.pdf',
     slide: "https://docs.google.com/presentation/d/1OhXfmQJEpUBU15tDbkfCrQ4vkghkkBOv/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   park2010vehicular: {
@@ -2092,7 +2093,7 @@ const publicationData = {
     venue: 'JISA',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'park2010vehicular.pdf',
+    pdf: paperDir + 'park2010vehicular.pdf',
   },
   lee2010pressure: {
     authors: [
@@ -2108,7 +2109,7 @@ const publicationData = {
     venue: 'IEEE INFOCOM',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'lee2010pressure.pdf',
+    pdf: paperDir + 'lee2010pressure.pdf',
     slide: "https://docs.google.com/presentation/d/1ksgreNU8KEQxsmOk7P73kTHp5c3tpTn2/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2010surveyurban: {
@@ -2118,7 +2119,7 @@ const publicationData = {
     full_venue: 'Computer Networks',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'lee2010surveyurban.pdf',
+    pdf: paperDir + 'lee2010surveyurban.pdf',
   },
   lee2009fleanet: {
     authors: ['Uichin Lee', 'Jiyeon Lee', 'Joon-Sang Park', 'Mario Gerla'],
@@ -2127,7 +2128,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'lee2009fleanet.pdf',
+    pdf: paperDir + 'lee2009fleanet.pdf',
     slide: "https://docs.google.com/presentation/d/1f0IEES0siTqldBdqICx1hODTrnps1b7L/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2009p2p: {
@@ -2137,7 +2138,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2010,
     published: true,
-    pdf: pdfDir + 'lee2009p2p.pdf',
+    pdf: paperDir + 'lee2009p2p.pdf',
   },
   lee2009scaling: {
     authors: ['Uichin Lee', 'Soon Young Oh', 'Kang-Won Lee', 'Mario Gerla'],
@@ -2146,7 +2147,7 @@ const publicationData = {
     venue: 'CHANTS',
     year: 2009,
     published: true,
-    pdf: pdfDir + 'lee2009scaling.pdf',
+    pdf: paperDir + 'lee2009scaling.pdf',
     slide: "https://docs.google.com/presentation/d/1UBEpYkXYByzEfP6wkcZ2OffDvU1Do676/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2009relaycast: {
@@ -2156,7 +2157,7 @@ const publicationData = {
     venue: 'ITA',
     year: 2009,
     published: true,
-    pdf: pdfDir + 'lee2009relaycast.pdf',
+    pdf: paperDir + 'lee2009relaycast.pdf',
   },
   kim2009sewersnort: {
     authors: [
@@ -2175,7 +2176,7 @@ const publicationData = {
     venue: 'SECON',
     year: 2009,
     published: true,
-    pdf: pdfDir + 'kim2009sewersnort.pdf',
+    pdf: paperDir + 'kim2009sewersnort.pdf',
   },
   lee2009go: {
     authors: ['Kevin C. Lee', 'Uichin Lee', 'Mario Gerla'],
@@ -2185,7 +2186,7 @@ const publicationData = {
     venue: 'WONS',
     year: 2009,
     published: true,
-    pdf: pdfDir + 'lee2009go.pdf',
+    pdf: paperDir + 'lee2009go.pdf',
     slide: "https://docs.google.com/presentation/d/1RO9TvlQL8lHajRVxQ8Pm6JaiE8pRGCFX/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2010surveyrouting: {
@@ -2211,7 +2212,7 @@ const publicationData = {
     venue: '',
     year: 2009,
     published: true,
-    pdf: pdfDir + 'lee2009bio.pdf',
+    pdf: paperDir + 'lee2009bio.pdf',
   },
   lee2008dissemination: {
     authors: [
@@ -2226,7 +2227,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2009,
     published: true,
-    pdf: pdfDir + 'lee2008dissemination.pdf',
+    pdf: paperDir + 'lee2008dissemination.pdf',
   },
   lee2009emerging: {
     authors: ['Uichin Lee', 'Ryan Cheung', 'Mario Gerla'],
@@ -2235,7 +2236,7 @@ const publicationData = {
     venue: '',
     year: 2009,
     published: true,
-    pdf: pdfDir + 'lee2009emerging.pdf',
+    pdf: paperDir + 'lee2009emerging.pdf',
   },
   lee2008relaycast: {
     authors: ['Uichin Lee', 'Soon Young Oh', 'Kang-Won Lee', 'Mario Gerla'],
@@ -2244,7 +2245,7 @@ const publicationData = {
     venue: 'IEEE ICNP',
     year: 2008,
     published: true,
-    pdf: pdfDir + 'lee2008relaycast.pdf',
+    pdf: paperDir + 'lee2008relaycast.pdf',
     slide: "https://docs.google.com/presentation/d/1h0A5NjcX4yllQKdwxaOh-G96sD-TUHW2/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   vieira2008phero: {
@@ -2254,7 +2255,7 @@ const publicationData = {
     venue: 'WuWNet',
     year: 2008,
     published: true,
-    pdf: pdfDir + 'vieira2008phero.pdf',
+    pdf: paperDir + 'vieira2008phero.pdf',
     slide: "https://docs.google.com/presentation/d/1lmrSHa_-YN9CQSpHbAv4UmQJvsEWLSvm/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2007bio: {
@@ -2271,7 +2272,7 @@ const publicationData = {
     venue: 'BIOWIRE',
     year: 2008,
     published: true,
-    pdf: pdfDir + 'lee2007bio.pdf',
+    pdf: paperDir + 'lee2007bio.pdf',
   },
   lee2008content: {
     authors: ['Seung-Hoon Lee', 'Uichin Lee', 'Kang-Won Lee', 'Mario Gerla'],
@@ -2282,7 +2283,7 @@ const publicationData = {
     venue: 'IEEE SECON',
     year: 2008,
     published: true,
-    pdf: pdfDir + 'lee2008content.pdf',
+    pdf: paperDir + 'lee2008content.pdf',
     slide: "https://docs.google.com/presentation/d/13Sd1KvNij4Wz4sY6_vEv9a2K7drRCz0Q/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2008efficient: {
@@ -2299,7 +2300,7 @@ const publicationData = {
     venue: 'JCN',
     year: 2008,
     published: true,
-    pdf: pdfDir + 'lee2008efficient.pdf',
+    pdf: paperDir + 'lee2008efficient.pdf',
   },
   park2008delay: {
     authors: [
@@ -2317,7 +2318,7 @@ const publicationData = {
     venue: 'IEICE',
     year: 2008,
     published: true,
-    pdf: pdfDir + 'park2008delay.pdf',
+    pdf: paperDir + 'park2008delay.pdf',
   },
   gerla2008tapping: {
     key: '',
@@ -2337,7 +2338,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2007,
     published: true,
-    pdf: pdfDir + 'lee2007enhanced.pdf',
+    pdf: paperDir + 'lee2007enhanced.pdf',
   },
   bellavista2007standard: {
     authors: ['P. Bellavista', 'E. Magistretti', 'U. Lee', 'and M. Gerla.'],
@@ -2347,7 +2348,7 @@ const publicationData = {
     venue: 'IEEE ISIE',
     year: 2007,
     published: true,
-    pdf: pdfDir + 'bellavista2007standard.pdf',
+    pdf: paperDir + 'bellavista2007standard.pdf',
   },
   magistretti2007mobile: {
     authors: [
@@ -2364,7 +2365,7 @@ const publicationData = {
     venue: 'IEEE WCNC',
     year: 2007,
     published: true,
-    pdf: pdfDir + 'magistretti2007mobile.pdf',
+    pdf: paperDir + 'magistretti2007mobile.pdf',
   },
   jung2007bluetorrent: {
     authors: ['Sewook Jung', 'Uichin Lee', 'Alexander Chang', 'Dae-Ki Cho', 'Mario Gerla'],
@@ -2373,7 +2374,7 @@ const publicationData = {
     venue: 'PMC',
     year: 2007,
     published: true,
-    pdf: pdfDir + 'jung2007bluetorrent.pdf',
+    pdf: paperDir + 'jung2007bluetorrent.pdf',
     slide: "https://docs.google.com/presentation/d/18bcOXbprVcv2z-K2f5mrjQdiaw490jiI/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2007time: {
@@ -2384,7 +2385,7 @@ const publicationData = {
     venue: '',
     year: 2007,
     published: true,
-    pdf: pdfDir + 'lee2007time.pdf',
+    pdf: paperDir + 'lee2007time.pdf',
   },
   lee2006mobeyes: {
     authors: [
@@ -2400,7 +2401,7 @@ const publicationData = {
     venue: 'IEEE',
     year: 2006,
     published: true,
-    pdf: pdfDir + 'lee2006mobeyes.pdf',
+    pdf: paperDir + 'lee2006mobeyes.pdf',
     slide: "https://docs.google.com/presentation/d/11Gh7DUW1MFdGKV9pONZBnstxscyb5mer/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2006code: {
@@ -2411,7 +2412,7 @@ const publicationData = {
     venue: 'MobiCom',
     year: 2006,
     published: true,
-    pdf: pdfDir + 'lee2006code.pdf',
+    pdf: paperDir + 'lee2006code.pdf',
     slide: "https://docs.google.com/presentation/d/1UYVkm2aKPSp0RWUTBPND0UDMyHD1mo51/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   gerla2006vehicular: {
@@ -2428,7 +2429,7 @@ const publicationData = {
     venue: 'WICON',
     year: 2006,
     published: true,
-    pdf: pdfDir + 'gerla2006vehicular.pdf',
+    pdf: paperDir + 'gerla2006vehicular.pdf',
     slide: "https://docs.google.com/presentation/d/1tSgl-7rgivjaLEUhT4qEZoFMHVKIZ9wJ/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2006efficient: {
@@ -2446,7 +2447,7 @@ const publicationData = {
     venue: 'PERCOMW',
     year: 2006,
     published: true,
-    pdf: pdfDir + 'lee2006efficient.pdf',
+    pdf: paperDir + 'lee2006efficient.pdf',
   },
   lee2006understanding: {
     authors: ['Uichin Lee', 'Min Choi', 'Junghoo Cho', 'Medy. Y. Sanadidi', 'Mario Gerla'],
@@ -2455,7 +2456,7 @@ const publicationData = {
     venue: 'IPTPS',
     year: 2006,
     published: true,
-    pdf: pdfDir + 'lee2006understanding.pdf',
+    pdf: paperDir + 'lee2006understanding.pdf',
     slide: "https://docs.google.com/presentation/d/1MFBNgKVxHilQTSL7DZy_dS31H2UMzMsv/edit?usp=sharing&ouid=104647348618531803423&rtpof=true&sd=true",
   },
   lee2005flowbased: {
@@ -2465,7 +2466,7 @@ const publicationData = {
     venue: '',
     year: 2005,
     published: false,
-    pdf: pdfDir + 'lee2005flowbased.pdf',
+    pdf: paperDir + 'lee2005flowbased.pdf',
   },
   lee2005automatic: {
     authors: ['Uichin Lee', 'Zhenyu Liu', 'Junghoo Cho'],
@@ -2474,7 +2475,7 @@ const publicationData = {
     venue: 'WWW',
     year: 2005,
     published: true,
-    pdf: pdfDir + 'lee2005automatic.pdf',
+    pdf: paperDir + 'lee2005automatic.pdf',
   },
   chen2009codecast: {
     authors: ['Chien-Chia Chen', 'Chieh-Ning Lien', 'Uichin Lee', 'Soon Y. Oh', 'Mario Gerla'],
@@ -2484,7 +2485,7 @@ const publicationData = {
     venue: 'HotMobile',
     year: 2009,
     published: true,
-    pdf: pdfDir + 'chen2009codecast.pdf',
+    pdf: paperDir + 'chen2009codecast.pdf',
   },
   cao2008proof: {
     authors: ['Zhen Cao', 'Jiejun Kong', 'Uichin Lee', 'Mario Gerla', 'Zhong Chen'],
@@ -2494,7 +2495,7 @@ const publicationData = {
     venue: 'INFOCOM WKSHPS',
     year: 2008,
     published: true,
-    pdf: pdfDir + 'cao2008proof.pdf',
+    pdf: paperDir + 'cao2008proof.pdf',
   },
   lee2008understanding: {
     authors: ['Uichin Lee', 'Kang-Won Lee', 'Soon-Young Oh', 'Mario Gerla'],
@@ -2504,7 +2505,7 @@ const publicationData = {
     venue: '',
     year: 2007,
     published: true,
-    pdf: pdfDir + 'lee2008understanding.pdf',
+    pdf: paperDir + 'lee2008understanding.pdf',
   },
   lee2007first: {
     authors: ['Kevin C. Lee', 'Seung-Hoon Lee', 'Ryan Cheung', 'Uichin Lee', 'Mario Gerla'],
@@ -2513,7 +2514,7 @@ const publicationData = {
     venue: '',
     year: 2007,
     published: true,
-    pdf: pdfDir + 'lee2007first.pdf',
+    pdf: paperDir + 'lee2007first.pdf',
     slide: "https://drive.google.com/file/d/1YXoA4Qsb_TurHnMoAHY-lJrR8Wj6FQXx/view?usp=sharing",
   },
   vieira2006analysis: {
@@ -2523,7 +2524,7 @@ const publicationData = {
     venue: '',
     year: 2006,
     published: true,
-    pdf: pdfDir + 'vieira2006analysis.pdf',
+    pdf: paperDir + 'vieira2006analysis.pdf',
   },
   park2006emergency: {
     authors: ['Joon-Sang Park', 'Uichin Lee', 'Soon Young Oh', 'Mario Gerla', 'Desmond Lun'],
@@ -2532,7 +2533,7 @@ const publicationData = {
     venue: 'VANET',
     year: 2006,
     published: true,
-    pdf: pdfDir + 'park2006emergency.pdf',
+    pdf: paperDir + 'park2006emergency.pdf',
   },
 }
 
