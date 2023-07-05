@@ -56,7 +56,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
     published: true,
-    video: 'https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3544548.3581457&file=3544548.3581457-talk-video.mp4',
+    video: 'https://youtu.be/sNRkhhgoEHI',
     pdf: paperDir + 'park2023charlie.pdf',
   },
   park2023quickref: {
@@ -67,7 +67,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
     published: true,
-    slide: 'https://drive.google.com/file/d/1O-CKpQ-nE0SyTSLy-DeW6VmtzY3i3D3d/view?usp=drive_link',
+    slide: slideDir + 'park2023quickref.pdf',
     video: 'https://youtu.be/SH8Ac7DGWRU',
     pdf: paperDir + 'park2023quickref.pdf',
   },
@@ -90,6 +90,7 @@ const publicationData = {
     published: true,
     video: 'https://docs.google.com/presentation/d/1vNkznJx4q5KoOaxMKlzQI5P4IN_leSYscdkZ2WX-KN8/edit?usp=sharing',
     pdf: paperDir + 'han2023stressbal.pdf',
+    slide: slideDir + 'han2023stressbal.pdf'
   },
   choi2023loss: {
     year: 2023,
@@ -128,8 +129,7 @@ const publicationData = {
     full_venue: "2022년 한국컴퓨터종합학술대회(KCC) 논문집",
     published: true,
     pdf: paperDir + "shin2022smarthome.pdf",
-
-    slide: "https://drive.google.com/file/d/15yI_Gn8Xj7m02bCk0AzfGFwPnbILIK5G/view?usp=share_link"
+    slide: slideDir + "shin2022smarthome.pdf"
   },
   zitouni2022lstm: {
     year: 2022,
@@ -182,6 +182,7 @@ const publicationData = {
     full_venue: 'Proceedings of the ACM on Human-Computer Interaction',
     published: true,
     pdf: paperDir + 'choi2022you.pdf',
+    video: 'https://youtu.be/u_lSLpPVbFg',
   },
   lee2022towarddynamic: {
     year: 2022,
@@ -354,7 +355,7 @@ const publicationData = {
     full_venue:
       "CHI EA '22: Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems",
     pdf: paperDir + 'jung2022caremouse.pdf',
-    slide: 'https://drive.google.com/file/d/1fZQT66Mvk4gPBjc61pHdPhisV_5zEsH8/view?usp=sharing',
+    slide:  slideDir + 'jung2022caremouse.pdf',
     video: 'https://www.youtube.com/watch?v=lUj4s3ITmxs',
   },
   kang2022understanding: {
@@ -364,6 +365,8 @@ const publicationData = {
     venue: 'CHI',
     full_venue: 'CHI Conference on Human Factors in Computing Systems',
     pdf: paperDir + 'kang2022understanding.pdf',
+    video: 'https://youtu.be/CCw1uEOuhZM',
+    slide: slideDir + 'kang2022understanding.pdf'
   },
   choi2022s: {
     year: 2022,
@@ -452,7 +455,7 @@ const publicationData = {
     ],
     venue: '한국정보과학회',
     full_venue: '한국정보과학회 학술발표논문집',
-    slide: 'https://docs.google.com/presentation/d/1sKbMjCKrq8y9gGkqEUe0vLOZmc6_OZcUV2O-TxW7csI/edit?usp=sharing',
+    slide: slideDir + 'kim2021causal.pdf',
     pdf: paperDir + 'kim2021causal.pdf',
   },
   kim2021cheersbot: {
@@ -551,7 +554,7 @@ const publicationData = {
     venue: 'CHI',
     full_venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems',
     pdf: paperDir + 'park2021goldentime.pdf',
-    slide: 'https://drive.google.com/file/d/19nKMfHbOzzMKsEtcGqj8tmcZtZITEFwV/view?usp=drive_link',
+    slide: slideDir + 'park2021goldentime.pdf',
     video: 'https://www.youtube.com/watch?v=oVSeVFfBhQE',
   },
   kim2021beneficial: {
@@ -712,7 +715,7 @@ const publicationData = {
     venue: 'IEEE',
     full_venue: 'IEEE Access 2020',
     pdf: paperDir + 'kim2020dashcam.pdf',
-    slide: 'https://docs.google.com/presentation/d/1AqJV2kOUGfLqcrKosdLy4BapVxIjnTHO/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true',
+    slide: slideDir + 'kim2020dashcam.pdf',
   },
   balili2020termball: {
     year: 2020,
@@ -860,7 +863,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2019 CHI conference on human factors in computing systems, May 2019',
     pdf: paperDir + 'kim2019lockntype.pdf',
-    slide: 'https://docs.google.com/presentation/d/19Fp6V5-9VQ0iK7blqzUvOZg-XoI42kY3/edit?usp=sharing&ouid=104860675243862886660&rtpof=true&sd=true',
+    slide: slideDir + 'kim2019lockntype.pdf',
   },
   
   //////////////
@@ -902,8 +905,7 @@ const publicationData = {
     full_venue:
       'ACM CHI Workshop: Designing for Digital Wellbeing , Glasgow, Scotland UK, May 4, 2019',
     pdf: paperDir + 'lee2019interaction.pdf',
-    slide:
-      'https://docs.google.com/presentation/d/15tb5lJk-qdwgNB1mhjwRu8eXeOKuAfNL/edit?usp=sharing&ouid=106005907395814480996&rtpof=true&sd=true',
+    slide: slideDir + 'lee2019interaction.pdf'
   },
   oh2019wake: {
     year: 2019,
@@ -948,6 +950,7 @@ const publicationData = {
     full_venue:
       "MobiCom '19: The 25th Annual International Conference on Mobile Computing and Networking, August 2019",
     pdf: paperDir + 'kang2019fire.pdf',
+    video: 'https://youtu.be/yLNF0-S5aLE',
   },
   kim2018interrupting: {
     year: 2019,
@@ -1057,7 +1060,7 @@ const publicationData = {
     full_venue:
       'Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems, April 2018',
     pdf: paperDir + 'park2018interaction.pdf',
-    slide: 'https://drive.google.com/file/d/120lIVMzEUe--XuMdUkaitKniBw2LCs83/view?usp=sharing',
+    slide:  slideDir + 'park2018interaction.pdf',
     video: 'https://drive.google.com/file/d/1S4_C4uozwrfX9yvtBXcCj7u0y33LHzHU/view?usp=sharing',
   },
   shin2018actuating: {
@@ -1095,7 +1098,7 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2018 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 4, Dec. 2017',
     pdf: paperDir + 'lee2018flower.pdf',
-    slide: 'https://drive.google.com/file/d/1R5IPY5JHNMl_nbD1RkCi9_tUpzzmImEm/view?usp=sharing',
+    slide: slideDir + 'lee2018flower.pdf',
   },
   balili2017tracking: {
     year: 2017,
@@ -1114,7 +1117,7 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
     pdf: paperDir + 'kim2017technology.pdf',
-    slide: "https://docs.google.com/presentation/d/14aLQ6gl9uHVPYwJAoA81h4Y1mq3MmaDK/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
+    slide: slideDir + "kim2017technology.pdf",
   },
   kim2017let: {
     year: 2017,
@@ -1124,8 +1127,7 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
     pdf: paperDir + 'kim2017let.pdf',
-    slide:
-      'https://docs.google.com/presentation/d/1o6DjgB_e4tGHLQae1g-OC2Ch6OUGIybh/edit?usp=sharing&ouid=106005907395814480996&rtpof=true&sd=true',
+    slide: slideDir + 'kim2017let.pdf',
     video: 'https://www.youtube.com/watch?v=orm1dFj3RY0',
   },
   kim2017trailsense: {
@@ -1137,7 +1139,7 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
     pdf: paperDir + 'kim2017trailsense.pdf',
-    slide: "https://docs.google.com/presentation/d/1ISJRg5jMjs6o0zh2_jIOkCUp8L83h1Eq/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
+    slide: slideDir +  "kim2017trailsense.pdf",
   },
   jeong2017smartwatch: {
     year: 2017,
@@ -1147,7 +1149,7 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2017 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 1, Issue 3, Sept. 2017',
     pdf: paperDir + 'jeong2017smartwatch.pdf',
-    slide: "https://docs.google.com/presentation/d/1rjso1XaEBYnozAdaLokl1JJWQn1oCeXD/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
+    slide: slideDir + "jeong2017smartwatch.pdf",
   },
   oh2017understanding: {
     year: 2017,
@@ -1181,7 +1183,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems, May 2017',
     pdf: paperDir + 'chin2017watchout.pdf',
-    slide: "https://drive.google.com/file/d/144pLugEwKrhoal4xTE42_Ag3w7Xs4XYB/view?usp=sharing",
+    slide: slideDir + 'chin2017watchout.pdf',
   },
   kim2017sensors: {
     year: 2017,
@@ -1198,7 +1200,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems',
     pdf: paperDir + 'kim2017sensors.pdf',
-    slide: 'https://drive.google.com/file/d/1W9eDB50dnBj4RRh-T_gn6Les1Es6l8K3/view?usp=sharing',
+    slide: slideDir + 'kim2017sensors.pdf',
   },
   kim2017s: {
     year: 2017,
@@ -1216,7 +1218,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems',
     pdf: paperDir + 'kim2017s.pdf',
-    slide: 'https://drive.google.com/file/d/1VOtR5DzIOVlUNmlRn7Vf-GsUr4q-133V/view?usp=sharing',
+    slide: slideDir + 'kim2017s.pdf',
   },
   park2017facilitating: {
     year: 2017,
@@ -1233,7 +1235,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, May 2017',
     pdf: paperDir + 'park2017facilitating.pdf',
-    slide: "https://docs.google.com/presentation/d/1tNF-aOKvmhzixa4qrBDnW4a_uYbjkdpH/edit?usp=sharing&ouid=108518890505131881492&rtpof=true&sd=true",
+    slide: slideDir + "park2017facilitating.pdf",
   },
   kim2017letspic: {
     year: 2017,
@@ -1243,7 +1245,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, May 2017',
     pdf: paperDir + 'kim2017letspic.pdf',
-    slide: "https://drive.google.com/file/d/1_6UnGEmTwaDfmkHhxQQcyDUIP2fkIRDn/view?usp=sharing",
+    slide: slideDir + "kim2017letspic.pdf",
   },
   noh2016infrastructure: {
     year: 2016,
@@ -1280,7 +1282,7 @@ const publicationData = {
     full_venue:
       'Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing, September 2016',
     pdf: paperDir + 'choi2016exploring.pdf',
-    slide: "https://docs.google.com/presentation/d/1vNX2tRcTgbktMNBEKuINqZWzyZyk8F_d/edit?usp=drive_web&ouid=108518890505131881492&rtpof=true",
+    slide: slideDir + "choi2016exploring.pdf",
   },
   choi2016designing: {
     year: 2016,
@@ -1644,7 +1646,7 @@ const publicationData = {
       'Junehwa Song',
     ],
     slide: slideDir + 'choi2014mobydick.pdf',
-    video: "https://drive.google.com/file/d/0B7KaX6-7H5PNckJRZU5wSDVfbWc/view?usp=drive_link&resourcekey=0-ma5aSEqaL1OvULdSvOGUHA",
+    video: "https://youtu.be/5JwIsf6SQ0Y",
     // full_venue:
     //   "In Proc. of the 12th ACM Conference on Embedded Networked Sensor Systems (SenSys'14), Memphis, TN, November 3-6, 2014",
   },
