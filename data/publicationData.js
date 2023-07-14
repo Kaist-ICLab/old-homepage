@@ -335,6 +335,7 @@ const publicationData = {
     full_venue:
       'ACM Ubicomp 2022 / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 6, Issue 2, July 2022',
     pdf: paperDir + 'lee2022understanding.pdf',
+    slide: slideDir + 'lee2022understanding.pdf'
   },
   salman2022csi: {
     year: 2022,
@@ -545,6 +546,7 @@ const publicationData = {
     full_venue: 'Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems',
     pdf: paperDir + 'lee2021sticky.pdf',
     video: 'https://www.youtube.com/watch?v=mSCXgOceCpA&ab_channel=ACMSIGCHI',
+    slide: slideDir + 'lee2021sticky.pdf'
   },
   park2021goldentime: {
     year: 2021,
