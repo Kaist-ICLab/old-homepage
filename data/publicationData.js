@@ -9,7 +9,7 @@ const publicationData = {
     venue: 'CSCW',
     full_venue:
     'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
-    published: False,
+    published: false,
     pdf: paperDir + 'orzikulova2023finderme.pdf',
   },
   heo2023form: {
@@ -19,7 +19,7 @@ const publicationData = {
     venue: 'CSCW',
     full_venue:
     'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
-    published: False,
+    published: false,
     pdf: paperDir + 'heo2023form.pdf',
   },
   park2023understanding: {
