@@ -2,6 +2,26 @@ const paperDir = "../files/papers/"
 const slideDir = "../files/slides/"
 
 const publicationData = {
+  orzikulova2023finderme: {
+    year: 2023,
+    title: 'FinerMe: Examining App-level and Feature-level Interventions to Regulate Mobile Social Media Use',
+    authors: ['Adiba Orzikulova', 'Hyunsung Cho', 'Hye-Young Chung', 'Hwajung Hong', 'Uichin Lee', 'Sung-Ju Lee'],
+    venue: 'CSCW',
+    full_venue:
+    'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
+    published: False,
+    pdf: paperDir + 'orzikulova2023finderme.pdf',
+  },
+  heo2023form: {
+    year: 2023,
+    title: 'Form to Flow: Exploring Challenges and Roles of Conversational UX Designers in Real-world, Multi-channel Service Environments',
+    authors: ['Jeongyun Heo', 'Uichin Lee'],
+    venue: 'CSCW',
+    full_venue:
+    'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
+    published: False,
+    pdf: paperDir + 'heo2023form.pdf',
+  },
   park2023understanding: {
     year: 2023,
     title: 'Understanding Disengagement in Just-in-Time Mobile Health Interventions',
