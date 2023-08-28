@@ -260,7 +260,7 @@ const memberData = {
     research_interests: ['Digital Twin', 'Affective Computing', 'IoT Sensor Data'],
   },
   EunkiJung: {
-    name: 'Eunki Jung',
+    name: 'Eunki Joung',
     isAlumni: false,
     current_position: 'Master Program',
     program: [
