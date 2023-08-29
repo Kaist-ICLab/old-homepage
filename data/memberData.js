@@ -10,6 +10,20 @@ const memberData = {
     scholar: 'https://scholar.google.co.kr/citations?user=Sc2pBzYAAAAJ',
     research_interests: [],
   },
+  JoonyoungPark: {
+    name: 'Joonyoung Park',
+    isAlumni: false,
+    current_position: 'Postdoc',
+    program: [
+      ['Postdoc', '2023.03 ~'],
+      ['PhD',  '~ 2023.02'],
+    ],
+    email: 'jypark@kse.kaist.ac.kr',
+    image: '/static/images/members/JoonyoungPark.jpg',
+    scholar: 'https://scholar.google.co.kr/citations?user=uzqaSMMAAAAJ&hl=ko',
+    github: 'https://github.com/zelatore',
+    research_interests: ['Behavioral Psychology', 'JIT-based DBCI', 'Reinforcement Learning'],
+  },
   HansooLee: {
     name: 'Hansoo Lee',
     isAlumni: false,
@@ -226,20 +240,6 @@ const memberData = {
     image: '/static/images/members/InyeopKim.png',
     scholar: 'https://scholar.google.com/citations?user=VQ8rjvkAAAAJ&hl=ko&oi=ao',
     research_interests: ['Context-aware system', 'Digital wellbeing'],
-  },
-  JoonyoungPark: {
-    name: 'Joonyoung Park',
-    isAlumni: false,
-    current_position: '',
-    program: [
-      ['Postdoc', '2023.03 ~'],
-      ['PhD',  '~ 2023.02'],
-    ],
-    email: 'jypark@kse.kaist.ac.kr',
-    image: '/static/images/members/JoonyoungPark.jpg',
-    scholar: 'https://scholar.google.co.kr/citations?user=uzqaSMMAAAAJ&hl=ko',
-    github: 'https://github.com/zelatore',
-    research_interests: ['Behavioral Psychology', 'JIT-based DBCI', 'Reinforcement Learning'],
   },
   SoowonKang: {
     name: 'Soowon Kang',
