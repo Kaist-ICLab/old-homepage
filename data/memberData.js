@@ -242,7 +242,7 @@ const memberData = {
   },
   JoonyoungPark: {
     name: 'Joonyoung Park',
-    isAlumni: true,
+    isAlumni: false,
     current_position: '',
     program: [
       ['Postdoc', '2023.03 ~'],
