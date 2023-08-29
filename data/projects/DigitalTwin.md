@@ -1,7 +1,7 @@
 ---
 title: 'Human Digital Twin for Mental Health: Predicting and Managing Stress Risks for Emotion Workers'
 publications: [kang2022understanding, zitouni2022privacy]
-participated: [JoonyoungPark, SoowonKang, EunjiPark, DuriLee, YoungjiKoh, YunjoHan, TaeHoonLee]
+participated: [DuriLee, YunjoHan]
 image: '/static/images/projects/DigitalTwin.jpg'
 status: 'Ongoing'
 ---
