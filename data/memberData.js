@@ -110,21 +110,8 @@ const memberData = {
     image: '/static/images/members/YunjoHan.jpg',
     research_interests: ['Affective Computing', 'Mobile Sensing'],
   },
-  TaeHoonLee: {
-    name: 'TaeHoon Lee',
-    isAlumni: false,
-    current_position: 'PhD Program',
-    program: [
-      ['PhD',  '2023.03 ~'],
-    ],
-    email: 'th.lee@kaist.ac.kr',
-    github: 'https://github.com/taehooonlee',
-    scholar: 'https://scholar.google.co.kr/citations?user=mA8QOeoAAAAJ&hl=ko',
-    image: '/static/images/members/TaeHoonLee.jpg',
-    research_interests: ['Digital Twin', 'Affective Computing', 'IoT Sensor Data'],
-  },
-  EunkiJung: {
-    name: 'Eunki Jung',
+  EunkiJoung: {
+    name: 'Eunki Joung',
     isAlumni: false,
     current_position: 'Master Program',
     program: [
