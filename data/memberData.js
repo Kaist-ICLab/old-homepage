@@ -213,7 +213,7 @@ const memberData = {
     current_position: '',
     isAlumni: true,
     program: [
-      ['Postdoc', '2021.09 ~ '],
+      ['Postdoc', '2021.09 ~ 2023.08'],
       ['PhD',  '2015.03 ~ 2021.08'],
       ['MS',  '2013.03 ~ 2015.02'],
     ],
