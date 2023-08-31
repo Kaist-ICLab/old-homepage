@@ -7,7 +7,7 @@ export default function Alumni({ alumni }) {
   const alumni_currentposition = alumni.current_position ? alumni.current_position : ''
   return (
     <div className={styles.alumni}>
-      <ContactIcon kind="mail" href={"mailto:" + alumni.mail} />
+      <ContactIcon kind="mail" href={alumni.mail} />
       <div className={styles.desc}>
         <div className={styles.name}>{alumni_englishname}</div>
         <div className={styles.current_position}>

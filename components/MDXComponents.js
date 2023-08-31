@@ -35,13 +35,13 @@ export const Wrapper = ({ components, ...rest }) => {
 export const Hr = ({ children }) => <hr className={styles.hr} />
 export const Image = ({ ...rest }) => <NextImage {...rest} />
 
-export const Link = ({ href, ...rest }) => {
+export const Link = ({ href, onClick, ...rest }) => {
   const isInternalLink = href && href.startsWith('/')
   const isAnchorLink = href && href.startsWith('#')
 
   if (isInternalLink) {
     return (
-      <NextLink href={href}>
+      <NextLink href={href} onClick = {onClick}>
         <a {...rest} />
       </NextLink>
     )
