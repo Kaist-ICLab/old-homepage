@@ -10,19 +10,22 @@ const memberData = {
     scholar: 'https://scholar.google.co.kr/citations?user=Sc2pBzYAAAAJ',
     research_interests: [],
   },
-  JoonyoungPark: {
-    name: 'Joonyoung Park',
+  HyunsooLee: {
+    name: 'Hyunsoo Lee',
     isAlumni: false,
-    current_position: 'Postdoc',
+    current_position: 'Post Doc',
     program: [
-      ['Postdoc', '2023.03 ~'],
-      ['PhD',  '~ 2023.02'],
+      ['PhD',  ' ~ 2023.08'],
     ],
-    email: 'jypark@kse.kaist.ac.kr',
-    image: '/static/images/members/JoonyoungPark.jpg',
-    scholar: 'https://scholar.google.co.kr/citations?user=uzqaSMMAAAAJ&hl=ko',
-    github: 'https://github.com/zelatore',
-    research_interests: ['Behavioral Psychology', 'JIT-based DBCI', 'Reinforcement Learning'],
+    email: 'hslee90@kaist.ac.kr',
+    image: '/static/images/members/HyunsooLee.jpg',
+    scholar: 'https://scholar.google.com/citations?user=ctglUjoAAAAJ&hl=ko',
+    github: 'https://github.com/hslee90',
+    research_interests: [
+      'Sensor Data Privacy',
+      'Usable Privacy',
+      'Human Factors in Privacy and Security',
+    ],
   },
   HansooLee: {
     name: 'Hansoo Lee',
@@ -208,6 +211,20 @@ const memberData = {
       ['PhD', ' ~ 2023.08']
     ]
   },
+  JoonyoungPark: {
+    name: 'Joonyoung Park',
+    isAlumni: true,
+    current_position: '',
+    program: [
+      ['Postdoc', '2023.03 ~ 2023.08'],
+      ['PhD',  '~ 2023.02'],
+    ],
+    email: 'jypark@kse.kaist.ac.kr',
+    image: '/static/images/members/JoonyoungPark.jpg',
+    scholar: 'https://scholar.google.co.kr/citations?user=uzqaSMMAAAAJ&hl=ko',
+    github: 'https://github.com/zelatore',
+    research_interests: ['Behavioral Psychology', 'JIT-based DBCI', 'Reinforcement Learning'],
+  },
   WoohyeokChoi: {
     name: 'Woohyeok Choi',
     current_position: '',
@@ -255,23 +272,6 @@ const memberData = {
     research_interests: [
       'Sensor Data Science',
       'Mobile Systems',
-    ],
-  },
-  HyunsooLee: {
-    name: 'Hyunsoo Lee',
-    isAlumni: true,
-    current_position: '',
-    program: [
-      ['PhD',  ' ~ 2023.08'],
-    ],
-    email: 'hslee90@kaist.ac.kr',
-    image: '/static/images/members/HyunsooLee.jpg',
-    scholar: 'https://scholar.google.com/citations?user=ctglUjoAAAAJ&hl=ko',
-    github: 'https://github.com/hslee90',
-    research_interests: [
-      'Sensor Data Privacy',
-      'Usable Privacy',
-      'Human Factors in Privacy and Security',
     ],
   },
     EunjiPark: {
