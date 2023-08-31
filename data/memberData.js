@@ -13,7 +13,7 @@ const memberData = {
   HyunsooLee: {
     name: 'Hyunsoo Lee',
     isAlumni: false,
-    current_position: 'Post Doc',
+    current_position: 'Postdoc',
     program: [
       ['PhD',  ' ~ 2023.08'],
     ],
