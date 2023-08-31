@@ -22,7 +22,7 @@ export default function Member({ member }) {
             <ContactIcon kind="scholar" href={member.scholar} />
           ) : null}
           {member.email && !/^mailto:\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/.test(member.email) ? (
-            <ContactIcon kind="mail" href={member.email} />
+            <ContactIcon kind="mail" href={"mailto:"+ member.email} />
           ) : null}
         </div>
       </div>
