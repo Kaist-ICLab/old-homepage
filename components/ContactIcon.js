@@ -16,52 +16,49 @@ const icons = {
 
 export default function ContactIcon({ kind, href }) {
   const SVG = icons[kind]
-  const [isHovered, setIsHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState(false)
 
   const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
+    setIsHovered(true)
+  }
 
   const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
+    setIsHovered(false)
+  }
 
   const clickListener = (event) => {
-    if (kind === "mail") {
-      event.preventDefault();
+    if (kind === 'mail') {
+      event.preventDefault()
       // Copy email to Clipboard
-      const copyText = async ()=> {
+      const copyText = async () => {
         try {
-          await navigator.clipboard.writeText(href);
-          const alertMessage = document.createElement('div');
-          alertMessage.className = styles.alert_message;
-          alertMessage.textContent = "Email Copied!";
-          document.body.appendChild(alertMessage);
+          await navigator.clipboard.writeText(href)
+          const alertMessage = document.createElement('div')
+          alertMessage.className = styles.alert_message
+          alertMessage.textContent = 'Email Copied!'
+          document.body.appendChild(alertMessage)
           setTimeout(() => {
-            alertMessage.remove();
-          }, 1500);
+            alertMessage.remove()
+          }, 1500)
         } catch (err) {
-          console.error('Failed to copy text: ', err);
+          console.error('Failed to copy text: ', err)
         }
       }
       copyText()
-
-    } else {
     }
-
   }
 
   return (
-    <div className={styles.icon_container}
+    <div
+      className={styles.icon_container}
       onClick={clickListener}
       onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}>
+      onMouseLeave={handleMouseLeave}
+    >
       <Link href={href} className={styles.contact_icon}>
         <SVG className={styles.icon} />
       </Link>
-      {isHovered && kind === "mail" ? <span className={styles.hovered_text}>{href}</span> : ''}
+      {isHovered && kind === 'mail' ? <span className={styles.hovered_text}>{href}</span> : ''}
     </div>
-
   )
 }

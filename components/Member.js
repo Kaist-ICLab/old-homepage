@@ -9,7 +9,13 @@ export default function Member({ member }) {
       <div className={styles.image_n_contact}>
         <div className={styles.image_wrapper}>
           {/* <Image src={member.image} alt={member.name} layout="fill" object="fit" /> Changed for Image Optimization*/}
-          <Image src={member.image} alt={member.name} width={180} height={200} objectFit={"cover"}/>
+          <Image
+            src={member.image}
+            alt={member.name}
+            width={180}
+            height={200}
+            objectFit={'cover'}
+          />
         </div>
         <div className={styles.contacts}>
           {member.homepage && member.homepage !== null ? (

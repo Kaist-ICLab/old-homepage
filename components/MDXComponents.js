@@ -41,7 +41,7 @@ export const Link = ({ href, onClick, ...rest }) => {
 
   if (isInternalLink) {
     return (
-      <NextLink href={href} onClick = {onClick}>
+      <NextLink href={href} onClick={onClick}>
         <a {...rest} />
       </NextLink>
     )
