@@ -14,3 +14,30 @@
 .icon:hover {
   color: var(--primary-color);
 }
+
+.hovered_text {
+  position: absolute;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: opacity 0.3s, visibility 0.3s;
+  z-index: 100;
+}
+
+.alert_message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+
+  z-index: 9999999;
+
+  background-color: #000;
+  border: 1px solid #333;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  max-width: 300px;
+
+  color: white;
+}
