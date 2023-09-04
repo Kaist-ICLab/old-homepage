@@ -227,7 +227,7 @@ const memberData = {
   },
   WoohyeokChoi: {
     name: 'Woohyeok Choi',
-    current_position: '',
+    current_position: 'Assistant Professor, Kangwon National University',
     isAlumni: true,
     program: [
       ['Postdoc', '2021.09 ~ 2023.08'],
@@ -261,7 +261,7 @@ const memberData = {
   SoowonKang: {
     name: 'Soowon Kang',
     isAlumni: true,
-    current_position: '',
+    current_position: 'Samsung Electronics',
     program: [
       ['PhD',  ' ~ 2023.08'],
     ],    
@@ -277,7 +277,7 @@ const memberData = {
     EunjiPark: {
     name: 'Eunji Park',
     isAlumni: true,
-    current_position: '',
+    current_position: 'Assistant Professor, Chung-Ang University',
     program: [
       ['PhD',  '2019.03 ~ 2023.08'],
     ],
@@ -333,7 +333,7 @@ const memberData = {
   YongShinKim: {
     name: 'Yongshin Kim',
     isAlumni: true,
-    current_position: '',
+    current_position: 'OKESTRO',
     program: [
       ['MS',  '2020.09 ~ 2022.08'],
     ],
@@ -371,7 +371,7 @@ const memberData = {
   MinhyoungKim: {
     name: 'Minhyoung Kim',
     isAlumni: true,
-    current_position: '',
+    current_position: 'doeat',
     program: [
       ['MS', ' ~ 2021']
     ],
