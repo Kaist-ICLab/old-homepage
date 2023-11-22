@@ -260,8 +260,7 @@ const publicationData = {
   },
   choi2022facilitating: {
     year: 2022,
-    title:
-      'Facilitating instant interactions for stressful experiences sharing and peer support',
+    title: 'Facilitating instant interactions for stressful experiences sharing and peer support',
     authors: [
       "Ryuhaerang Choi",
       "Chanwoo Yun",
