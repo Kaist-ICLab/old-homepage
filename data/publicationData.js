@@ -2,6 +2,46 @@ const paperDir = "../files/papers/"
 const slideDir = "../files/slides/"
 
 const publicationData = {
+  han2023watchppg: {
+    year: 2023,
+    title: 'WatchPPG: An Open-Source Toolkit for PPG-based Stress Detection using Off-the-shelf Smartwatches',
+    authors: ['Yunjo Han', 'Kobiljon E Toshnazarov', 'Byung Hyung Kim', 'Youngtae Noh', 'Uichin Lee'],
+    venue: 'Ubicomp',
+    full_venue:
+    'Adjunct Proceedings of the 2023 ACM International Joint Conference on Pervasive and Ubiquitous Computing & the 2023 ACM International Symposium on Wearable Computing',
+    published: true,
+    pdf: paperDir + 'han2023watchppg.pdf',
+  },
+  park2023measuring: {
+    year: 2023,
+    title: 'Measuring Device-Specific Physical Activity Trackability in Multi-Device Environments',
+    authors: ['Sangjun Park', 'Eunji Park', 'Paul H Lee', 'Uichin Lee'],
+    venue: 'BigComp',
+    full_venue:
+    '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
+    published: true,
+    pdf: paperDir + 'park2023measuring.pdf',
+  },
+  lee2023analysis: {
+    year: 2023,
+    title: 'Analysis system and method for causal inference of digital therapeutics based on mobile data',
+    authors: ['Uichin Lee', 'JUNG Gyuwon', 'MA Eun-Yeol', 'Heeyoung Kim'],
+    venue: 'Google Patents',
+    full_venue:
+    'US Patent',
+    published: true,
+    pdf: paperDir + 'lee2023analysis.pdf',
+  },
+  ma2023investigating: {
+    year: 2023,
+    title: 'Investigating Causality in Mobile Health Data through Deep Learning Models',
+    authors: ['Eun-Yeol Ma', 'Heeyoung Kim', 'Uichin Lee'],
+    venue: 'BigComp',
+    full_venue:
+    '2023 IEEE International Conference on Big Data and Smart Computing (BigComp)',
+    published: true,
+    pdf: paperDir + 'ma2023investigating.pdf',
+  },
   orzikulova2023finderme: {
     year: 2023,
     title: 'FinerMe: Examining App-level and Feature-level Interventions to Regulate Mobile Social Media Use',
@@ -19,7 +59,7 @@ const publicationData = {
     venue: 'CSCW',
     full_venue:
     'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
-    published: false,
+    published: true,
     pdf: paperDir + 'heo2023form.pdf',
   },
   park2023understanding: {
@@ -100,8 +140,8 @@ const publicationData = {
     full_venue: 'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
     published: false,
   },
-  han2023stressbal: {
-    year: 2023,
+  han2022stressbal: {
+    year: 2022,
     title:
       'StressBal: Personalized Just-in-time Stress Intervention with Wearable and Phone Sensing',
     authors: ['Yunjo Han', 'Hyemin Lee', 'Kobiljon Toshnazarov', 'Youngtae Noh', 'Uichin Lee'],
@@ -109,8 +149,8 @@ const publicationData = {
     full_venue: 'Proceedings of the 2022 ACM International Joint Conference on Pervasive and Ubiquitous Computing',
     published: true,
     video: 'https://docs.google.com/presentation/d/1vNkznJx4q5KoOaxMKlzQI5P4IN_leSYscdkZ2WX-KN8/edit?usp=sharing',
-    pdf: paperDir + 'han2023stressbal.pdf',
-    slide: slideDir + 'han2023stressbal.pdf'
+    pdf: paperDir + 'han2022stressbal.pdf',
+    slide: slideDir + 'han2022stressbal.pdf'
   },
   choi2023loss: {
     year: 2023,
