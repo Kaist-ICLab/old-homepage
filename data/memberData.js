@@ -105,16 +105,27 @@ const memberData = {
   SangjunPark: {
     name: 'Sangjun Park',
     isAlumni: false,
-    current_position: 'PhD Program',
+    current_position: 'Master Program',
     program: [
-      ['PhD',  '2024.03 ~ '],
-      ['MS',  ' ~ 2024.02'],
+      ['MS',  '2022.03 ~'],
     ],
     email: 'grey10170@kaist.ac.kr',
     github: 'https://github.com/highjun10170',
     homepage: 'https://highjun10170.github.io/',
     image: '/static/images/members/SangjunPark.jpg',
     research_interests: ['Causal Inference for Mobile Data', 'Data Quality Control'],
+  },
+  YunjoHan: {
+    name: 'Yunjo Han',
+    isAlumni: false,
+    current_position: 'Master Program',
+    program: [
+      ['MS',  '2022.03 ~'],
+    ],
+    email: 'yjhan99@kaist.ac.kr',
+    github: 'https://github.com/yjhan99',
+    image: '/static/images/members/YunjoHan.jpg',
+    research_interests: ['Affective Computing', 'Mobile Sensing'],
   },
   EunkiJoung: {
     name: 'Eunki Joung',
@@ -191,18 +202,6 @@ const memberData = {
   },
 
   // From Here Alumni
-  YunjoHan: {
-    name: 'Yunjo Han',
-    isAlumni: true,
-    current_position: 'Samsung Electronics',
-    program: [
-      ['MS',  '2022.03 ~2024.02'],
-    ],
-    email: 'yjhan99@kaist.ac.kr',
-    github: 'https://github.com/yjhan99',
-    image: '/static/images/members/YunjoHan.jpg',
-    research_interests: ['Affective Computing', 'Mobile Sensing'],
-  },
   JeongyunHeo: {
     name: 'Jeongyun Heo',
     isAlumni: true,
