@@ -2,7 +2,7 @@
 
 ---
 
-- We are looking for prospective students and interns [read more](https://medium.com/@iclab.kaist/announcements-b4e0730a7511)
+- We are looking for prospective students and interns [read more](https://brunch.co.kr/@kaisticlab/3)
 
 ---
 

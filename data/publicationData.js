@@ -138,7 +138,8 @@ const publicationData = {
     authors: ['Yugyeong Jung', 'Gyuwon Jung', 'Sooyeon Jeong', 'Chaewon Kim', 'Woontack Woo', 'Hwajung Hong', 'Uichin Lee'],
     venue: 'CSCW',
     full_venue: 'Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing',
-    published: false,
+    published: true,
+    pdf: paperDir + 'jung2023enjoy.pdf',
   },
   han2022stressbal: {
     year: 2022,
@@ -299,8 +300,7 @@ const publicationData = {
   },
   choi2022facilitating: {
     year: 2022,
-    title:
-      'Facilitating instant interactions for stressful experiences sharing and peer support',
+    title: 'Facilitating instant interactions for stressful experiences sharing and peer support',
     authors: [
       "Ryuhaerang Choi",
       "Chanwoo Yun",
