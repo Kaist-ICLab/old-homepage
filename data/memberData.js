@@ -107,6 +107,7 @@ const memberData = {
     isAlumni: false,
     current_position: 'PhD Program',
     program: [
+      ['PhD',  '2024.03 ~ '],
       ['MS',  ' ~ 2024.02'],
     ],
     email: 'grey10170@kaist.ac.kr',
