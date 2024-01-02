@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import { Image, Link } from './MDXComponents'
 
@@ -12,6 +12,7 @@ export default function Header() {
 
   const onToggleNav = () => {
     setNavShow((status) => {
+      console.log(status)
       if (document.body.clientWidth < 1200) {
         if (status) {
           document.body.style.overflow = 'auto'
@@ -23,6 +24,11 @@ export default function Header() {
       }
     })
   }
+
+  const closeNav = () => {
+    setNavShow(false)
+  }
+
   return (
     <>
       <div className={styles.header_position} />
@@ -51,21 +57,24 @@ export default function Header() {
           <button
             type="button"
             className={[styles.mobile_nav_toggle, navShow ? styles.toggled : ''].join(' ')}
-            onClick={onToggleNav}
+            onClick={() => {
+              onToggleNav();
+            }}
           >
             <Menu />
           </button>
           <div className={[styles.nav_container, navShow ? styles.show_nav : ''].join(' ')}>
-            {headerNavLinks.map((link) => (
-              <Link
+            {headerNavLinks.map((link) => {
+              return <Link
                 key={link.title}
                 href={link.href}
                 className={styles.nav_link}
-                onClick={onToggleNav}
               >
-                {link.title}
+                <a onClick={() => {
+                  onToggleNav();
+                }}>{link.title} </a>
               </Link>
-            ))}
+            })}
           </div>
         </header>
       </div>
