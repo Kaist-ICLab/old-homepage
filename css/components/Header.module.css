@@ -86,7 +86,7 @@
   transition: transform linear 0.1s;
 }
 
-.nav_link {
+.navlink {
   background-color: transparent;
   font-style: normal;
   font-weight: 500;
@@ -100,11 +100,8 @@
   padding: 10px;
   gap: 10px;
 
-  width: calc(100% - 30px);
-
-  border-bottom: 1px solid #cccccc;
 }
-.nav_link:hover {
+.navlink:hover {
   color: var(--primary-color);
 }
 
@@ -137,7 +134,7 @@
     transform: none;
     transition: none;
   }
-  .nav_link {
+  .navlink {
     font-size: 15px;
     line-height: 18px;
 

@@ -68,11 +68,11 @@ export default function Header() {
               return <Link
                 key={link.title}
                 href={link.href}
-                className={styles.nav_link}
               >
-                <a onClick={() => {
+                <div onClick={() => {
                   onToggleNav();
-                }}>{link.title} </a>
+                }}
+                className={styles.navlink}>{link.title} </div>
               </Link>
             })}
           </div>
