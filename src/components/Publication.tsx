@@ -18,6 +18,7 @@ const Publication: React.FC<PublicationProp> = ({ publication }) => {
   } else {
     author_string = publication.authors[0]
   }
+  const url = "https://raw.githubusercontent.com/Kaist-ICLab/kaist-iclab.github.io/main/public/files/"
   return (
     <div className={styles.publication}>
       <div className={styles.venue}>{publication.venue_alias}</div>
@@ -29,13 +30,13 @@ const Publication: React.FC<PublicationProp> = ({ publication }) => {
       </div>
       <div className={styles.supplements}>
         {publication.paper && publication.paper !== '' ? (
-          <Supplement kind="pdf" href={publication.paper} />
+          <Supplement kind="pdf" href={url+"papers/"+publication.paper} />
         ) : null}
         {publication.code && publication.code !== '' ? (
           <Supplement kind="code" href={publication.code} />
         ) : null}
         {publication.slide && publication.slide !== '' ? (
-          <Supplement kind="slide" href={publication.slide} />
+          <Supplement kind="slide" href={url+"slides/"+publication.slide} />
         ) : null}
         {publication.video && publication.video !== '' ? (
           <Supplement kind="video" href={publication.video} />
