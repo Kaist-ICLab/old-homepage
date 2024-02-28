@@ -24,7 +24,8 @@ const meta: { [key: string]: any } = {
     { href: '/members', title: 'Members' },
     { href: '/courses', title: 'Courses' },
     { href: 'https://brunch.co.kr/@kaisticlab', title: 'Blog' },
-  ]
+  ],
+  imageLoader: "https://ickaist.imgix.net/"
 }
 
 export default meta;
