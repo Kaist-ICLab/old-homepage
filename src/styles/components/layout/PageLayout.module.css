@@ -1,0 +1,12 @@
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+  }
+  .main {
+    flex-grow: 1;
+  }
+  

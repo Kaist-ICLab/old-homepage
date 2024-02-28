@@ -1,0 +1,72 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 10px;
+
+  background: #eee;
+  width: 100%;
+}
+
+.affiliates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  .affiliates {
+    flex-direction: row;
+  }
+}
+
+.image_kaist {
+  position: relative;
+  width: 240px;
+  height: 60px;
+}
+.image_hci {
+  position: relative;
+  width: 240px;
+  height: 60px;
+}
+
+.footer_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  gap: 5px;
+}
+
+.location {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000;
+}
+
+.powered {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000;
+}
