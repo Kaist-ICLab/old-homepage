@@ -16,8 +16,9 @@ const nextConfig = (phase, { defaultConfig }) => {
     console.log("This is Deployment Server!")
     baseconfig['images'] = {
       deviceSizes: [180, 640, 750, 828, 900, 1080, 1200, 1920, 2048, 3840],
-      loader: 'imgix',
-      path: 'https://ickaist.imgix.net/',
+      loader: 'custom',
+      loaderFile: "./imageLoader.js",
+      // path: 'https://ickaist.imgix.net/',
     }
   }
   return baseconfig
