@@ -38,8 +38,8 @@ const CurrentMember: React.FC<MemberProps> = ({ member }) => {
                     />
                 </div>
                 <div className={styles.contacts}>
-                    {[["homepage", member.homepage], ["github", member.github],
-                    ["account-school", member.google_scholar], ["email", member.email]].map(([kind, href]) =>
+                    {[["home", member.homepage], ["github", member.github],
+                    ["account-school", member.google_scholar], ["email", member.email]].filter(([kind,href])=> href !== undefined).map(([kind, href]) =>
                         <div key={kind}>{href?<IconButton key={kind} kind={kind as IconType} href={href as string} />: null}</div>
                     )}
                 </div>
