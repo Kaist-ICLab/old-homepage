@@ -26,3 +26,5 @@ git branch -D gh-pages
 # temp-for-deploy-gh-pages 브랜치를 삭제한다.
 git checkout master
 git branch -D temp-for-deploy-gh-pages
+
+roll-back
