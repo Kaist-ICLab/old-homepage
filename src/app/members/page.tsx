@@ -21,6 +21,7 @@ const Page: React.FC = () => {
                                 {
                                     Object.entries(members)
                                         .filter(([_, member]) => member.role === role)
+                                        .sort(([_name1,a],[_name2,b]) => a.name.localeCompare(b.name))
                                         .map(([key, member]) =>
                                             <Member key={key} member={member} />
                                         )
