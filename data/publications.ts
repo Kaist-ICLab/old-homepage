@@ -14,6 +14,86 @@ interface Publication {
 }
 
 const publications: { [key: string]: Publication } = {
+    lee2024sadl: {
+        year: 2024,
+        title: "S-ADL: Exploring Smartphone-based Activities of Daily Living to Detect Blood Alcohol Concentration in a Controlled Environment",
+        doi: "https://doi.org/10.1145/3613904.3642832",
+        authors: ["Hansoo Lee", "Auk Kim", "Sang Won Bae", "Uichin Lee"],
+        venue_alias: "CHI",
+        venue: "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+        published: false,
+        paper: "lee2024sadl.pdf"
+    },
+    lee2024priviaware: {
+        year: 2024,
+        title: "PriviAware: Exploring Data Visualization and Dynamic Privacy Control Support for Data Collection in Mobile Sensing Research",
+        doi: "https://doi.org/10.1145/3613904.3642815",
+        authors: ["Hyunsoo Lee", "Yugyeong Jung", "Hei Yiu Law", "Seolyeong Bae", "Uichin Lee"],
+        venue_alias: "CHI",
+        venue: "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+        published: false,
+        paper: "lee2024priviaware.pdf"
+    },
+    jung2024deepstress: {
+        year: 2024,
+        title: "DeepStress: Supporting Stressful Context Sensemaking in Personal Informatics Systems Using a Quasi-experimental Approach",
+        doi: "https://doi.org/10.1145/3613904.3642766",
+        authors: ["Gyuwon Jung", "Sangjun Park", "Uichin Lee"],
+        venue_alias: "CHI",
+        venue: "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+        published: false,
+        paper: "jung2024deepstress.pdf"
+    },
+    kim2024interrupting: {
+        year: 2024,
+        title: "Interrupting for Microlearning: Understanding Perceptions and Interruptibility of Proactive Conversational Microlearning Services",
+        doi: "https://doi.org/10.1145/3613904.3642778",
+        published: false,
+        authors: ["Minyeong Kim", "Jiwook Lee", "Youngji Koh", "Chanhee Lee", "Uichin Lee", "Auk Kim"],
+        venue_alias: "CHI",
+        venue: "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+        paper: "kim2024interrupting.pdf"
+    },
+    lim2024exploring: {
+        year: 2024,
+        title: "Exploring Context-Aware Mental Health Self-Tracking Using Multimodal Smart Speakers in Home Environments",
+        doi: "https://doi.org/10.1145/3613904.3642846",
+        authors: ["Jieun Lim", "Youngji Koh", "Auk Kim", "Uichin Lee"],
+        published: false,
+        paper: "lim2024exploring.pdf",
+        venue_alias: "CHI",
+        venue: "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+    },
+    lee2024familyscope: {
+        year: 2024,
+        title: "FamilyScope: Visualizing Affective Aspects of Family Social Interactions using Passive Sensor Data",
+        doi: "https://doi.org/10.1145/3637334",
+        authors: ["Hyunsoo Lee", "Yugyeong Jung", "Youwon Shin", "Hyesoo Park", "Woohyeok Choi", "Uichin Lee"],
+        venue_alias: "CSCW",
+        venue: "Proceedings of ACM Conference On Computer-Supported Cooperative Work And Social Computing",
+        published: false,
+        paper: "lee2024familyscope.pdf"
+    },
+    jung2024tutorial: {
+        year: 2024,
+        doi: "https://doi.org/10.1145/3648356",
+        title: "A Tutorial on Matching-based Causal Analysis of Human Behaviors Using Smartphone Sensor Data",
+        authors: ["Gyuwon Jung", "Sangjun Park", "Eun-Yeol Ma", "Heeyoung Kim", "Uichin Lee"],
+        published: true,
+        venue_alias: "CSUR",
+        venue: "ACM Computing Surveys",
+        paper: "jung2024tutorial.pdf"
+    },
+    koh2023datavisualization: {
+        year: 2023,
+        doi: "https://doi.org/10.1109/VAHC60858.2023.00017",
+        title: "Data Visualization for Mental Health Monitoring in Smart Home Environment: A Case Study",
+        authors: ["Youngji Koh", "Chanhee Lee", "Yunhee Ku", "Uichin Lee"],
+        venue_alias: "VAHC",
+        venue: "2023 Workshop on Visual Analytics in Healthcare (VAHC)",
+        published: true,
+        paper: "koh2023datavisualization.pdf"
+    },
     han2023watchppg: {
         year: 2023,
         title: 'WatchPPG: An Open-Source Toolkit for PPG-based Stress Detection using Off-the-shelf Smartwatches',
