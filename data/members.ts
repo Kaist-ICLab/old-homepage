@@ -347,23 +347,23 @@ const members: { [key: string]: Member } = {
         email: 'ys.k@kaist.ac.kr',
         homepage: 'https://yong-shin.github.io/',
     },
-    JeungminOh: {
-        name: 'Jeungmin Oh',
-        role: "Alumni",
-        email: "jminoh@kaist.ac.kr",
-        current_affiliation: 'Hayan Mind',
-        histories: {
-            "Ph.D. Student": "2012.02 ~ LOA"
-        }
-    },
-    EugeneLee: {
-        name: 'Eugene Lee',
-        role: "Alumni",
-        email: 'eugene.lee@kaist.ac.kr',
-        histories: {
-            "M.S. Student": "2021.03 ~ LOA"
-        }
-    },
+    // JeungminOh: {
+    //     name: 'Jeungmin Oh',
+    //     role: "Alumni",
+    //     email: "jminoh@kaist.ac.kr",
+    //     current_affiliation: 'Hayan Mind',
+    //     histories: {
+    //         "Ph.D. Student": "2012.02 ~ LOA"
+    //     }
+    // },
+    // EugeneLee: {
+    //     name: 'Eugene Lee',
+    //     role: "Alumni",
+    //     email: 'eugene.lee@kaist.ac.kr',
+    //     histories: {
+    //         "M.S. Student": "2021.03 ~ LOA"
+    //     }
+    // },
     CheulyoungPark: {
         name: 'Cheulyoung Park',
         role: "Alumni",
