@@ -14,6 +14,16 @@ interface Publication {
 }
 
 const publications: { [key: string]: Publication } = {
+    kim2024navigating: {
+        year: 2024,
+        title: "Navigating User-System Gaps: Understanding User-Interactions in User-Centric Context-Aware Systems for Digital Well-being Intervention",
+        paper: "kim2024navigating.pdf",
+        authors: ["Inyeop Kim", "Uichin Lee"],
+        doi: "https://doi.org/10.1145/3613904.3641979",
+        venue_alias: "CHI",
+        venue: "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+        published: false,
+    },
     lee2024sadl: {
         year: 2024,
         title: "S-ADL: Exploring Smartphone-based Activities of Daily Living to Detect Blood Alcohol Concentration in a Controlled Environment",
@@ -83,6 +93,16 @@ const publications: { [key: string]: Publication } = {
         venue_alias: "CSUR",
         venue: "ACM Computing Surveys",
         paper: "jung2024tutorial.pdf"
+    },
+    kobiljon2024SOSW: {
+        year: 2024, 
+        title: "SOSW: Stress Sensing with Off-the-Shelf Smartwatches in the Wild",
+        authors: ["Kobiljon Toshnazarov, Varun Mishra, Byung Hyung Kim, Uichin Lee, Lismer Andres Caceres Najarro, Youngtae Noh"],
+        published: true,
+        doi: "https://doi.org/10.1109/JIOT.2024.3375299",
+        venue_alias: "IEEE IoT",
+        venue: "IEEE Internet of Things Journal",
+        paper: "kobiljon2024SOSW.pdf"
     },
     koh2023datavisualization: {
         year: 2023,
