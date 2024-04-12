@@ -111,7 +111,7 @@ const members: { [key: string]: Member } = {
         role: "Ph.D. Student",
         email: 'yugyeong.jung@kaist.ac.kr',
         histories:{
-            "M.S. Student": "2019.03 ~ 2021.02",
+            "M.S. Student": "2020.03 ~ 2022.02",
             "Ph.D. Student": "2022.03 ~ "
         },
         github: 'https://github.com/yugyeongjung',
