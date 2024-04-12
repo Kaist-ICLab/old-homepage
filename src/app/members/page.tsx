@@ -6,7 +6,7 @@ import { genPageMetadata } from "@/components/SEO";
 export const metadata = genPageMetadata({ title: "Members" });
 
 const Page: React.FC = () => {
-    const roles = ["Director", "Post Doctural Researcher", "Ph.D. Student", "M.S. Student", "Alumni"];
+    const roles = ["Director", "Post Doctoral Researcher", "Ph.D. Student", "M.S. Student", "Alumni"];
 
     return (
         <div className={styles.container}>
