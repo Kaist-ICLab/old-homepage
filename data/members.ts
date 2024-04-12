@@ -102,9 +102,8 @@ const members: { [key: string]: Member } = {
         histories: {
             "Ph.D. Student": "2021.09 ~ "
         },
-        google_scholar: 'https://scholar.google.com/citations?user=9YItZ30AAAAJ&hl=en',
-        github: 'https://github.com/youngji-koh',
-        research_interests: ['Mental Health Tracking & Intervention', 'Voice User Interface Design'],
+        homepage: 'https://youngji-koh.github.io/',
+        research_interests: ['Mental Health Self-Tracking', 'Smarthome IoT Sensing'],
     },
     YugyeongJung: {
         name: 'Yugyeong Jung',
@@ -112,7 +111,7 @@ const members: { [key: string]: Member } = {
         email: 'yugyeong.jung@kaist.ac.kr',
         histories:{
             "M.S. Student": "2019.03 ~ 2021.02",
-            "Ph.D. Student": "2021.03 ~ "
+            "Ph.D. Student": "2022.03 ~ "
         },
         github: 'https://github.com/yugyeongjung',
         research_interests: ['Data visualization', 'Human-data interaction', 'Social robotics'],
