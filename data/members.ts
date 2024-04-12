@@ -92,6 +92,7 @@ const members: { [key: string]: Member } = {
             "M.S. Student": "2016.03 ~ 2018.02",
             "Ph.D. Student": "2020.03 ~ "
         },
+        homepage: 'https://gw-jung.github.io/',
         google_scholar: 'https://scholar.google.com/citations?user=byhoe3YAAAAJ',
         research_interests: ['Digital Health', 'Causal Inference', 'Human-Data Interaction'],
     },
