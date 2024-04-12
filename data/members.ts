@@ -1,4 +1,4 @@
-type MemberRole = "Director" | "Ph.D. Student" | "M.S. Student" | "Post Doctural Researcher" | "Alumni";
+type MemberRole = "Director" | "Ph.D. Student" | "M.S. Student" | "Post Doctoral Researcher" | "Alumni";
 interface Member {
     name: string;
     role: MemberRole;
@@ -59,7 +59,7 @@ const members: { [key: string]: Member } = {
     HyunsooLee: {
         name: 'Hyunsoo Lee',
         email: 'hslee90@kaist.ac.kr',
-        role: "Post Doctural Researcher",
+        role: "Post Doctoral Researcher",
         google_scholar: 'https://scholar.google.com/citations?user=ctglUjoAAAAJ&hl=ko',
         github: 'https://github.com/hslee90',
         research_interests: [
@@ -70,7 +70,7 @@ const members: { [key: string]: Member } = {
         histories: {
             "M.S. Student": "2017.09 ~ 2019.08",
             "Ph.D. Student": "2019.09 ~ 2023.08",
-            "Post Doctural Researcher": "2023.09 ~ "
+            "Post Doctoral Researcher": "2023.09 ~ "
         }
     },
     HansooLee: {
@@ -236,7 +236,7 @@ const members: { [key: string]: Member } = {
         email: 'jypark@kse.kaist.ac.kr',
         current_affiliation: 'BIONEVER',
         histories: {
-            "Post Doctural Researcher": "2023.03 ~ 2023.08",
+            "Post Doctoral Researcher": "2023.03 ~ 2023.08",
             "Ph.D. Student": "2017.09 ~ 2023.02",
             "M.S. Student": "2017.03 ~ 2019.02",
         },
@@ -250,7 +250,7 @@ const members: { [key: string]: Member } = {
         email: 'woohyeok.choi@kaist.ac.kr',
         current_affiliation: 'Assistant Professor, Kangwon National University',
         histories: {
-            "Post Doctural Researcher": "2021.09 ~ 2023.08",
+            "Post Doctoral Researcher": "2021.09 ~ 2023.08",
             "Ph.D. Student": "2015.03 ~ 2021.08",
             "M.S. Student": "2013.03 ~ 2015.02"
         },
@@ -266,7 +266,7 @@ const members: { [key: string]: Member } = {
         email: 'inyeop@kse.kaist.ac.kr',
         current_affiliation: 'Samsung SDS',
         histories: {
-            "Post Doctural Researcher": "2021.09 ~ 2023.01",
+            "Post Doctoral Researcher": "2021.09 ~ 2023.01",
             "Ph.D. Student": "2016.03 ~ 2021.08"
         },
         google_scholar: 'https://scholar.google.com/citations?user=VQ8rjvkAAAAJ&hl=ko&oi=ao',
@@ -448,7 +448,7 @@ const members: { [key: string]: Member } = {
         name: 'Jemin Lee',
         role: "Alumni",
         histories: {
-            "Post Doctural Researcher": "2017.09 ~ 2018.08"
+            "Post Doctoral Researcher": "2017.09 ~ 2018.08"
         },
         email: 'leejaymin@kaist.ac.kr',
         homepage: 'https://leejaymin.github.io/index.html',
