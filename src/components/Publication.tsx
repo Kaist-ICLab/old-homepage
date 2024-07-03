@@ -18,7 +18,7 @@ const Publication: React.FC<PublicationProp> = ({ publication }) => {
   } else {
     author_string = publication.authors[0]
   }
-  const url = "https://raw.githubusercontent.com/Kaist-ICLab/kaist-iclab.github.io/main/public/files/"
+  const url = "https://ic.kaist.ac.kr/public/files/"
   return (
     <div className={styles.publication}>
       <div className={styles.venue}>{publication.venue_alias}</div>
